@@ -1,0 +1,2139 @@
+{
+  "root": {
+    "recipe": [
+      {
+        "-name": "ladder",
+        "-ingredients": "wood-2,wood-5",
+        "-produce": "ladder",
+        "-group": "5",
+        "-require": "wood-2",
+        "-save": "true"
+      },
+      {
+        "-name": "torch",
+        "-ingredients": "resin-2,wood-5",
+        "-produce": "torch=4",
+        "-group": "5",
+        "-require": "any-2-deep",
+        "-save": "false",
+        "-on_read_quest": "build_torch"
+      },
+      {
+        "-name": "torch_mucus",
+        "-ingredients": "mucus-2,bone-5,bone-8",
+        "-produce": "torch_mucus=4",
+        "-group": "1",
+        "-save": "false",
+        "-on_read_quest": "build_torch"
+      },
+      {
+        "-name": "lamponthefloor3",
+        "-ingredients": "glass-2,oil_berries-5,iron-8",
+        "-produce": "lamponthefloor3=2",
+        "-group": "4",
+        "-save": "false",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "glass",
+        "-ingredients": "coal-1,coal-5,sand-2,sand-4",
+        "-produce": "glass=4",
+        "-group": "1",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "steel",
+        "-ingredients": "iron-1,coal-2,coal-4,iron-5",
+        "-produce": "steel=2",
+        "-group": "2",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "door_wooden",
+        "-ingredients": "wood-1,wood-2,wood-4,padlock-5,wood-7,wood-8",
+        "-produce": "door_wooden",
+        "-group": "5",
+        "-require": "wood-8",
+        "-save": "true"
+      },
+      {
+        "-name": "door_iron",
+        "-ingredients": "iron-1,iron-2,iron-4,padlock-5,iron-7,iron-8",
+        "-produce": "door_iron",
+        "-group": "4",
+        "-save": "true",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "door_steel",
+        "-ingredients": "steel-1,steel-2,steel-4,padlock-5,steel-7,steel-8",
+        "-produce": "door_steel",
+        "-group": "4",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "wooden_block",
+        "-ingredients": "wood-1,wood-2,wood-4,wood-5",
+        "-produce": "wooden_block=3",
+        "-group": "4"
+      },
+      {
+        "-name": "collumn",
+        "-ingredients": "stone-1,stone-2,stone-3,stone-5,stone-8",
+        "-produce": "collumn=2",
+        "-group": "4",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "bed",
+        "-ingredients": "wood-1,wood-3,wood-4,wood-5,wood-6,wood-7,wood-9",
+        "-produce": "bed",
+        "-group": "1",
+        "-save": "true"
+      },
+      {
+        "-name": "bed_02",
+        "-ingredients": "fabric-4,fabric-5,wood-6,wood-7,wood-8,wood-9",
+        "-produce": "bed_02",
+        "-group": "3",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "bed_leaves",
+        "-ingredients": "leaves-4,leaves-5,wood-7,wood-8,wood-9",
+        "-produce": "bed_leaves",
+        "-group": "1"
+      },
+      {
+        "-name": "bed_chic",
+        "-ingredients": "wool-4,fabric-5,steel-6,steel-7,steel-8,steel-9",
+        "-produce": "bed_chic",
+        "-group": "4",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "table_wooden",
+        "-ingredients": "wood-4,wood-5,wood-6,wood-7,wood-9",
+        "-produce": "table_wooden",
+        "-group": "1"
+      },
+      {
+        "-name": "table_ice",
+        "-ingredients": "ice-4,ice-5,ice-6,ice-7,ice-9",
+        "-produce": "table_ice",
+        "-group": "1"
+      },
+      {
+        "-name": "table_expensive",
+        "-ingredients": "plank-4,nail-5,plank-6,wood-7,wood-9",
+        "-produce": "table_expensive",
+        "-group": "2",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "table_normal_01",
+        "-ingredients": "plank-4,fabric-5,plank-6,wood-7,wood-9",
+        "-produce": "table_normal_01",
+        "-group": "3",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "chair",
+        "-ingredients": "wood-1,wood-4,wood-5,wood-7,wood-9",
+        "-produce": "chair=2",
+        "-group": "2"
+      },
+      {
+        "-name": "chair_tissue",
+        "-ingredients": "plank-1,fabric-4,needle-5,wood-7,wood-8",
+        "-produce": "chair_tissue",
+        "-group": "4",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "chair_stone",
+        "-ingredients": "stone-1,stone-4,stone-5,stone-7,wood-8",
+        "-produce": "chair_stone",
+        "-group": "3",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "case_glass",
+        "-ingredients": "plank-1,nail-2,plank-3,glass-4,plank-5,glass-6,wood-7,wood-9",
+        "-produce": "case_glass",
+        "-group": "4",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "chair_leather",
+        "-ingredients": "plank-1,skin-4,needle-5,wood-7,wood-8",
+        "-produce": "chair_leather",
+        "-group": "4",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "window",
+        "-ingredients": "glass-1,wood-2,wood-4,glass-5",
+        "-produce": "window",
+        "-group": "2"
+      },
+      {
+        "-name": "round_window",
+        "-ingredients": "wood-1,wood-2,wood-4,glass-5",
+        "-produce": "round_window",
+        "-group": "3",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "window_stained_2",
+        "-ingredients": "glass-1,stone-2,paint-4,glass-5",
+        "-produce": "window_stained_2=2",
+        "-group": "4"
+      },
+      {
+        "-name": "window_stained_4",
+        "-ingredients": "glass-1,wood-2,paint-4,stone-5",
+        "-produce": "window_stained_4=2",
+        "-group": "4"
+      },
+      {
+        "-name": "window_stained_1",
+        "-ingredients": "paint-1,iron-2,glass-4,glass-5",
+        "-produce": "window_stained_1",
+        "-group": "4"
+      },
+      {
+        "-name": "window3",
+        "-ingredients": "plank-2,wood-4,plank-5,wood-6,glass-7,plank-8,glass-9",
+        "-produce": "window3=2",
+        "-group": "2",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "bookshelf",
+        "-ingredients": "wood-1,plank-2,nail-3",
+        "-produce": "bookshelf",
+        "-group": "2"
+      },
+      {
+        "-name": "pick_stone",
+        "-ingredients": "stone-1,wood-2,stone-3,wood-5,wood-8",
+        "-produce": "pick_stone",
+        "-group": "1",
+        "-priority": "0,pick"
+      },
+      {
+        "-name": "pick_iron",
+        "-ingredients": "iron-1,wood-2,iron-3,wood-5,wood-8",
+        "-produce": "pick_iron",
+        "-group": "2",
+        "-craft_need": "smithy",
+        "-priority": "1,pick"
+      },
+      {
+        "-name": "pick_steel",
+        "-ingredients": "steel-1,wood-2,steel-3,wood-5,wood-8",
+        "-produce": "pick_steel",
+        "-group": "2",
+        "-craft_need": "smithy",
+        "-priority": "1,pick"
+      },
+      {
+        "-name": "pick_silver",
+        "-ingredients": "silver_ingot-1,wood-2,silver_ingot-3,wood-5,wood-8",
+        "-produce": "pick_silver",
+        "-group": "3",
+        "-craft_need": "smithy",
+        "-priority": "2,pick"
+      },
+      {
+        "-name": "chopper_iron",
+        "-ingredients": "iron-1,wood-2,wood-5,wood-8",
+        "-produce": "chopper_iron",
+        "-group": "2",
+        "-craft_need": "smithy",
+        "-priority": "1,axe"
+      },
+      {
+        "-name": "axe_steel",
+        "-ingredients": "steel-1,wood-2,wood-5,wood-8",
+        "-produce": "axe_steel",
+        "-group": "2",
+        "-craft_need": "smithy",
+        "-priority": "1,axe"
+      },
+      {
+        "-name": "axe_stone",
+        "-ingredients": "stone-1,stone-2,wood-5,wood-8",
+        "-produce": "axe_stone",
+        "-group": "1",
+        "-priority": "0,axe"
+      },
+      {
+        "-name": "sword_iron",
+        "-ingredients": "steel-2,steel-5,wood-8",
+        "-produce": "sword_iron",
+        "-group": "2",
+        "-craft_need": "smithy",
+        "-priority": "0,sword"
+      },
+      {
+        "-name": "sword_silver",
+        "-ingredients": "silver_ingot-2,silver_ingot-5,wood-8",
+        "-produce": "sword_silver",
+        "-group": "3",
+        "-craft_need": "smithy",
+        "-priority": "1,sword"
+      },
+      {
+        "-name": "godeus_sword_th",
+        "-ingredients": "gold_ingot-2,gold_ingot-5,silver_ingot-7,gold_ingot-8",
+        "-produce": "godeus_sword_th",
+        "-group": "3",
+        "-craft_need": "smithy",
+        "-priority": "2,sword"
+      },
+      {
+        "-name": "bow_wooden",
+        "-ingredients": "wood-2,wood-4,rope-5,wood-8",
+        "-produce": "bow_wooden",
+        "-group": "2",
+        "-craft_need": "workbench",
+        "-priority": "0,bow"
+      },
+      {
+        "-name": "bow_long",
+        "-ingredients": "wood-1,steel-2,wood-4,rope-5,wood-7,rope-8",
+        "-produce": "bow_long",
+        "-group": "3",
+        "-craft_need": "workbench",
+        "-priority": "1,bow"
+      },
+      {
+        "-name": "bow_heavy",
+        "-ingredients": "wood-1,mithril_ingot-2,wood-4,rope-5,wood-7,mithril_ingot-8",
+        "-produce": "bow_heavy",
+        "-group": "3",
+        "-craft_need": "smithy",
+        "-priority": "1,bow"
+      },
+      {
+        "-name": "club",
+        "-ingredients": "wood-1,wood-5",
+        "-produce": "club",
+        "-group": "1",
+        "-save": "true",
+        "-priority": "0,club"
+      },
+      {
+        "-name": "club_iron",
+        "-ingredients": "iron-1,wood-5,wood-9",
+        "-produce": "club_iron",
+        "-group": "2",
+        "-craft_need": "smithy",
+        "-priority": "1,club"
+      },
+      {
+        "-name": "lamp",
+        "-ingredients": "glass-2,oil_berries-5,wood-8",
+        "-produce": "lamp=3",
+        "-group": "2"
+      },
+      {
+        "-name": "lamp1",
+        "-ingredients": "iron-4,coal-5,iron-6,iron-8",
+        "-produce": "lamp1",
+        "-group": "4"
+      },
+      {
+        "-name": "kitchen_wood",
+        "-ingredients": "wood-4,pot-5,wood-6,wood-7,coal-8,wood-9",
+        "-produce": "kitchen_wood",
+        "-group": "2"
+      },
+      {
+        "-name": "stone_furnace",
+        "-ingredients": "iron-2,stone-4,pot-5,stone-6,stone_wall-7,coal-8,stone_wall-9",
+        "-produce": "stone_furnace",
+        "-group": "2",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "pot",
+        "-ingredients": "iron-1,iron-3,iron-5",
+        "-produce": "pot",
+        "-group": "2",
+        "-save": "true"
+      },
+      {
+        "-name": "rope",
+        "-ingredients": "wool-5",
+        "-produce": "rope=3",
+        "-group": "2"
+      },
+      {
+        "-name": "meat_cooked",
+        "-ingredients": "leaves-4,meat-5,meat-6,coal-8",
+        "-produce": "meat_cooked=5",
+        "-craft_need": "kitchen",
+        "-group": "1"
+      },
+      {
+        "-name": "padlock",
+        "-ingredients": "iron-2,iron-4,iron-5",
+        "-produce": "padlock",
+        "-group": "1",
+        "-require": "iron-1"
+      },
+      {
+        "-name": "chest_wooden",
+        "-ingredients": "wood-4,wood-5,wood-7,padlock-8",
+        "-produce": "chest_wooden",
+        "-group": "2"
+      },
+      {
+        "-name": "chest_metal",
+        "-ingredients": "iron-4,iron-5,iron-7,padlock-8",
+        "-produce": "chest_metal",
+        "-group": "4",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "plank",
+        "-ingredients": "wood-1,wood-2,wood-7,wood-8",
+        "-produce": "plank=3",
+        "-group": "1",
+        "-save": "true",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "picture3",
+        "-ingredients": "wood-4,nail-5,paper-7,paint-8",
+        "-produce": "picture3",
+        "-group": "4"
+      },
+      {
+        "-name": "picture_02",
+        "-ingredients": "plank-4,nail-5,paper-7,paint-8",
+        "-produce": "picture_02",
+        "-group": "4"
+      },
+      {
+        "-name": "flag1",
+        "-ingredients": "wood-1,wood-2,wood-3,fabric-4,thread-5,fabric-6,fabric-8",
+        "-produce": "flag1",
+        "-group": "4",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "flag2",
+        "-ingredients": "wood-1,fabric-2,wood-3,thread-4,wood-5,nail-6,fabric-8",
+        "-produce": "flag2",
+        "-group": "4",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "fence_wooden",
+        "-ingredients": "wood-4,wood-6,wood-7,wood-9",
+        "-produce": "fence_wooden=2",
+        "-group": "2",
+        "-priority": "1,fence"
+      },
+      {
+        "-name": "fence_brick",
+        "-ingredients": "bricks_block-4,iron-5,bricks_block-7,bricks_block-8",
+        "-produce": "fence_brick=2",
+        "-group": "4",
+        "-craft_need": "smithy",
+        "-priority": "2,fence"
+      },
+      {
+        "-name": "fence_iron",
+        "-ingredients": "iron-4,iron-6,iron-7,iron-9",
+        "-produce": "fence_iron=3",
+        "-group": "3",
+        "-craft_need": "smithy",
+        "-priority": "3,fence"
+      },
+      {
+        "-name": "locker",
+        "-ingredients": "wood-1,nail-2,wood-3,plank-4,plank-5,plank-6,wood-7,wood-9",
+        "-produce": "locker",
+        "-group": "4",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "mirror",
+        "-ingredients": "plank-1,plank-2,glass-4,glass-5,plank-7,plank-8",
+        "-produce": "mirror",
+        "-group": "4",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "mirror_ring",
+        "-ingredients": "iron-2,iron-4,glass-5",
+        "-produce": "mirror_ring",
+        "-group": "2"
+      },
+      {
+        "-name": "helm_leather",
+        "-ingredients": "skin-1,iron-2,rope-4",
+        "-produce": "helm_leather",
+        "-group": "2"
+      },
+      {
+        "-name": "helm_diver",
+        "-ingredients": "steel-1,steel-2,resin-3,steel-4,glass-5,resin-6",
+        "-produce": "helm_diver",
+        "-group": "3",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "trap_wood",
+        "-ingredients": "wood-4,wood-6,wood-8",
+        "-produce": "trap_wood=2",
+        "-group": "2"
+      },
+      {
+        "-name": "trap_iron",
+        "-ingredients": "iron-4,iron-6,iron-8",
+        "-produce": "trap_iron=4",
+        "-group": "4",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "cell_wood",
+        "-ingredients": "wood-4,rope-5,wood-6,wood-7,wood-9",
+        "-produce": "cell_wood=3",
+        "-group": "2"
+      },
+      {
+        "-name": "cell_iron",
+        "-ingredients": "iron-4,padlock-5,iron-6,iron-7,iron-9",
+        "-produce": "cell_iron=3",
+        "-group": "4",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "stone_dagger",
+        "-ingredients": "stone-2,wood-5",
+        "-produce": "stone_dagger",
+        "-group": "1",
+        "-allow": "false"
+      },
+      {
+        "-name": "timbered_bridge",
+        "-ingredients": "wood-4,wood-5",
+        "-produce": "timbered_bridge=4",
+        "-group": "2"
+      },
+      {
+        "-name": "bucket",
+        "-ingredients": "plank-1,nail-2,plank-4,plank-5",
+        "-produce": "bucket=3",
+        "-group": "2",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "soup",
+        "-ingredients": "leaves-4,meat-5,meat-6,water-7,coal-8",
+        "-produce": "soup=10",
+        "-craft_need": "kitchen",
+        "-group": "2"
+      },
+      {
+        "-name": "nail",
+        "-ingredients": "iron-2,iron-5",
+        "-produce": "nail=5",
+        "-group": "2"
+      },
+      {
+        "-name": "clay_vase",
+        "-ingredients": "clay-1,clay-2,coal-5",
+        "-produce": "clay_vase",
+        "-group": "3"
+      },
+      {
+        "-name": "paint",
+        "-ingredients": "resin-1,water-2,berries-4",
+        "-produce": "paint",
+        "-group": "2"
+      },
+      {
+        "-name": "glass_vase",
+        "-ingredients": "paint-2,glass-5",
+        "-produce": "glass_vase",
+        "-group": "4",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "decorative_skin",
+        "-ingredients": "nail-4,skin-5,needle-7,skin-8",
+        "-produce": "decorative_skin",
+        "-group": "4"
+      },
+      {
+        "-name": "decorative_shield",
+        "-ingredients": "wood-2,plank-4,iron-5,sword_iron-6,wood-8",
+        "-produce": "decorative_shield",
+        "-group": "4"
+      },
+      {
+        "-name": "wooden_bridge",
+        "-ingredients": "plank-4,plank-5,plank-6,wood-8",
+        "-produce": "wooden_bridge=4",
+        "-group": "2",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "fountain",
+        "-ingredients": "water-2,stone-4,bas_relief-5,stone-6,stone-8",
+        "-produce": "fountain",
+        "-group": "4",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "paper",
+        "-ingredients": "wood-1,water-2,coal-4",
+        "-produce": "paper=3",
+        "-group": "2"
+      },
+      {
+        "-name": "fabric",
+        "-ingredients": "wool-1,paint-2,water-5",
+        "-produce": "fabric=5",
+        "-group": "2"
+      },
+      {
+        "-name": "stone_bridge",
+        "-ingredients": "stone-4,stone-5,stone-6,stone-8",
+        "-produce": "stone_bridge=2",
+        "-group": "4",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "leather_boots",
+        "-ingredients": "skin-4,rope-5",
+        "-produce": "leather_boots",
+        "-group": "2"
+      },
+      {
+        "-name": "iron_boots",
+        "-ingredients": "iron-1,iron-4,coal-5",
+        "-produce": "iron_boots",
+        "-group": "4",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "gold_boots",
+        "-ingredients": "gold_ingot-1,gold_ingot-4,skin-5",
+        "-produce": "gold_boots",
+        "-group": "4",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "mithril_boots",
+        "-ingredients": "mithril_ingot-1,mithril_ingot-4,skin-5",
+        "-produce": "mithril_boots",
+        "-group": "4",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "trolley",
+        "-ingredients": "nail-2,plank-4,plank-5,plank-6,wheel_for_trolley-7,wheel_for_trolley-9",
+        "-produce": "trolley",
+        "-group": "3",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "thread",
+        "-ingredients": "wool-2,plank-5",
+        "-produce": "thread=5",
+        "-group": "2"
+      },
+      {
+        "-name": "sofa",
+        "-ingredients": "plank-2,skin-4,plank-5,skin-6,wood-7,wood-9",
+        "-produce": "sofa",
+        "-group": "4",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "clay",
+        "-ingredients": "water-1,dirt-2",
+        "-produce": "clay=2",
+        "-group": "2"
+      },
+      {
+        "-name": "hatch_wooden",
+        "-ingredients": "wood-5,wood-7,wood-8,wood-9",
+        "-produce": "hatch_wooden",
+        "-group": "1",
+        "-save": "true",
+        "-on_read_quest": "make_wooden_hatch"
+      },
+      {
+        "-name": "flag",
+        "-ingredients": "fabric-1,wood-2,rope-4,wood-5,wood-8",
+        "-produce": "flag",
+        "-group": "4"
+      },
+      {
+        "-name": "warehouse",
+        "-ingredients": "flag-1,axe_steel-2,pick_steel-3,wooden_block-4,workbench-5,barrel-6,stone-7,iron-8,wood-9",
+        "-produce": "warehouse",
+        "-group": "5",
+        "-require": "level-7"
+      },
+      {
+        "-name": "seed",
+        "-ingredients": "wheat-5",
+        "-produce": "seed=2",
+        "-group": "2"
+      },
+      {
+        "-name": "bun",
+        "-ingredients": "flour-2,coal-5",
+        "-produce": "bun=5",
+        "-group": "2",
+        "-craft_need": "kitchen"
+      },
+      {
+        "-name": "apple_pie",
+        "-ingredients": "apple-2,water-4,flour-5,egg-6,coal-8",
+        "-produce": "apple_pie=10",
+        "-group": "3",
+        "-craft_need": "kitchen"
+      },
+      {
+        "-name": "bread",
+        "-ingredients": "flour-1,egg-2,water-4,coal-5",
+        "-produce": "bread=6",
+        "-group": "4",
+        "-craft_need": "kitchen"
+      },
+      {
+        "-name": "shirt_skin",
+        "-ingredients": "skin-1,skin-2,rope-4,needle-5",
+        "-produce": "shirt_skin",
+        "-group": "2",
+        "-priority": "0,armor"
+      },
+      {
+        "-name": "steel_chain_armor",
+        "-ingredients": "steel-1,steel-3,steel-5,coal-8",
+        "-produce": "steel_chain_armor",
+        "-group": "4",
+        "-craft_need": "smithy",
+        "-priority": "1,armor"
+      },
+      {
+        "-name": "gold_armor",
+        "-ingredients": "gold_ingot-1,gold_ingot-2,gold_ingot-3,steel-4,gold_ingot-5,steel-6,coal-8",
+        "-produce": "gold_armor",
+        "-group": "4",
+        "-craft_need": "smithy",
+        "-priority": "2,armor"
+      },
+      {
+        "-name": "bricks_block",
+        "-ingredients": "clay-2,water-5,coal-8",
+        "-produce": "bricks_block=3",
+        "-group": "2",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "brick_wall",
+        "-ingredients": "bricks_block-2,clay-5",
+        "-produce": "brick_wall=2",
+        "-group": "4"
+      },
+      {
+        "-name": "fishing_tackle",
+        "-ingredients": "wood-1,wood-2,wood-3,rope-4,iron-7",
+        "-produce": "fishing_tackle",
+        "-group": "2",
+        "-save": "true"
+      },
+      {
+        "-name": "chandelier_small",
+        "-ingredients": "iron-1,iron-3,glass-4,oil_berries-5,glass-6,iron-8",
+        "-produce": "chandelier_small=2",
+        "-group": "4",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "stone_wall",
+        "-ingredients": "stone-2,water-5,sand-8",
+        "-produce": "stone_wall=3",
+        "-group": "2",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "wall_stucco",
+        "-ingredients": "sand-4,clay-7,water-8",
+        "-produce": "wall_stucco=3",
+        "-group": "2"
+      },
+      {
+        "-name": "tower_spike",
+        "-ingredients": "roof_tile-2,clay-4,round_window-5,stone-7,stone-8",
+        "-produce": "tower_spike",
+        "-group": "4",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "roof_tile",
+        "-ingredients": "clay-1,clay-2,water-4,coal-5",
+        "-produce": "roof_tile=3",
+        "-group": "3"
+      },
+      {
+        "-name": "roof_leaves",
+        "-ingredients": "leaves-1,wood-2,leaves-3",
+        "-produce": "roof_leaves=3",
+        "-group": "2"
+      },
+      {
+        "-name": "fried_fish",
+        "-ingredients": "oil_berries-4,fish-5,coal-8",
+        "-produce": "fried_fish=10",
+        "-group": "2",
+        "-craft_need": "kitchen",
+        "-save": "true"
+      },
+      {
+        "-name": "fish_soup",
+        "-ingredients": "fish-1,fish-2,water-4,leaves-5,coal-7,coal-8",
+        "-produce": "fish_soup=15",
+        "-group": "3",
+        "-craft_need": "kitchen"
+      },
+      {
+        "-name": "big_furnace",
+        "-ingredients": "stone-2,bricks_block-4,pot-5,bricks_block-6,brick_wall-7,coal-8,brick_wall-9",
+        "-produce": "big_furnace",
+        "-group": "3",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "plant_pot",
+        "-ingredients": "water-4,leaves-5,clay-7,bucket-8",
+        "-produce": "plant_pot",
+        "-group": "4"
+      },
+      {
+        "-name": "plant",
+        "-ingredients": "leaves-4,dirt-5,water-7,clay_vase-8",
+        "-produce": "plant",
+        "-group": "3"
+      },
+      {
+        "-name": "hatch_iron",
+        "-ingredients": "iron-4,padlock-5,iron-6,iron-7,iron-8,iron-9",
+        "-produce": "hatch_iron",
+        "-group": "3",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "healt_elexir",
+        "-ingredients": "water-1,berries-2,resin-4,leaves-5,root-7,empty_bottle-8",
+        "-produce": "healt_elexir=3",
+        "-group": "5",
+        "-craft_need": "lab",
+        "-require": "worker-1-dead"
+      },
+      {
+        "-name": "smithy",
+        "-ingredients": "water-2,iron-4,coal-5,iron-6,stone-7,iron-8,stone-9",
+        "-produce": "smithy",
+        "-group": "2"
+      },
+      {
+        "-name": "workshop",
+        "-ingredients": "stone-2,pick_iron-4,table_expensive-5,sand-6,wood-7,wood-8,wood-9",
+        "-produce": "workshop",
+        "-group": "2"
+      },
+      {
+        "-name": "magic_cauldron",
+        "-ingredients": "berries-1,bone-2,needle-3,brains-4,water-5,mucus-6,coal-7,pot-8,coal-9",
+        "-produce": "magic_cauldron",
+        "-group": "3",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "rail",
+        "-ingredients": "iron-7,wood-8,iron-9",
+        "-produce": "rail=15",
+        "-group": "4",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "bas_relief",
+        "-ingredients": "stone-1,stone-3,stone-5,stone-7,stone-9",
+        "-produce": "bas_relief=3",
+        "-group": "4",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "bas_relief1",
+        "-ingredients": "stone-2,stone-4,stone-5,stone-6,stone-8",
+        "-produce": "bas_relief1=3",
+        "-group": "4",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "oil_berries",
+        "-ingredients": "stone-2,berries-5,empty_bottle-8",
+        "-produce": "oil_berries=3",
+        "-group": "3"
+      },
+      {
+        "-name": "miner_lamp",
+        "-ingredients": "rope-2,iron-4,oil_berries-5,iron-6",
+        "-produce": "miner_lamp=3",
+        "-group": "2"
+      },
+      {
+        "-name": "loophole_stone",
+        "-ingredients": "stone-1,clay-4,stone-7",
+        "-produce": "loophole_stone",
+        "-group": "3",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "steps_stone",
+        "-ingredients": "stone-6,stone-8,stone-9",
+        "-produce": "steps_stone=3",
+        "-group": "3",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "steps_wood",
+        "-ingredients": "wood-6,wood-8,wood-9",
+        "-produce": "steps_wood=3",
+        "-group": "3",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "staging",
+        "-ingredients": "plank-2,wood-4,wood-6",
+        "-produce": "staging",
+        "-group": "2",
+        "-save": "true",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "beware",
+        "-ingredients": "wood-1,bone-2,wood-3,wood-5,wood-8",
+        "-produce": "beware",
+        "-group": "2",
+        "-save": "true"
+      },
+      {
+        "-name": "tea",
+        "-ingredients": "leaves-1,root-2,water-4,berries-5",
+        "-produce": "tea=5",
+        "-group": "2",
+        "-craft_need": "kitchen"
+      },
+      {
+        "-name": "beer",
+        "-ingredients": "water-2,wheat-5,barrel-8",
+        "-produce": "beer=10",
+        "-group": "2",
+        "-craft_need": "kitchen"
+      },
+      {
+        "-name": "greed_salad",
+        "-ingredients": "leaves-2,apple-5",
+        "-produce": "greed_salad=2",
+        "-group": "1"
+      },
+      {
+        "-name": "barrel",
+        "-ingredients": "wood-1,wood-2,iron-4,nail-5,wood-7,wood-8",
+        "-produce": "barrel",
+        "-group": "3"
+      },
+      {
+        "-name": "wine_barrel_dlc",
+        "-ingredients": "berries-1,root-2,berries-4,water-5,barrel-7,empty_bottle-8",
+        "-produce": "wine_barrel_dlc",
+        "-group": "4",
+        "-craft_need": "kitchen"
+      },
+      {
+        "-name": "bush_flower",
+        "-ingredients": "water-1,leaves-4,leaves-5,dirt-7,dirt-8",
+        "-produce": "bush_flower",
+        "-group": "4"
+      },
+      {
+        "-name": "portal_block1",
+        "-search_group": "portal_block",
+        "-random": "portal_krs_blue|portal_krs_red|portal_krs_dblue|portal_krs_green|portal_krs_violet-2,stone-2,mithril_ingot-1,gold_ingot-1,steel-3",
+        "-allow": "false",
+        "-produce": "portal_block1",
+        "-craft_need": "level_portal"
+      },
+      {
+        "-name": "portal_block2",
+        "-search_group": "portal_block",
+        "-random": "portal_krs_blue|portal_krs_red|portal_krs_dblue|portal_krs_green|portal_krs_violet-2,stone-2,mithril_ingot-1,gold_ingot-1,steel-3",
+        "-allow": "false",
+        "-produce": "portal_block2",
+        "-craft_need": "level_portal"
+      },
+      {
+        "-name": "portal_block3",
+        "-search_group": "portal_block",
+        "-random": "portal_krs_blue|portal_krs_red|portal_krs_dblue|portal_krs_green|portal_krs_violet-2,stone-2,mithril_ingot-1,gold_ingot-1,steel-3",
+        "-allow": "false",
+        "-produce": "portal_block3",
+        "-craft_need": "level_portal"
+      },
+      {
+        "-name": "portal_block4",
+        "-search_group": "portal_block",
+        "-random": "portal_krs_blue|portal_krs_red|portal_krs_dblue|portal_krs_green|portal_krs_violet-2,stone-2,mithril_ingot-1,gold_ingot-1,steel-3",
+        "-allow": "false",
+        "-produce": "portal_block4",
+        "-craft_need": "level_portal"
+      },
+      {
+        "-name": "portal_block5",
+        "-search_group": "portal_block",
+        "-random": "portal_krs_blue|portal_krs_red|portal_krs_dblue|portal_krs_green|portal_krs_violet-2,stone-2,mithril_ingot-1,gold_ingot-1,steel-3",
+        "-allow": "false",
+        "-produce": "portal_block5",
+        "-craft_need": "level_portal"
+      },
+      {
+        "-name": "tesla_tower",
+        "-ingredients": "glass-1,quartz-2,glass-3,gold_ingot-4,mithril-5,gold_ingot-6,stone-7,silver_ingot-8,stone-9",
+        "-produce": "tesla_tower",
+        "-group": "3",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "warehouse_biome_upgrade",
+        "-ingredients": "silver-1,plank-2,silver-3,gold-4,gold-6,plank-7,silver-8,plank-9",
+        "-produce": "warehouse_biome_upgrade",
+        "-group": "1",
+        "-craft_need": "upgrade_warehouse"
+      },
+      {
+        "-name": "mportal",
+        "-produce": "mportal",
+        "-group": "1",
+        "-save": "true"
+      },
+      {
+        "-name": "portal_biome",
+        "-produce": "portal_biome",
+        "-group": "5",
+        "-save": "true"
+      },
+      {
+        "-name": "portal_biome_single",
+        "-produce": "portal_biome_single",
+        "-group": "5",
+        "-save": "true"
+      },
+      {
+        "-name": "mlight",
+        "-produce": "mlight",
+        "-group": "1",
+        "-save": "true",
+        "-ingredients": "bone-2,bone-4,mucus-5,bone-6,bone-8"
+      },
+      {
+        "-name": "mfireball",
+        "-produce": "mfireball",
+        "-group": "2",
+        "-save": "true",
+        "-ingredients": "mucus-1,mucus-2,mucus-3,oil_berries-4,brains-5,oil_berries-6,oil_berries-7,needle_crystal-8,oil_berries-9"
+      },
+      {
+        "-name": "mforest",
+        "-produce": "mforest",
+        "-group": "2",
+        "-save": "true",
+        "-ingredients": "water-1,leaves-2,water-3,grey_mushroom-4,pink_mushroom-5,grey_mushroom-6,root-7,root-8,root-9"
+      },
+      {
+        "-name": "mcompas",
+        "-produce": "mcompas",
+        "-group": "3",
+        "-save": "true",
+        "-ingredients": "brains-1,needle-2,brains-3,web-4,steel-5,web-6,pink_crystal-7,quartz-8,pink_crystal-9"
+      },
+      {
+        "-name": "mhorn",
+        "-produce": "mhorn",
+        "-group": "3",
+        "-save": "true",
+        "-ingredients": "bone-1,pink_crystal-2,bone-3,bone-4,wood-5,bone-6,wood-8"
+      },
+      {
+        "-name": "mrain",
+        "-produce": "mrain",
+        "-group": "2",
+        "-save": "true",
+        "-ingredients": "water-1,water-2,water-3,water-4,web-5,water-6,pink_mushroom-7,wood-8,pink_mushroom-9"
+      },
+      {
+        "-name": "mcollect",
+        "-produce": "mcollect",
+        "-group": "3",
+        "-save": "true",
+        "-ingredients": "portal_krs_green-2,bone-4,mithril_ingot-5,bone-6,pink_crystal-8"
+      },
+      {
+        "-name": "mexplosion",
+        "-produce": "mexplosion",
+        "-group": "3",
+        "-save": "true",
+        "-ingredients": "mucus-1,oil_berries-2,mucus-3,resin-4,oil_berries-5,resin-6,grey_mushroom-7,portal_krs_dblue-8,grey_mushroom-9"
+      },
+      {
+        "-name": "mimp",
+        "-produce": "mimp",
+        "-group": "3",
+        "-save": "true",
+        "-ingredients": "bone-1,brains-2,portal_krs_blue-3,brains-4,pink_crystal-5,brains-6,portal_krs_green-7,brains-8,bone-9"
+      },
+      {
+        "-name": "aquarium",
+        "-ingredients": "glass-2,water-4,water-6,plank-7,glass-8,plank-9",
+        "-produce": "aquarium",
+        "-group": "4"
+      },
+      {
+        "-name": "clock1",
+        "-ingredients": "wood-2,wood-4,silver-5,wood-6,iron-8",
+        "-produce": "clock1",
+        "-group": "2",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "clock2",
+        "-ingredients": "wood-2,wood-4,silver-5,wood-6,wood-7,iron-8,wood-9",
+        "-produce": "clock2",
+        "-group": "2",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "bird",
+        "-ingredients": "iron-2,iron-4,egg-5,iron-6,iron-7,plank-8,iron-9",
+        "-produce": "bird",
+        "-group": "4",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "statue3",
+        "-produce": "statue3",
+        "-group": "4",
+        "-ingredients": "stone-2,stone-4,stone-5,stone-6,stone-7,pick_iron-8,stone-9",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "ice_statue",
+        "-produce": "ice_statue",
+        "-group": "4",
+        "-ingredients": "ice-1,ice-2,ice-3,ice-5,ice-7,ice-9"
+      },
+      {
+        "-name": "statue4",
+        "-produce": "statue4",
+        "-group": "4",
+        "-ingredients": "stone-2,pick_iron-4,stone-5,stone-7,stone-8,stone-9",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "gargoyle",
+        "-produce": "gargoyle",
+        "-group": "4",
+        "-ingredients": "stone-2,stone-3,stone-5,stone-7,stone-8",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "bones_shield",
+        "-produce": "bones_shield",
+        "-group": "4",
+        "-ingredients": "bone-1,plank-2,nail-4,bone-5,iron-6,plank-8"
+      },
+      {
+        "-name": "locker3",
+        "-produce": "locker3",
+        "-group": "4",
+        "-ingredients": "plank-1,plank-2,nail-4,mirror_ring-5,plank-7,plank-8",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "outdoor_lamp",
+        "-produce": "outdoor_lamp=2",
+        "-group": "4",
+        "-ingredients": "glass-1,oil_berries-2,glass-3,iron-5,iron-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "workbench",
+        "-produce": "workbench",
+        "-group": "1",
+        "-ingredients": "wood-4,iron-5,wood-6,table_wooden-8"
+      },
+      {
+        "-name": "trolley_switch",
+        "-produce": "trolley_switch",
+        "-group": "3",
+        "-ingredients": "wood-1,nail-4,wood-5,iron-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "bow_arrow_fire",
+        "-produce": "bow_arrow_fire=20",
+        "-group": "2",
+        "-ingredients": "resin-2,wood-5,feather-8",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "bow_arrow_silver",
+        "-produce": "bow_arrow_silver=20",
+        "-group": "3",
+        "-ingredients": "silver_ingot-2,wood-5,feather-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "millstone",
+        "-produce": "millstone",
+        "-group": "2",
+        "-ingredients": "wood-1,stone-2,nail-4,stone-5,wood-7,plank-8,wood-9",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "wooden_staff",
+        "-produce": "wooden_staff",
+        "-group": "3",
+        "-ingredients": "glass-3,wood-5,wood-7",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "mstaff",
+        "-produce": "mstaff",
+        "-group": "3",
+        "-ingredients": "quartz-1,needle_crystal-2,pink_crystal-3,silver_ingot-5,silver_ingot-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "fireball_elexir",
+        "-produce": "fireball_elexir=3",
+        "-group": "3",
+        "-ingredients": "mucus-1,resin-2,needle_crystal-3,brains-5,empty_bottle-8",
+        "-craft_need": "lab"
+      },
+      {
+        "-name": "icearrow_elexir",
+        "-produce": "icearrow_elexir=3",
+        "-group": "3",
+        "-ingredients": "grey_mushroom-1,needle-2,brains-3,web-4,water-5,mucus-6,empty_bottle-8",
+        "-craft_need": "lab"
+      },
+      {
+        "-name": "transform_elexir",
+        "-produce": "transform_elexir=3",
+        "-group": "3",
+        "-ingredients": "mucus-1,pink_crystal-2,pink_mushroom-3,eye-4,water-5,bone-6,empty_bottle-8",
+        "-craft_need": "lab"
+      },
+      {
+        "-name": "empty_bottle",
+        "-produce": "empty_bottle=2",
+        "-group": "3",
+        "-ingredients": "glass-5,coal-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "jug",
+        "-produce": "jug",
+        "-group": "3",
+        "-ingredients": "clay-2,clay-4,clay-6,coal-8"
+      },
+      {
+        "-name": "flour",
+        "-produce": "flour",
+        "-group": "2",
+        "-ingredients": "seed-7,seed-8,seed-9",
+        "-craft_need": "millstone"
+      },
+      {
+        "-name": "wheel_for_trolley",
+        "-produce": "wheel_for_trolley=2",
+        "-group": "3",
+        "-ingredients": "wood-5,iron-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "collumn_stone",
+        "-produce": "collumn_stone",
+        "-group": "4",
+        "-ingredients": "stone-2,stone-5,stone-7,stone-9",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "helm_steel",
+        "-produce": "helm_steel",
+        "-group": "2",
+        "-ingredients": "steel-1,iron-4",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "rusty_sceleton_helmet",
+        "-produce": "rusty_sceleton_helmet",
+        "-group": "2",
+        "-ingredients": "iron-4,iron-5",
+        "-allow": "false"
+      },
+      {
+        "-name": "helm_gold",
+        "-produce": "helm_gold",
+        "-group": "3",
+        "-ingredients": "gold_ingot-1,gold_ingot-2,gold_ingot-4,steel-5",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "mana_elexir",
+        "-produce": "mana_elexir=3",
+        "-group": "3",
+        "-ingredients": "root-1,brains-2,mucus-3,needle-4,grey_mushroom-5,bone-6,water-7,empty_bottle-8",
+        "-craft_need": "lab"
+      },
+      {
+        "-name": "carpet",
+        "-produce": "carpet",
+        "-group": "4",
+        "-ingredients": "paint-1,skin-2,needle-4,skin-5"
+      },
+      {
+        "-name": "elevator",
+        "-produce": "elevator",
+        "-group": "3",
+        "-ingredients": "rope-1,rope-2,rope-3,wheel_for_trolley-4,gold-5,plank-6,oil_berries-7,plank-8,plank-9"
+      },
+      {
+        "-name": "silver_axe",
+        "-produce": "silver_axe",
+        "-group": "2",
+        "-ingredients": "silver_ingot-1,wood-2,wood-5,wood-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "silver_ingot",
+        "-produce": "silver_ingot",
+        "-group": "2",
+        "-ingredients": "silver-1,coal-2,coal-4,silver-5",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "gold_ingot",
+        "-produce": "gold_ingot",
+        "-group": "3",
+        "-ingredients": "gold-1,coal-2,coal-4,gold-5",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "mithril_ingot",
+        "-produce": "mithril_ingot",
+        "-group": "3",
+        "-ingredients": "mithril-1,coal-2,coal-4,mithril-5",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "helm_wood",
+        "-produce": "helm_wood",
+        "-group": "1",
+        "-ingredients": "wood-1,wood-2,wood-3,leaves-5"
+      },
+      {
+        "-name": "wood_armor",
+        "-produce": "wood_armor",
+        "-group": "1",
+        "-ingredients": "wood-1,leaves-2,wood-3,wood-4,rope-5,wood-6"
+      },
+      {
+        "-name": "helm_silver",
+        "-produce": "helm_silver",
+        "-group": "2",
+        "-ingredients": "silver_ingot-1,silver_ingot-2,silver_ingot-4,iron-5",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "helm_mithril",
+        "-produce": "helm_mithril",
+        "-group": "3",
+        "-ingredients": "mithril_ingot-1,mithril_ingot-2,mithril_ingot-4,gold_ingot-5",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "silver_armor",
+        "-produce": "silver_armor",
+        "-group": "2",
+        "-ingredients": "silver_ingot-1,silver_ingot-2,silver_ingot-3,steel-4,silver_ingot-5,steel-6,coal-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "mithril_armor",
+        "-produce": "mithril_armor",
+        "-group": "3",
+        "-ingredients": "mithril_ingot-1,mithril_ingot-2,mithril_ingot-3,gold_ingot-4,mithril_ingot-5,gold_ingot-6,coal-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "sword_mithril",
+        "-produce": "sword_mithril",
+        "-group": "3",
+        "-ingredients": "mithril_ingot-2,mithril_ingot-5,mithril_ingot-7,mithril_ingot-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "totem",
+        "-produce": "totem",
+        "-group": "1",
+        "-ingredients": "gold-2,gold-4,silver-5,gold-6,plank-7,plank-8,plank-9"
+      },
+      {
+        "-name": "coal",
+        "-produce": "coal",
+        "-group": "3",
+        "-ingredients": "wood-2,wood-7,dirt-5,wood-9",
+        "-craft_need": "kitchen"
+      },
+      {
+        "-name": "base_hat",
+        "-produce": "base_hat",
+        "-group": "1",
+        "-ingredients": "fabric-2,needle-3"
+      },
+      {
+        "-name": "snow",
+        "-produce": "snow=4",
+        "-group": "1",
+        "-ingredients": "ice-5"
+      },
+      {
+        "-name": "ice",
+        "-produce": "ice",
+        "-group": "1",
+        "-ingredients": "snow-4,snow-5,snow-7,snow-8"
+      },
+      {
+        "-name": "ice_wall",
+        "-produce": "ice_wall=4",
+        "-group": "1",
+        "-ingredients": "ice-1,ice-2,ice-4,ice-5"
+      },
+      {
+        "-name": "scrambled_eggs",
+        "-produce": "scrambled_eggs=5",
+        "-group": "2",
+        "-ingredients": "egg-2,coal-5",
+        "-craft_need": "kitchen"
+      },
+      {
+        "-name": "gargoyle2",
+        "-produce": "gargoyle2",
+        "-group": "4",
+        "-ingredients": "stone-1,stone-3,stone-5,stone-8",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "big_chair",
+        "-produce": "big_chair",
+        "-group": "1",
+        "-ingredients": "wood-1,plank-4,plank-5,plank-6,wood-7,wood-9",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "wooden_spikes",
+        "-produce": "wooden_spikes",
+        "-group": "1",
+        "-ingredients": "wood-1,wood-3,wood-5,wood-7,wood-9"
+      },
+      {
+        "-name": "ice_spikes",
+        "-produce": "ice_spikes",
+        "-group": "1",
+        "-ingredients": "ice-1,ice-3,ice-5,ice-7,ice-9"
+      },
+      {
+        "-name": "stained_window_1",
+        "-produce": "stained_window_1",
+        "-group": "4",
+        "-ingredients": "glass-1,paint-2,clay-4,glass-5"
+      },
+      {
+        "-name": "pick_mithril",
+        "-produce": "pick_mithril",
+        "-group": "3",
+        "-ingredients": "mithril_ingot-1,silver_ingot-2,mithril_ingot-3,silver_ingot-5,silver_ingot-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "club_mithril",
+        "-produce": "club_mithril",
+        "-group": "3",
+        "-ingredients": "silver_ingot-2,mithril_ingot-3,mithril_ingot-5,silver_ingot-6,mithril_ingot-7",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "mithril_axe",
+        "-produce": "mithril_axe",
+        "-group": "3",
+        "-ingredients": "mithril_ingot-1,mithril_ingot-2,silver_ingot-5,silver_ingot-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "mstaff_mithril",
+        "-produce": "mstaff_mithril",
+        "-group": "3",
+        "-ingredients": "portal_krs_dblue-1,portal_krs_green-2,portal_krs_violet-3,mithril_ingot-5,mithril_ingot-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "frostling_bow",
+        "-produce": "frostling_bow",
+        "-group": "1",
+        "-ingredients": "wood-2,rope-5",
+        "-allow": "false"
+      },
+      {
+        "-name": "frostling_spear",
+        "-produce": "frostling_spear",
+        "-group": "1",
+        "-ingredients": "stone-2,wood-5",
+        "-allow": "false"
+      },
+      {
+        "-name": "rusty_sceleton_mace",
+        "-produce": "rusty_sceleton_mace",
+        "-group": "1",
+        "-ingredients": "iron-2,iron-5",
+        "-allow": "false"
+      },
+      {
+        "-name": "rusty_sceleton_heavy_mace",
+        "-produce": "rusty_sceleton_heavy_mace",
+        "-group": "1",
+        "-ingredients": "iron-2,wood-5",
+        "-allow": "false"
+      },
+      {
+        "-name": "rusty_sceleton_saber",
+        "-produce": "rusty_sceleton_saber",
+        "-group": "1",
+        "-ingredients": "iron-6,iron-9",
+        "-allow": "false"
+      },
+      {
+        "-name": "rusty_mummy_saber",
+        "-produce": "rusty_mummy_saber",
+        "-group": "1",
+        "-ingredients": "iron-4,iron-7",
+        "-allow": "false"
+      },
+      {
+        "-name": "goblin_spear",
+        "-produce": "goblin_spear",
+        "-group": "1",
+        "-ingredients": "bone-4,wood-7",
+        "-allow": "false"
+      },
+      {
+        "-name": "gargoyley_spawner",
+        "-produce": "gargoyley_spawner",
+        "-group": "1",
+        "-ingredients": "rusty_sceleton_heavy_mace-5,stone-1,stone-2,stone-3,stone-8",
+        "-allow": "false"
+      },
+      {
+        "-name": "backpack_01",
+        "-produce": "backpack_01",
+        "-group": "2",
+        "-ingredients": "wood-1,rope-4,wood-7"
+      },
+      {
+        "-name": "backpack_02",
+        "-produce": "backpack_02",
+        "-group": "2",
+        "-ingredients": "plank-1,plank-2,rope-4,rope-5,plank-7,plank-8",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "saw",
+        "-produce": "saw",
+        "-group": "2",
+        "-ingredients": "wood-1,iron-5,iron-9"
+      },
+      {
+        "-name": "miners_lamp",
+        "-produce": "miners_lamp",
+        "-group": "2",
+        "-ingredients": "iron-2,glass-4,oil_berries-5,glass-6,iron-8"
+      },
+      {
+        "-name": "bucket_of_worms",
+        "-produce": "bucket_of_worms",
+        "-group": "2",
+        "-ingredients": "bucket-8,dirt-5"
+      },
+      {
+        "-name": "grinding_stone",
+        "-produce": "grinding_stone",
+        "-group": "2",
+        "-ingredients": "sand-2,stone-5,iron-8"
+      },
+      {
+        "-name": "archer_glove",
+        "-produce": "archer_glove",
+        "-group": "2",
+        "-ingredients": "skin-1,rope-2"
+      },
+      {
+        "-name": "serving_spoon",
+        "-produce": "serving_spoon",
+        "-group": "2",
+        "-ingredients": "iron-2,iron-5,iron-7,iron-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "smith_apron",
+        "-produce": "smith_apron",
+        "-group": "2",
+        "-ingredients": "skin-1,iron-4"
+      },
+      {
+        "-name": "alchemist_bag",
+        "-produce": "alchemist_bag",
+        "-group": "2",
+        "-ingredients": "healt_elexir-1,mana_elexir-2,skin-4,rope-5"
+      },
+      {
+        "-name": "sieve",
+        "-produce": "sieve",
+        "-group": "2",
+        "-ingredients": "rope-1,plank-4,plank-5",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "climbing_cats",
+        "-produce": "climbing_cats",
+        "-group": "2",
+        "-ingredients": "rope-1,iron-4,iron-5",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "float",
+        "-produce": "float",
+        "-group": "2",
+        "-ingredients": "rope-2,resin-4,skin-5,resin-6"
+      },
+      {
+        "-name": "wood_tower",
+        "-produce": "wood_tower",
+        "-group": "2",
+        "-ingredients": "wood-1,bow_wooden-2,wood-3,plank-4,nail-5,plank-6,steel-7,oil_berries-8,steel-9",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "gunnar_ironfist",
+        "-produce": "gunnar_ironfist",
+        "-group": "4",
+        "-ingredients": "stone-2,stone-4,stone-5,stone-6,stone-7,club_iron-8,stone-9",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "farm_fence",
+        "-produce": "farm_fence",
+        "-group": "1",
+        "-ingredients": "nail-4,leaves-5,seed-6,plank-7,rope-8,plank-9",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "animal_trap",
+        "-produce": "animal_trap",
+        "-group": "1",
+        "-ingredients": "wood-1,rope-2,wood-3,rope-4,seed-5,padlock-6,wood-7,leaves-8,wood-9",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "scissors",
+        "-produce": "scissors",
+        "-group": "1",
+        "-ingredients": "iron-1,iron-3,nail-5,iron-7,iron-9",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "gunpowder",
+        "-produce": "gunpowder=2",
+        "-group": "1",
+        "-ingredients": "sulfur-4,sulfur-5,coal-7,coal-8"
+      },
+      {
+        "-name": "pistol",
+        "-produce": "pistol",
+        "-group": "2",
+        "-ingredients": "gunpowder-2,trunk-3,plank-4,trigger_mechanism-5,steel-6,plank-7",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "rifle",
+        "-produce": "rifle",
+        "-group": "3",
+        "-ingredients": "gunpowder-1,trunk-2,trunk-3,plank-4,trigger_mechanism-5,silver_ingot-6,plank-7",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "trunk",
+        "-produce": "trunk",
+        "-group": "2",
+        "-ingredients": "steel-1,steel-2,steel-3,coal-5,steel-7,steel-8,steel-9",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "trigger_mechanism",
+        "-produce": "trigger_mechanism",
+        "-group": "2",
+        "-ingredients": "oil_berries-1,gunpowder-4,nail-5,steel-6,coal-7,steel-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "heavy_rifle",
+        "-produce": "heavy_rifle",
+        "-group": "3",
+        "-ingredients": "gunpowder-1,trunk-2,trunk-3,steel-4,gold_ingot-5,gold_ingot-6,plank-7,trigger_mechanism-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "ammo_steel",
+        "-produce": "ammo_steel=10",
+        "-group": "2",
+        "-ingredients": "steel-5,gunpowder-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "ammo_fire",
+        "-produce": "ammo_fire=10",
+        "-group": "3",
+        "-ingredients": "gunpowder-2,steel-5,gunpowder-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "woodman_hat",
+        "-produce": "woodman_hat",
+        "-group": "5",
+        "-ingredients": "fabric-2,feather-3",
+        "-allow": "false"
+      },
+      {
+        "-name": "desert_hat_02",
+        "-produce": "desert_hat_02",
+        "-group": "5",
+        "-ingredients": "fabric-1,fabric-2",
+        "-allow": "false"
+      },
+      {
+        "-name": "desert_hat_01",
+        "-produce": "desert_hat_01",
+        "-group": "5",
+        "-ingredients": "fabric-2,fabric-5",
+        "-allow": "false"
+      },
+      {
+        "-name": "cloak_hat",
+        "-produce": "cloak_hat",
+        "-group": "5",
+        "-ingredients": "paint-1,fabric-2",
+        "-allow": "false"
+      },
+      {
+        "-name": "tinker_hat",
+        "-produce": "tinker_hat",
+        "-group": "5",
+        "-ingredients": "glass-1,fabric-2",
+        "-allow": "false"
+      },
+      {
+        "-name": "winter_hat1",
+        "-produce": "winter_hat1",
+        "-group": "5",
+        "-ingredients": "wool-1,skin-2",
+        "-allow": "false"
+      },
+      {
+        "-name": "winter_hat2",
+        "-produce": "winter_hat2",
+        "-group": "5",
+        "-ingredients": "skin-2,wool-5",
+        "-allow": "false"
+      },
+      {
+        "-name": "winter_hat3",
+        "-produce": "winter_hat3",
+        "-group": "5",
+        "-ingredients": "skin-1,skin-2",
+        "-allow": "false"
+      },
+      {
+        "-name": "steel_ladder",
+        "-produce": "steel_ladder",
+        "-group": "3",
+        "-ingredients": "steel-2,steel-5",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "steel_wall",
+        "-produce": "steel_wall=6",
+        "-group": "3",
+        "-ingredients": "steel-1,steel-2,steel-4,steel-5",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "iron",
+        "-produce": "iron",
+        "-group": "3",
+        "-ingredients": "coal-2,stone-5,coal-7,coal-9",
+        "-craft_need": "lab"
+      },
+      {
+        "-name": "silver",
+        "-produce": "silver",
+        "-group": "3",
+        "-ingredients": "iron-2,coal-5,iron-7,iron-9",
+        "-craft_need": "lab"
+      },
+      {
+        "-name": "gold",
+        "-produce": "gold",
+        "-group": "3",
+        "-ingredients": "silver-2,iron-5,silver-7,silver-9",
+        "-craft_need": "lab"
+      },
+      {
+        "-name": "mithril",
+        "-produce": "mithril",
+        "-group": "3",
+        "-ingredients": "gold-2,silver-5,gold-7,gold-9",
+        "-craft_need": "lab"
+      },
+      {
+        "-name": "forget_elexir",
+        "-produce": "forget_elexir",
+        "-group": "3",
+        "-ingredients": "water-1,eye-2,root-3,portal_krs_red-4,brains-5,portal_krs_dblue-6,pink_mushroom-7,empty_bottle-8,grey_mushroom-9",
+        "-craft_need": "lab"
+      },
+      {
+        "-name": "pick_cave_goblin",
+        "-produce": "pick_cave_goblin",
+        "-group": "5",
+        "-ingredients": "chitin-1,wood-2,wood-5,wood-8",
+        "-allow": "false"
+      },
+      {
+        "-name": "cave_goblin_saber",
+        "-produce": "cave_goblin_saber",
+        "-group": "5",
+        "-ingredients": "chitin-1,wood-2,wood-5",
+        "-allow": "false"
+      },
+      {
+        "-name": "cave_goblin_saber1",
+        "-produce": "cave_goblin_saber1",
+        "-group": "5",
+        "-ingredients": "chitin-1,wood-2,wood-5",
+        "-allow": "false"
+      },
+      {
+        "-name": "cave_goblin_saber2",
+        "-produce": "cave_goblin_saber2",
+        "-group": "5",
+        "-ingredients": "chitin-1,wood-2,wood-5",
+        "-allow": "false"
+      },
+      {
+        "-name": "cave_goblin_spear",
+        "-produce": "cave_goblin_spear",
+        "-group": "5",
+        "-ingredients": "stone-4,wood-7",
+        "-allow": "false"
+      },
+      {
+        "-name": "helm_hitin",
+        "-produce": "helm_hitin",
+        "-group": "2",
+        "-ingredients": "chitin-1,helm_leather-2,chitin-4"
+      },
+      {
+        "-name": "hitin_armor",
+        "-produce": "hitin_armor",
+        "-group": "2",
+        "-ingredients": "chitin-1,chitin-2,chitin-3,shirt_skin-5"
+      },
+      {
+        "-name": "silver_boots",
+        "-produce": "silver_boots",
+        "-group": "4",
+        "-ingredients": "silver_ingot-1,silver_ingot-4,skin-5",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "boots_hitin",
+        "-produce": "boots_hitin",
+        "-group": "2",
+        "-ingredients": "chitin-1,chitin-4,leather_boots-5"
+      },
+      {
+        "-name": "mushroom_dry",
+        "-produce": "mushroom_dry",
+        "-group": "1",
+        "-ingredients": "mushroom-4,mushroom-5"
+      },
+      {
+        "-name": "mushroom_salat",
+        "-produce": "mushroom_salat=2",
+        "-group": "1",
+        "-ingredients": "leaves-2,mushroom-5"
+      },
+      {
+        "-name": "mushroom_soup",
+        "-produce": "mushroom_soup=4",
+        "-group": "1",
+        "-ingredients": "leaves-4,mushroom-5,water-7,coal-8",
+        "-craft_need": "kitchen"
+      },
+      {
+        "-name": "mushroom-pies",
+        "-produce": "mushroom-pies=5",
+        "-group": "2",
+        "-ingredients": "flour-1,mushroom-2,water-4,coal-5",
+        "-craft_need": "kitchen"
+      },
+      {
+        "-name": "door_room",
+        "-produce": "door_room",
+        "-group": "1",
+        "-ingredients": "wood-1,wood-2,wood-4,nail-5,wood-7,wood-8"
+      },
+      {
+        "-name": "soul_keep",
+        "-produce": "soul_keep",
+        "-group": "2",
+        "-ingredients": "portal_krs_violet-1,portal_krs_blue-2,portal_krs_green-3,mithril-4,dragon_egg-5,mithril-6,mithril-7,mana_elexir-8,mithril-9",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "revival_elexir",
+        "-produce": "revival_elexir=5",
+        "-group": "2",
+        "-ingredients": "eye-1,dragon_egg-2,brains-3,water-4,water-5,water-6,bone-7,coal-8,bone-9",
+        "-craft_need": "lab"
+      },
+      {
+        "-name": "wall_wood_set",
+        "-produce": "wall_wood_set=10",
+        "-group": "3",
+        "-ingredients": "nail-2,wood-4,wooden_block-5,chopper_iron-6,wood-8",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "wall_stone_set",
+        "-produce": "wall_stone_set=10",
+        "-group": "3",
+        "-ingredients": "clay-2,stone-4,stone_wall-5,pick_iron-6,stone-8",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "wall_elite_set",
+        "-produce": "wall_elite_set=10",
+        "-group": "3",
+        "-ingredients": "wood-1,nail-2,chopper_iron-3,stone-4,stone_wall-5,pick_iron-6,clay-7,stone-8,wood-9",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "parachute",
+        "-produce": "parachute",
+        "-group": "3",
+        "-ingredients": "needle-1,fabric-2,rope-4,rope-5,skin-8"
+      },
+      {
+        "-name": "ladders_kit",
+        "-produce": "ladders_kit",
+        "-group": "3",
+        "-ingredients": "ladder-2,chopper_iron-4,rope-5,saw-6,ladder-8",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "wood_shield",
+        "-produce": "wood_shield",
+        "-group": "1",
+        "-ingredients": "wood-2,wood-4,nail-5,wood-6,rope-8"
+      },
+      {
+        "-name": "iron_shield",
+        "-produce": "iron_shield",
+        "-group": "2",
+        "-ingredients": "iron-2,plank-4,steel-5,nail-6,plank-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "gold_shield",
+        "-produce": "gold_shield",
+        "-group": "3",
+        "-ingredients": "steel-2,gold-4,gold_ingot-5,grinding_stone-6,iron-8",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "basilisk_pet_house",
+        "-produce": "basilisk_pet_house",
+        "-group": "1",
+        "-ingredients": "plank-2,plank-4,leaves-5,nail-6,iron-8",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "cat_pet_house",
+        "-produce": "cat_pet_house",
+        "-group": "2",
+        "-ingredients": "wood-2,plank-4,leaves-5,plank-6,nail-8",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "catapult_tower",
+        "-produce": "catapult_tower",
+        "-group": "1",
+        "-ingredients": "plank-1,rope-2,pot-3,stone-4,plank-5,stone-6,steel-7,silver_ingot-8,steel-9",
+        "-craft_need": "workshop"
+      },
+      {
+        "-name": "bed_multistorey",
+        "-produce": "bed_multistorey",
+        "-group": "1",
+        "-ingredients": "plank-4,nail-5,plank-6,bed-8"
+      },
+      {
+        "-name": "ftp_craft",
+        "-produce": "ftp_craft",
+        "-group": "1",
+        "-ingredients": "wood-2,stone-8",
+        "-ftp_device": "true"
+      },
+      {
+        "-name": "ftp_craft2",
+        "-produce": "ftp_craft2",
+        "-group": "5",
+        "-ingredients": "plank-1,plank-2,plank-3,steel-4,steel-6,table_expensive-8",
+        "-ftp_device": "true"
+      },
+      {
+        "-name": "warrior_training_simple",
+        "-produce": "warrior_training_simple",
+        "-group": "2",
+        "-ingredients": "steel-1,skin-2,wheat-4,plank-5,wheat-6,plank-8",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "warrior_training",
+        "-produce": "warrior_training",
+        "-group": "4",
+        "-ingredients": "plank-2,bones_shield-4,steel-5,club-6,plank-7,steel-8,plank-9",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "archer_training_simple",
+        "-produce": "archer_training_simple",
+        "-group": "2",
+        "-ingredients": "paint-2,hatch_wooden-5,plank-7,plank-9",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "archer_training",
+        "-produce": "archer_training",
+        "-group": "4",
+        "-ingredients": "steel-2,paint-4,rope-5,paint-6,plank-7,steel-8,plank-9",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "wood_tower_2",
+        "-produce": "wood_tower_2",
+        "-group": "3",
+        "-ingredients": "steel-2,steel-4,wood_tower-5,steel-6",
+        "-craft_need": "smithy"
+      },
+      {
+        "-name": "magician_training_simple",
+        "-produce": "magician_training_simple",
+        "-group": "2",
+        "-ingredients": "glass-2,steel-5,plank-7,plank-8,plank-9",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "magician_training",
+        "-produce": "magician_training",
+        "-group": "4",
+        "-ingredients": "glass-1,quartz-2,glass-3,silver_ingot-4,gold_ingot-5,silver_ingot-6,plank-7,plank-9",
+        "-craft_need": "workbench"
+      },
+      {
+        "-name": "new_year_tree",
+        "-produce": "new_year_tree",
+        "-group": "1",
+        "-ingredients": "garland-1,cabels-2,garland-3,christmas_tree_toy-4,wood-5,christmas_tree_toy-6,plank-7,plank-8,plank-9",
+        "-allow": "false"
+      },
+      {
+        "-name": "christmas_tree_toy",
+        "-produce": "christmas_tree_toy=3",
+        "-group": "1",
+        "-ingredients": "iron-2,glass-4,paint-5,glass-6",
+        "-craft_need": "smithy",
+        "-allow": "false"
+      },
+      {
+        "-name": "cabels",
+        "-produce": "cabels=3",
+        "-group": "1",
+        "-ingredients": "resin-4,iron-5,rope-6",
+        "-allow": "false"
+      },
+      {
+        "-name": "rudolf",
+        "-produce": "rudolf",
+        "-group": "1",
+        "-ingredients": "christmas_tree_toy-1,gold-2,skin-5,wood-7,wood-9",
+        "-craft_need": "workbench",
+        "-allow": "false"
+      },
+      {
+        "-name": "garland",
+        "-produce": "garland=3",
+        "-group": "1",
+        "-ingredients": "glass-1,glass-2,glass-3,cabels-4,paint-5,cabels-6",
+        "-allow": "false"
+      },
+      {
+        "-name": "christmas_wreath",
+        "-produce": "christmas_wreath",
+        "-group": "1",
+        "-ingredients": "leaves-2,leaves-4,leaves-6,iron-8",
+        "-allow": "false"
+      },
+      {
+        "-name": "gingerbread_cookies",
+        "-produce": "gingerbread_cookies=10",
+        "-group": "1",
+        "-ingredients": "egg-1,apple-2,flour-5"
+      }
+    ]
+  }
+}
