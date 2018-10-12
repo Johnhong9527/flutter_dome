@@ -1,5 +1,27 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:xml/xml.dart' as xml;
+import 'package:http/http.dart' as http;
+import 'package:flutter/services.dart' show rootBundle;
+
+//import 'dart:developer';
+/*Future<String> loadAsset() async {
+  return await rootBundle.loadString('assets/config.json');
+}
+
+void _loadJson() {
+  loadAsset().then((value) {
+    JsonDecoder decoder = new JsonDecoder();
+    List<List<String>> json = decoder.convert(value);
+    print('姓名：' + json[0][0] + '，年龄：' + json[0][1]);
+  });
+}
+print(_loadJson());*/
+
+/*void someFunction(double offset) {
+  debugger(when: offset > 30.0);
+  // ...
+}*/
 
 class MyTabbedPage extends StatefulWidget {
   const MyTabbedPage({Key key}) : super(key: key);
@@ -30,6 +52,31 @@ class _MyTabbedPageState extends State<MyTabbedPage> with SingleTickerProviderSt
   void dispose() {
     _tabController.dispose();
     super.dispose();
+  }
+
+  Widget _item() {
+    return Container(
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: <Widget>[
+          Image.asset(
+            'images/bg.jpg',
+            width: 100.0,
+            height: 100.0,
+          ),
+          Image.asset(
+            'images/bg.jpg',
+            width: 100.0,
+            height: 100.0,
+          ),
+          Image.asset(
+            'images/bg.jpg',
+            width: 100.0,
+            height: 100.0,
+          ),
+        ],
+      ),
+    );
   }
 
   @override
@@ -76,13 +123,20 @@ class _MyTabbedPageState extends State<MyTabbedPage> with SingleTickerProviderSt
                   sliver: SliverList(
                     delegate: SliverChildListDelegate(
                       <Widget>[
-                        Text(
-                          'I\'m dedicating every day to you',
-                          style: TextStyle(fontSize: 35.0),
+                        Container(
+                          child: Column(
+                            children: <Widget>[
+                              _item(),
+                              _item(),
+                              _item(),
+                              _item(),
+                              _item(),
+                              _item(),
+                              _item(),
+                              _item(),
+                            ],
+                          ),
                         ),
-                        Text('Domestic life was never quite my style'),
-                        Text('When you smile, you knock me out, I fall apart'),
-                        Text('And I thought I was so smart'),
                       ],
                     ),
                   ),
@@ -117,8 +171,28 @@ class _MyTabbedPageState extends State<MyTabbedPage> with SingleTickerProviderSt
               ],
             ),
           ),
-          Text('合成表5'),
-          Text('合成表6'),
+          Container(
+            child: Column(
+              children: <Widget>[
+                _item(),
+                _item(),
+                _item(),
+                _item(),
+                _item(),
+              ],
+            ),
+          ),
+          Container(
+            child: Column(
+              children: <Widget>[
+                _item(),
+                _item(),
+                _item(),
+                _item(),
+                _item(),
+              ],
+            ),
+          ),
         ],
       ),
     );
