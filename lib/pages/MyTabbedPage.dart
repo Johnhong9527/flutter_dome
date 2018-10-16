@@ -32,12 +32,12 @@ class MyTabbedPage extends StatefulWidget {
 
 class _MyTabbedPageState extends State<MyTabbedPage> with SingleTickerProviderStateMixin {
   final List<Tab> myTabs = <Tab>[
+    new Tab(text: '原料'),
     new Tab(text: '材料'),
-    new Tab(text: '合成'),
     new Tab(text: '工具'),
     new Tab(text: '武器'),
-    new Tab(text: '居家'),
-    new Tab(text: '食物'),
+    new Tab(text: '装饰'),
+    new Tab(text: '烹饪'),
   ];
 
   TabController _tabController;
@@ -54,6 +54,47 @@ class _MyTabbedPageState extends State<MyTabbedPage> with SingleTickerProviderSt
     super.dispose();
   }
 
+
+  Widget _itemList() {
+    return Container(
+      child: CustomScrollView(
+        shrinkWrap: true,
+        slivers: <Widget>[
+          SliverPadding(
+            padding: EdgeInsets.all(1.0),
+            sliver: SliverList(
+              delegate: SliverChildListDelegate(
+                <Widget>[
+                  Container(
+                    child: Column(
+                      children: <Widget>[
+                        _item(),
+                        _item(),
+                        _item(),
+                        _item(),
+                        _item(),
+                        _item(),
+                        _item(),
+                        _item(),
+                        _item(),
+                        _item(),
+                        _item(),
+                        _item(),
+                        _item(),
+                        _item(),
+                        _item(),
+                      ],
+                    ),
+                  )
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
+    )
+  }
+
   Widget _item() {
     return Container(
       child: Row(
@@ -65,12 +106,12 @@ class _MyTabbedPageState extends State<MyTabbedPage> with SingleTickerProviderSt
             height: 100.0,
           ),
           Image.asset(
-            'images/bg.jpg',
+            'images/2.jpeg',
             width: 100.0,
             height: 100.0,
           ),
           Image.asset(
-            'images/bg.jpg',
+            'images/4.jpeg',
             width: 100.0,
             height: 100.0,
           ),
@@ -92,19 +133,7 @@ class _MyTabbedPageState extends State<MyTabbedPage> with SingleTickerProviderSt
       body: new TabBarView(
         controller: _tabController,
         children: <Widget>[
-          Container(
-            child: Text(
-              'document',
-              style: TextStyle(
-                fontSize: 24.0,
-                fontWeight: FontWeight.w900,
-                fontFamily: "Georgia",
-              ),
-            ),
-            width: 320.0,
-            height: 240.0,
-            color: Colors.grey[300],
-          ),
+          _itemList(),
           Container(
             child: ListView.builder(
               padding: EdgeInsets.all(8.0),
@@ -114,36 +143,7 @@ class _MyTabbedPageState extends State<MyTabbedPage> with SingleTickerProviderSt
               },
             ),
           ),
-          Container(
-            child: CustomScrollView(
-              shrinkWrap: true,
-              slivers: <Widget>[
-                SliverPadding(
-                  padding: EdgeInsets.all(20.0),
-                  sliver: SliverList(
-                    delegate: SliverChildListDelegate(
-                      <Widget>[
-                        Container(
-                          child: Column(
-                            children: <Widget>[
-                              _item(),
-                              _item(),
-                              _item(),
-                              _item(),
-                              _item(),
-                              _item(),
-                              _item(),
-                              _item(),
-                            ],
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
+          _itemList()
           Container(
             child: ListView(
               scrollDirection: Axis.horizontal,
@@ -171,28 +171,9 @@ class _MyTabbedPageState extends State<MyTabbedPage> with SingleTickerProviderSt
               ],
             ),
           ),
-          Container(
-            child: Column(
-              children: <Widget>[
-                _item(),
-                _item(),
-                _item(),
-                _item(),
-                _item(),
-              ],
-            ),
-          ),
-          Container(
-            child: Column(
-              children: <Widget>[
-                _item(),
-                _item(),
-                _item(),
-                _item(),
-                _item(),
-              ],
-            ),
-          ),
+          _itemList(),
+          _itemList(),
+          _itemList(),
         ],
       ),
     );

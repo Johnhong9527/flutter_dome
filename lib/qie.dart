@@ -288,7 +288,7 @@ Widget buildContent(int index) {
             child: new Container(
               margin: const EdgeInsets.only(left: 1.5),
               child: _buildContentImageText(
-                  'images/zhubo02.jpeg', '国服李白,了解一下', 'EL-溜神', 52.1),
+                  'images/2.jpeg', '国服李白,了解一下', 'EL-溜神', 52.1),
             ),
           ),
         ],
@@ -299,13 +299,13 @@ Widget buildContent(int index) {
               child: new Container(
                 margin: const EdgeInsets.only(right: 1.5),
                 child: _buildContentImageText(
-                    'images/zhubo03.jpeg', '貂蝉带你五杀', '吕布别走\(^o^)/~', 5.9),
+                    'images/3.jpeg', '貂蝉带你五杀', '吕布别走\(^o^)/~', 5.9),
               )),
           new Expanded(
               child: new Container(
                 margin: const EdgeInsets.only(left: 1.5),
                 child: _buildContentImageText(
-                    'images/zhubo04.jpeg', '国服最骚香香', '国服最骚香香', 11.1),
+                    'images/4.jpeg', '国服最骚香香', '国服最骚香香', 11.1),
               ))
         ],
       )
