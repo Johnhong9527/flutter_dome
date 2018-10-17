@@ -30,7 +30,8 @@ class MyTabbedPage extends StatefulWidget {
   _MyTabbedPageState createState() => new _MyTabbedPageState();
 }
 
-class _MyTabbedPageState extends State<MyTabbedPage> with SingleTickerProviderStateMixin {
+class _MyTabbedPageState extends State<MyTabbedPage>
+    with SingleTickerProviderStateMixin {
   final List<Tab> myTabs = <Tab>[
     new Tab(text: '原料'),
     new Tab(text: '材料'),
@@ -53,7 +54,6 @@ class _MyTabbedPageState extends State<MyTabbedPage> with SingleTickerProviderSt
     _tabController.dispose();
     super.dispose();
   }
-
 
   Widget _itemList() {
     return Container(
@@ -92,7 +92,7 @@ class _MyTabbedPageState extends State<MyTabbedPage> with SingleTickerProviderSt
           ),
         ],
       ),
-    )
+    );
   }
 
   Widget _item() {
@@ -105,10 +105,15 @@ class _MyTabbedPageState extends State<MyTabbedPage> with SingleTickerProviderSt
             width: 100.0,
             height: 100.0,
           ),
-          Image.asset(
-            'images/2.jpeg',
-            width: 100.0,
-            height: 100.0,
+          GestureDetector(
+            onTap: () {
+              print("onTap called.");
+            },
+            child: Image.asset(
+              'images/2.jpeg',
+              width: 100.0,
+              height: 100.0,
+            ),
           ),
           Image.asset(
             'images/4.jpeg',
@@ -143,7 +148,7 @@ class _MyTabbedPageState extends State<MyTabbedPage> with SingleTickerProviderSt
               },
             ),
           ),
-          _itemList()
+          _itemList(),
           Container(
             child: ListView(
               scrollDirection: Axis.horizontal,
