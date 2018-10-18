@@ -22,6 +22,9 @@ print(_loadJson());*/
   debugger(when: offset > 30.0);
   // ...
 }*/
+Future<http.Response> fetchPost() {
+  return http.get('config/recipes.json');
+}
 
 class MyTabbedPage extends StatefulWidget {
   const MyTabbedPage({Key key}) : super(key: key);
@@ -55,7 +58,51 @@ class _MyTabbedPageState extends State<MyTabbedPage>
     super.dispose();
   }
 
-  Widget _itemList() {
+//
+  Widget _item() {
+    return Container(
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: <Widget>[
+          image_on_tap('images/bg.jpg'),
+          image_on_tap('images/2.jpeg'),
+          image_on_tap('images/4.jpeg'),
+        ],
+      ),
+    );
+  }
+
+  // 图片点击事件
+  Widget image_on_tap(image_path) {
+    return GestureDetector(
+      onTap: () {
+        print({
+          'image_path': image_path,
+          'image_path2': image_path,
+        });
+      },
+      child: Image.asset(
+        image_path,
+        width: 100.0,
+        height: 100.0,
+      ),
+    );
+  }
+
+  // 子组件List数据填充
+  __itemList(number) {
+    GestureDetector(onTap: () {
+      print(number);
+    });
+    var item = <Widget>[];
+    for (int i = 0; i < 20; i++) {
+      item.add(_item());
+    }
+    return item;
+  }
+
+  // 子组件List数据装载
+  Widget _items(number) {
     return Container(
       child: CustomScrollView(
         shrinkWrap: true,
@@ -67,23 +114,7 @@ class _MyTabbedPageState extends State<MyTabbedPage>
                 <Widget>[
                   Container(
                     child: Column(
-                      children: <Widget>[
-                        _item(),
-                        _item(),
-                        _item(),
-                        _item(),
-                        _item(),
-                        _item(),
-                        _item(),
-                        _item(),
-                        _item(),
-                        _item(),
-                        _item(),
-                        _item(),
-                        _item(),
-                        _item(),
-                        _item(),
-                      ],
+                      children: __itemList(number),
                     ),
                   )
                 ],
@@ -95,36 +126,51 @@ class _MyTabbedPageState extends State<MyTabbedPage>
     );
   }
 
-  Widget _item() {
+  // 文字list渲染
+  _textListView() {
     return Container(
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      child: ListView.builder(
+        padding: EdgeInsets.all(8.0),
+        itemExtent: 20.0,
+        itemBuilder: (BuildContext context, int index) {
+          return Text('entry $index');
+        },
+      ),
+    );
+  }
+
+  // 颜色List横排渲染
+  _colorListView() {
+    return Container(
+      child: ListView(
+        scrollDirection: Axis.horizontal,
         children: <Widget>[
-          Image.asset(
-            'images/bg.jpg',
-            width: 100.0,
-            height: 100.0,
+          new Container(
+            width: 160.0,
+            color: Colors.red,
           ),
-          GestureDetector(
-            onTap: () {
-              print("onTap called.");
-            },
-            child: Image.asset(
-              'images/2.jpeg',
-              width: 100.0,
-              height: 100.0,
-            ),
+          new Container(
+            width: 160.0,
+            color: Colors.blue,
           ),
-          Image.asset(
-            'images/4.jpeg',
-            width: 100.0,
-            height: 100.0,
+          new Container(
+            width: 160.0,
+            color: Colors.green,
+          ),
+          new Container(
+            width: 160.0,
+            color: Colors.yellow,
+          ),
+          new Container(
+            width: 160.0,
+            color: Colors.orange,
           ),
         ],
       ),
     );
   }
 
+  // TabBar头部
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
@@ -138,47 +184,13 @@ class _MyTabbedPageState extends State<MyTabbedPage>
       body: new TabBarView(
         controller: _tabController,
         children: <Widget>[
-          _itemList(),
-          Container(
-            child: ListView.builder(
-              padding: EdgeInsets.all(8.0),
-              itemExtent: 20.0,
-              itemBuilder: (BuildContext context, int index) {
-                return Text('entry $index');
-              },
-            ),
-          ),
-          _itemList(),
-          Container(
-            child: ListView(
-              scrollDirection: Axis.horizontal,
-              children: <Widget>[
-                new Container(
-                  width: 160.0,
-                  color: Colors.red,
-                ),
-                new Container(
-                  width: 160.0,
-                  color: Colors.blue,
-                ),
-                new Container(
-                  width: 160.0,
-                  color: Colors.green,
-                ),
-                new Container(
-                  width: 160.0,
-                  color: Colors.yellow,
-                ),
-                new Container(
-                  width: 160.0,
-                  color: Colors.orange,
-                ),
-              ],
-            ),
-          ),
-          _itemList(),
-          _itemList(),
-          _itemList(),
+          _items(1),
+          _items(2),
+          _items(3),
+          _items(4),
+          _items(5),
+          _items(6),
+          _items(7),
         ],
       ),
     );
