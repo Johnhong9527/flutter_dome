@@ -1,0 +1,4849 @@
+
+{
+  "root": {
+    "resource": [
+      {
+        "-name": "dirt",
+        "-title": "%EarthT",
+        "-desc": "%EarthD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/craft_dirt_01",
+        "-build": "dirt",
+        "-application": "minning",
+        "-properties": "wall",
+        "-shop_count": "10",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "sand",
+        "-title": "%SandT",
+        "-desc": "%SandD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/craft_send_01",
+        "-build": "sand",
+        "-application": "minning",
+        "-properties": "wall",
+        "-shop_count": "5",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "stone",
+        "-title": "%StoneT",
+        "-desc": "%StoneD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/craft_stone_01",
+        "-build": "stone",
+        "-application": "minning",
+        "-properties": "wall",
+        "-shop_count": "5",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "coal",
+        "-title": "%CoalT",
+        "-desc": "%CoalD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/coal3",
+        "-application": "minning",
+        "-properties": "no_back_craft",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "iron",
+        "-title": "%IronT",
+        "-desc": "%IronD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/iron",
+        "-application": "minning",
+        "-properties": "no_back_craft,craft_time=x2",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "silver",
+        "-title": "%SilverT",
+        "-desc": "%SilverD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/silver",
+        "-application": "minning",
+        "-properties": "no_back_craft,craft_time=x5",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "gold",
+        "-title": "%GoldT",
+        "-desc": "%GoldD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/gold",
+        "-application": "minning",
+        "-properties": "shine,no_back_craft,craft_time=x9",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "mithril",
+        "-title": "%MithrilT",
+        "-desc": "%MithrilD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/mfrl",
+        "-application": "minning",
+        "-properties": "shine,no_back_craft,craft_time=x15",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "wood",
+        "-title": "%WoodT",
+        "-desc": "%WoodD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/craft_log",
+        "-application": "minning",
+        "-properties": "wood",
+        "-shop_count": "5",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "sulfur",
+        "-title": "%SulfurT",
+        "-desc": "%SulfurD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/sulfur",
+        "-application": "minning",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "leaves",
+        "-title": "%LeavesT",
+        "-desc": "%LeavesD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/leaves",
+        "-application": "minning",
+        "-shop_count": "6",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "wheat",
+        "-title": "%WheatearsT",
+        "-desc": "%WheatearsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/wheat",
+        "-application": "minning",
+        "-shop_count": "5",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "resin",
+        "-title": "%ResinT",
+        "-desc": "%ResinD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/resin",
+        "-application": "minning",
+        "-shop_count": "5",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "web",
+        "-title": "%WebT",
+        "-desc": "%WebD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/tile/web_2",
+        "-application": "minning",
+        "-shop_count": "4",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "wool",
+        "-title": "%WoolT",
+        "-desc": "%WoolD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/wool",
+        "-application": "minning",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "portal_krs_blue",
+        "-title": "%BluediamondT",
+        "-desc": "%BluediamondD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/tile/Portal/krs_blue_in",
+        "-application": "minning",
+        "-properties": "shine,craft_time=x10",
+        "-shop_count": "1",
+        "-shop_cost": "6"
+      },
+      {
+        "-name": "portal_krs_red",
+        "-title": "%ReddiamondT",
+        "-desc": "%ReddiamondD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/tile/Portal/krs_red_in",
+        "-application": "minning",
+        "-properties": "shine,craft_time=x10",
+        "-shop_count": "1",
+        "-shop_cost": "6"
+      },
+      {
+        "-name": "portal_krs_dblue",
+        "-title": "%DarkbluediamondT",
+        "-desc": "%DarkbluediamondD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/tile/Portal/krs_drkblue_in",
+        "-application": "minning",
+        "-properties": "shine,craft_time=x10",
+        "-shop_count": "1",
+        "-shop_cost": "6"
+      },
+      {
+        "-name": "portal_krs_green",
+        "-title": "%GreendiamondT",
+        "-desc": "%GreendiamondD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/tile/Portal/krs_green_in",
+        "-application": "minning",
+        "-properties": "shine,craft_time=x10",
+        "-shop_count": "1",
+        "-shop_cost": "6"
+      },
+      {
+        "-name": "portal_krs_violet",
+        "-title": "%PurplediamondT",
+        "-desc": "%PurplediamondD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/tile/Portal/krs_violet_in",
+        "-application": "minning",
+        "-properties": "shine,craft_time=x10",
+        "-shop_count": "1",
+        "-shop_cost": "6"
+      },
+      {
+        "-name": "water",
+        "-title": "%WaterT",
+        "-desc": "%WaterD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/water",
+        "-build": "water",
+        "-application": "minning",
+        "-container": "bucket",
+        "-properties": "water",
+        "-shop_count": "5",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "brains",
+        "-title": "%ZombiebrainT",
+        "-desc": "%ZombiebrainD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/brain",
+        "-application": "minning",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "root",
+        "-title": "%RootT",
+        "-desc": "%RootD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/root",
+        "-application": "minning",
+        "-shop_count": "5",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "mucus",
+        "-title": "%SlimeT",
+        "-desc": "%SlimeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/mucus",
+        "-application": "minning",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "quartz",
+        "-title": "%QuartzT",
+        "-desc": "%QuartzD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/shineobjects/cryst_blue1",
+        "-application": "minning",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "pink_crystal",
+        "-title": "%PinkCrystalT",
+        "-desc": "%PinkCrystalD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/shineobjects/cryst_pink1",
+        "-application": "minning",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "grey_mushroom",
+        "-title": "%GreyMushroomT",
+        "-desc": "%GreyMushroomD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/shineobjects/mush_gray1",
+        "-application": "minning",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "pink_mushroom",
+        "-title": "%PinkMushroomT",
+        "-desc": "%PinkMushroomD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/shineobjects/mush_pink1",
+        "-application": "minning",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "needle_crystal",
+        "-title": "%NeedlecrystalT",
+        "-desc": "%NeedlecrystalD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/shineobjects/plant_barb1",
+        "-application": "minning",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "money",
+        "-title": "%CoinT",
+        "-desc": "%CoinD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/coin",
+        "-application": "money",
+        "-properties": "money,shine",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "snow",
+        "-title": "%SnowT",
+        "-desc": "%IceD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/snow",
+        "-build": "snow",
+        "-application": "minning",
+        "-properties": "wall",
+        "-shop_count": "10",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "ice",
+        "-title": "%IceT",
+        "-desc": "%IceD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/ice_block",
+        "-build": "ice",
+        "-application": "minning",
+        "-properties": "wall",
+        "-shop_count": "5",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "eye",
+        "-title": "%EyeT",
+        "-desc": "%EyeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/eye",
+        "-application": "minning",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "rune1",
+        "-title": "%RuneT",
+        "-desc": "%RuneD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/rune/rune_1",
+        "-build": "rune1",
+        "-application": "minning",
+        "-properties": "rune,no_shop"
+      },
+      {
+        "-name": "rune2",
+        "-title": "%RuneT",
+        "-desc": "%RuneD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/rune/rune_2",
+        "-build": "rune2",
+        "-application": "minning",
+        "-properties": "rune,no_shop"
+      },
+      {
+        "-name": "rune3",
+        "-title": "%RuneT",
+        "-desc": "%RuneD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/rune/rune_3",
+        "-build": "rune3",
+        "-application": "minning",
+        "-properties": "rune,no_shop"
+      },
+      {
+        "-name": "rune4",
+        "-title": "%RuneT",
+        "-desc": "%RuneD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/rune/rune_4",
+        "-build": "rune4",
+        "-application": "minning",
+        "-properties": "rune,no_shop"
+      },
+      {
+        "-name": "rune5",
+        "-title": "%RuneT",
+        "-desc": "%RuneD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/rune/rune_5",
+        "-build": "rune5",
+        "-application": "minning",
+        "-properties": "rune,no_shop"
+      },
+      {
+        "-name": "rune6",
+        "-title": "%RuneT",
+        "-desc": "%RuneD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/rune/rune_6",
+        "-build": "rune6",
+        "-application": "minning",
+        "-properties": "rune,no_shop"
+      },
+      {
+        "-name": "christmas_tree_toy",
+        "-title": "%ChristmasTreeToyT",
+        "-desc": "%ChristmasTreeToyD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/christmas_tree_toy",
+        "-application": "halfstuff",
+        "-properties": "no_shop,ne_event=5",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "cabels",
+        "-title": "%CabelsT",
+        "-desc": "%CabelsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/cabels",
+        "-application": "halfstuff",
+        "-properties": "no_shop,ne_event=6",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "trunk",
+        "-title": "%TrunkT",
+        "-desc": "%TrunkD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/barrel",
+        "-application": "halfstuff",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "trigger_mechanism",
+        "-title": "%TriggerMechT",
+        "-desc": "%TriggerMechD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/trigger_mechanism",
+        "-application": "halfstuff",
+        "-shop_count": "1",
+        "-shop_cost": "12"
+      },
+      {
+        "-name": "gunpowder",
+        "-title": "%GunpowderT",
+        "-desc": "%GunpowderD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/gunpowder",
+        "-application": "halfstuff",
+        "-shop_count": "1",
+        "-shop_cost": "4"
+      },
+      {
+        "-name": "plank",
+        "-title": "%BoardsT",
+        "-desc": "%BoardsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/craft_planking",
+        "-application": "halfstuff",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "glass",
+        "-title": "%GlassT",
+        "-desc": "%GlassD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/craft_glass",
+        "-application": "halfstuff",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "steel",
+        "-title": "%SteelT",
+        "-desc": "%SteelD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/ssteel",
+        "-application": "halfstuff",
+        "-properties": "craft_time=x3",
+        "-shop_count": "1",
+        "-shop_cost": "4"
+      },
+      {
+        "-name": "silver_ingot",
+        "-title": "%SilverIngotT",
+        "-desc": "%SilverIngotD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/ssilver",
+        "-application": "halfstuff",
+        "-properties": "craft_time=x6",
+        "-shop_count": "1",
+        "-shop_cost": "7"
+      },
+      {
+        "-name": "gold_ingot",
+        "-title": "%GoldIngotT",
+        "-desc": "%GoldIngotD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/sgold",
+        "-application": "halfstuff",
+        "-properties": "craft_time=x10",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "mithril_ingot",
+        "-title": "%MithrilIngotT",
+        "-desc": "%MithrilIngotD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/smithril",
+        "-application": "halfstuff",
+        "-properties": "craft_time=x20",
+        "-shop_count": "1",
+        "-shop_cost": "15"
+      },
+      {
+        "-name": "thread",
+        "-title": "%ThreadT",
+        "-desc": "%ThreadD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/wool1",
+        "-application": "halfstuff",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "bone",
+        "-title": "%BonesT",
+        "-desc": "%BonesD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/bone",
+        "-application": "minning",
+        "-shop_count": "5",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "bricks_block",
+        "-title": "%BrickT",
+        "-desc": "%BrickD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/bricks_block",
+        "-application": "halfstuff",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "pot",
+        "-title": "%KettleT",
+        "-desc": "%KettleD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/pot",
+        "-application": "halfstuff",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "rope",
+        "-title": "%RopeT",
+        "-desc": "%RopeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/rope",
+        "-application": "halfstuff",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "padlock",
+        "-title": "%LockT",
+        "-desc": "%LockD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/padlock",
+        "-application": "halfstuff",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "skin",
+        "-title": "%LeatherskinT",
+        "-desc": "%LeatherskinD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/skin",
+        "-application": "halfstuff",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "chitin",
+        "-title": "%ChitinT",
+        "-desc": "%ChitinD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/chitin",
+        "-application": "halfstuff",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "nail",
+        "-title": "%NailT",
+        "-desc": "%NailD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/nails",
+        "-application": "halfstuff",
+        "-shop_count": "5",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "paint",
+        "-title": "%PaintT",
+        "-desc": "%PaintD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/paint",
+        "-application": "halfstuff",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "paper",
+        "-title": "%PaperT",
+        "-desc": "%PaperD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/papper",
+        "-application": "halfstuff",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "fabric",
+        "-title": "%FabricT",
+        "-desc": "%FabricD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/tissue",
+        "-application": "halfstuff",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "needle",
+        "-title": "%NeedleT",
+        "-desc": "%NeedleD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/needles",
+        "-application": "halfstuff",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "seed",
+        "-title": "%GrainT",
+        "-desc": "%GrainD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/s_wheat",
+        "-build": "dirt_seed",
+        "-application": "halfstuff",
+        "-properties": "seed=wheat",
+        "-shop_count": "5",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "clay",
+        "-title": "%ClayT",
+        "-desc": "%ClayD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/clay",
+        "-application": "halfstuff",
+        "-shop_count": "5",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "oil_berries",
+        "-title": "%OilT",
+        "-desc": "%OilD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/oil",
+        "-application": "halfstuff",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "feather",
+        "-title": "%FeatherT",
+        "-desc": "%FeatherD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/pen",
+        "-application": "halfstuff",
+        "-shop_count": "4",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "empty_bottle",
+        "-title": "%BottleT",
+        "-desc": "%BottleD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/empty_bottle",
+        "-application": "halfstuff",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "dragon_egg",
+        "-title": "%DragonEggT",
+        "-desc": "%DragonEggD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/dragon_egg",
+        "-application": "halfstuff",
+        "-properties": "dragon_egg",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "wheel_for_trolley",
+        "-title": "%WheelfortrolleyT",
+        "-desc": "%WheelfortrolleyD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/wheel_for_trolley",
+        "-application": "halfstuff",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "portal_block1",
+        "-title": "%Block1portalT",
+        "-desc": "%Block1portalD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/tile/Portal/portal_block1",
+        "-application": "halfstuff",
+        "-properties": "no_shop,portal_block"
+      },
+      {
+        "-name": "portal_block2",
+        "-title": "%Block2portalT",
+        "-desc": "%Block1portalD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/tile/Portal/portal_block2",
+        "-application": "halfstuff",
+        "-properties": "no_shop,portal_block"
+      },
+      {
+        "-name": "portal_block3",
+        "-title": "%Block3portalT",
+        "-desc": "%Block1portalD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/tile/Portal/portal_block3",
+        "-application": "halfstuff",
+        "-properties": "no_shop,portal_block"
+      },
+      {
+        "-name": "portal_block4",
+        "-title": "%Block4portalT",
+        "-desc": "%Block1portalD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/tile/Portal/portal_block4",
+        "-application": "halfstuff",
+        "-properties": "no_shop,portal_block"
+      },
+      {
+        "-name": "portal_block5",
+        "-title": "%Block5portalT",
+        "-desc": "%Block1portalD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/tile/Portal/portal_block5",
+        "-application": "halfstuff",
+        "-properties": "no_shop,portal_block"
+      },
+      {
+        "-name": "flour",
+        "-title": "%FlourT",
+        "-desc": "%FlourD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/flour",
+        "-application": "halfstuff",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "stone_dagger",
+        "-title": "%StoneknifeT",
+        "-desc": "%StoneknifeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/dagger_stone",
+        "-application": "creature",
+        "-properties": "speed=x1.5,attack=x1,build=x1,base_weapon,apply_tool1,apply_tool2,dagger,ani_items=stone_dagger,dskin=weapon_stone_dagger",
+        "-class": "tool2",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "axe_stone",
+        "-title": "%StoneaxeT",
+        "-desc": "%StoneaxeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/axe/axe_stone",
+        "-application": "creature",
+        "-properties": "speed=x2,attack=x1.25,build=x1,apply_tool2,mace,ani_items=stone_axe,dskin=weapon_stone_axe",
+        "-class": "tool2",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "chopper_iron",
+        "-title": "%IronaxeT",
+        "-desc": "%IronaxeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/axe/axe",
+        "-application": "creature",
+        "-properties": "speed=x3,attack=x1.5,build=x1.1,apply_tool2,iron,mace,ani_items=axe,metallic,dskin=weapon_axe",
+        "-class": "tool2",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "axe_steel",
+        "-title": "%AxeSteelT",
+        "-desc": "%AxeSteelD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/axe/axe_steel",
+        "-application": "creature",
+        "-properties": "speed=x4,attack=x1.8,build=x1.1,apply_tool2,iron,mace,ani_items=axe_steel,metallic,dskin=weapon_steel_axe",
+        "-class": "tool2",
+        "-shop_count": "1",
+        "-shop_cost": "8"
+      },
+      {
+        "-name": "silver_axe",
+        "-title": "%SilverAxeT",
+        "-desc": "%MithrilArmorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/axe/axe_silver",
+        "-application": "creature",
+        "-properties": "speed=x5,attack=x2.1,build=x1,apply_tool2,mace,ani_items=silver_axe,dskin=weapon_silver_axe",
+        "-class": "tool2",
+        "-shop_count": "1",
+        "-shop_cost": "12"
+      },
+      {
+        "-name": "mithril_axe",
+        "-title": "%MithrilAxeT",
+        "-desc": "%MithrilArmorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/axe/axe_mfrl",
+        "-application": "creature",
+        "-properties": "speed=x7,attack=x2.5,build=x1,apply_tool2,mace,ani_items=mithril_axe,mithril,dskin=weapon_mithril_axe",
+        "-class": "tool2",
+        "-shop_count": "1",
+        "-shop_cost": "30"
+      },
+      {
+        "-name": "pick_stone",
+        "-title": "%StonepickaxeT",
+        "-desc": "%StonepickaxeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/pick/pick",
+        "-application": "creature",
+        "-properties": "speed=x2,apply_tool1,mace,ani_items=stone_pick,dskin=weapon_stone_picke",
+        "-class": "tool1",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "pick_iron",
+        "-title": "%IronpickaxeT",
+        "-desc": "%IronpickaxeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/pick/pick_iron",
+        "-application": "creature",
+        "-properties": "speed=x4,attack=x1.5,apply_tool1,iron,mace,ani_items=iron_pick,metallic,dskin=weapon_iron_picke",
+        "-class": "tool1",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "pick_cave_goblin",
+        "-title": "%PickCaveGoblinT",
+        "-desc": "%PickCaveGoblinD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/pick/pick_cave_goblin",
+        "-application": "creature",
+        "-properties": "speed=x5,apply_tool1,mace,ani_items=pick_cave_goblin,no_shop,dskin=weapon_cave_goblin_picke",
+        "-class": "tool1"
+      },
+      {
+        "-name": "pick_steel",
+        "-title": "%SteelpickaxeT",
+        "-desc": "%SteelpickaxeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/pick/pick_steel",
+        "-application": "creature",
+        "-properties": "speed=x6,attack=x1.5,apply_tool1,iron,mace,ani_items=pick_steel,metallic,dskin=weapon_steel_picke",
+        "-class": "tool1",
+        "-shop_count": "1",
+        "-shop_cost": "9"
+      },
+      {
+        "-name": "pick_silver",
+        "-title": "%SilverPickT",
+        "-desc": "%MithrilArmorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/pick/pick_silver",
+        "-application": "creature",
+        "-properties": "speed=x8,attack=x2,apply_tool1,mace,ani_items=silver_pick,metallic,dskin=weapon_silver_picke",
+        "-class": "tool1",
+        "-shop_count": "1",
+        "-shop_cost": "15"
+      },
+      {
+        "-name": "pick_mithril",
+        "-title": "%MithrilPickT",
+        "-desc": "%MithrilArmorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/pick/pick_mfrl",
+        "-application": "creature",
+        "-properties": "speed=x15,attack=x3,apply_tool1,mace,ani_items=mithril_pick,metallic,mithril,dskin=weapon_mithril_pickaxe",
+        "-class": "tool1",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "rusty_sceleton_saber",
+        "-title": "%RustyskeletonsaberT",
+        "-desc": "%RustyskeletonsaberD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/rusty_sceleton_saber",
+        "-application": "creature",
+        "-properties": "attack=x1.75,iron,sword,ani_items=rusty_sceleton_saber,wooden,no_shop,dskin=weapon_rusty_sceleton_saber",
+        "-class": "weapon"
+      },
+      {
+        "-name": "rusty_mummy_saber",
+        "-title": "%RustymummysaberT",
+        "-desc": "%RustymummysaberD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/rusty_mummy_saber",
+        "-application": "creature",
+        "-properties": "attack=x1.75,iron,sword,ani_items=rusty_mummy_saber,wooden,no_shop,dskin=weapon_rusty_mummy_saber",
+        "-class": "weapon"
+      },
+      {
+        "-name": "cave_goblin_saber",
+        "-title": "%CavegoblinSaberT",
+        "-desc": "%CavegoblinSaberD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/cave_goblin_worn-out_saber",
+        "-application": "creature",
+        "-properties": "speed=x1.5,attack=x2,sword,ani_items=cave_goblin_saber_worn,no_shop,dskin=weapon_cave_goblin_wornout_saber",
+        "-class": "weapon"
+      },
+      {
+        "-name": "sword_iron",
+        "-title": "%SteelswordT",
+        "-desc": "%SteelswordD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/sword/sword_iron",
+        "-application": "creature",
+        "-properties": "speed=x1.5,attack=x2.5,iron,sword,ani_items=iron_sword,metallic,dskin=weapon_steel_sword",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "15"
+      },
+      {
+        "-name": "cave_goblin_saber1",
+        "-title": "%CavegoblinSaberT",
+        "-desc": "%CavegoblinSaberD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/cave_goblin_saber",
+        "-application": "creature",
+        "-properties": "speed=x1.5,attack=x2.5,sword,ani_items=cave_goblin_saber,no_shop,dskin=weapon_cave_goblin_saber",
+        "-class": "weapon"
+      },
+      {
+        "-name": "cave_goblin_saber2",
+        "-title": "%CavegoblinSaberT",
+        "-desc": "%CavegoblinSaberD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/cave_goblin_excellent_saber",
+        "-application": "creature",
+        "-properties": "speed=x1.5,attack=x4,sword,ani_items=cave_goblin_saber_excel,no_shop,dskin=weapon_cave_goblin_excellent_saber",
+        "-class": "weapon"
+      },
+      {
+        "-name": "sword_silver",
+        "-title": "%SilverSwordT",
+        "-desc": "%SilverSwordD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/sword/sword_silver",
+        "-application": "creature",
+        "-properties": "speed=x2,attack=x3.5,iron,sword,ani_items=silver_sword,metallic,dskin=weapon_silver_sword",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "25"
+      },
+      {
+        "-name": "godeus_sword_th",
+        "-title": "%YataganswordT",
+        "-desc": "%YataganswordD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/sword/godeus_sword_th",
+        "-application": "creature",
+        "-properties": "speed=x2,attack=x4,iron,sword,ani_items=godeus_sword,metallic,dskin=weapon_godeus_sword",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "sword_mithril",
+        "-title": "%MithrilSwordT",
+        "-desc": "%MithrilSwordD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/sword/sword_mfr",
+        "-application": "creature",
+        "-properties": "speed=x3,attack=x4.5,iron,sword,ani_items=mithril_sword,metallic,mithril,dskin=weapon_mithril_sword",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "45"
+      },
+      {
+        "-name": "club",
+        "-title": "%BatonT",
+        "-desc": "%BatonD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/club/club",
+        "-application": "creature",
+        "-properties": "attack=x1.5,mace,ani_items=club,wooden,dskin=weapon_club",
+        "-class": "weapon",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "rusty_sceleton_mace",
+        "-title": "%RustyskeletonmaceT",
+        "-desc": "%RustyskeletonmaceD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/rusty_sceleton_mace",
+        "-application": "creature",
+        "-properties": "attack=x1.75,iron,mace,ani_items=rusty_sceleton_mace,wooden,no_shop,dskin=weapon_rusty_sceleton_mace",
+        "-class": "weapon"
+      },
+      {
+        "-name": "rusty_sceleton_heavy_mace",
+        "-title": "%RustyskeletonheavymaceT",
+        "-desc": "%RustyskeletonheavymaceD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/rusty_sceleton_heavy_mace",
+        "-application": "creature",
+        "-properties": "attack=x1.75,iron,mace,ani_items=rusty_sceleton_heavy_mace,wooden,no_shop,dskin=weapon_rusty_sceleton_heavy_mace",
+        "-class": "weapon"
+      },
+      {
+        "-name": "club_iron",
+        "-title": "%SteelbatonT",
+        "-desc": "%SteelbatonD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/club/club_3",
+        "-application": "creature",
+        "-properties": "attack=x2,iron,mace,ani_items=iron_club,wooden,dskin=weapon_iron_club",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "beatle_poisonous_club",
+        "-title": "%BeatlePoisonousClubT",
+        "-desc": "%BeatlePoisonousClubD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/beatle_poisonous_club",
+        "-application": "creature",
+        "-properties": "attack=x3,iron,mace,ani_items=beatle_poisonous_club,wooden,poison=1,no_shop,dskin=weapon_beatle_poisonous_club",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "50"
+      },
+      {
+        "-name": "club_mithril",
+        "-title": "%MithrilHammerT",
+        "-desc": "%MithrilArmorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/club/mithril_hammer",
+        "-application": "creature",
+        "-properties": "attack=x4.5,iron,mace,ani_items=mithril_hammer,mithril,dskin=weapon_mithril_hammer",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "40"
+      },
+      {
+        "-name": "funny_sceleton_club",
+        "-title": "%FunnySceletonClubT",
+        "-desc": "%FunnySceletonClubD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/funny_sceleton_club",
+        "-application": "creature",
+        "-properties": "attack=x4.8,iron,mace,dskin=weapon_funny_sceleton_club,halloween,no_shop,extra_attack=x1.2,creature=zombie|skeleton",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "40"
+      },
+      {
+        "-name": "bow_wooden",
+        "-title": "%WoodenbowT",
+        "-desc": "%WoodenbowD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/bow/bow_wooden",
+        "-application": "creature",
+        "-properties": "attack=x2,distance=3,accuracy=0.7,missile,ani_items=wooden_bow,add_res=bow_arrow,wooden,dskin=bow_wooden_bow",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "4"
+      },
+      {
+        "-name": "frostling_bow",
+        "-title": "%FrostlingbowT",
+        "-desc": "%FrostlingbowD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/frostling_bow",
+        "-application": "creature",
+        "-properties": "attack=x2.5,distance=3,accuracy=0.5,missile,ani_items=frostling_bow,add_res=bow_arrow,wooden,no_shop,dskin=bow_frostling_bow",
+        "-class": "weapon"
+      },
+      {
+        "-name": "bow_long",
+        "-title": "%LongbowT",
+        "-desc": "%LongbowD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/bow/bow_iron",
+        "-application": "creature",
+        "-properties": "attack=x3,distance=4,accuracy=0.6,missile,ani_items=iron_bow,add_res=bow_arrow,wooden,dskin=bow_iron_bow",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "elven_bow",
+        "-title": "%ElvenbowT",
+        "-desc": "%ElvenbowD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/bow/elven_bow",
+        "-application": "creature",
+        "-properties": "attack=x3.5,distance=4,accuracy=0.7,missile,ani_items=elven_bow,add_res=bow_arrow,wooden,no_shop,dskin=bow_elven_bow",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "bow_heavy",
+        "-title": "%HeavybowT",
+        "-desc": "%HeavybowD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/bow/mechanical_bow",
+        "-application": "creature",
+        "-properties": "attack=x4.3,distance=5,accuracy=0.5,missile,ani_items=mechanical_bow,add_res=bow_arrow,wooden,heavy=3,dskin=bow_mechanical_bow",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "30"
+      },
+      {
+        "-name": "wooden_staff",
+        "-title": "%WoodenstaffT",
+        "-desc": "%WoodenstaffD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/wooden_staff",
+        "-application": "creature",
+        "-properties": "magic_staff,attack=x1,distance=4,missile,apply_tool2,mace,time=6,ani_items=wooden_staff,wooden,add_res=spark_elexir,dskin=weapon_wooden_staff",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "4"
+      },
+      {
+        "-name": "mstaff",
+        "-title": "%WizardsstaffT",
+        "-desc": "%WizardsstaffD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/staff",
+        "-application": "creature",
+        "-properties": "magic_staff=2,attack=x2,distance=5,missile,apply_tool2,mace,time=5,ani_items=stuff,wooden,add_res=spark_elexir,dskin=weapon_staff",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "30"
+      },
+      {
+        "-name": "mstaff_mithril",
+        "-title": "%WizardsstaffMistT",
+        "-desc": "%WizardsstaffMistD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/mithril_staff",
+        "-application": "creature",
+        "-properties": "magic_staff=3,attack=x3,distance=6,missile,apply_tool2,mace,time=3,ani_items=mithril_staff,wooden,add_res=spark_elexir,dskin=weapon_mithril_staff",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "55"
+      },
+      {
+        "-name": "shaman_staff",
+        "-title": "%ShamanStaffT",
+        "-desc": "%ShamanStaffD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/shaman_staff",
+        "-application": "creature",
+        "-properties": "magic_staff=4,attack=x2.5,distance=6,missile,apply_tool2,mace,time=3,ani_items=shaman_staff,wooden,add_res=spark_elexir,no_shop,skill=mage,value=30%,dskin=weapon_shaman_staff",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "40"
+      },
+      {
+        "-name": "frostling_spear",
+        "-title": "%FrostlingspearT",
+        "-desc": "%FrostlingspearD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/frostling_spear",
+        "-application": "creature",
+        "-properties": "attack=x2,iron,spear,ani_items=frostling_spear,wooden,no_shop,dskin=weapon_frostling_spear",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "goblin_spear",
+        "-title": "%GobllinspearT",
+        "-desc": "%GobllinspearD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/goblin_spear",
+        "-application": "creature",
+        "-properties": "attack=x2,iron,spear,ani_items=goblin_spear,wooden,no_shop,dskin=weapon_goblin_spear",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "cave_goblin_spear",
+        "-title": "%CaveGobllinspearT",
+        "-desc": "%CaveGobllinspearD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/cave_goblin_spear",
+        "-application": "creature",
+        "-properties": "attack=x2.3,iron,spear,ani_items=cave_goblin_spear,wooden,no_shop,dskin=weapon_cave_goblin_spear",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "elven_spear",
+        "-title": "%ElvenspearT",
+        "-desc": "%ElvenspearD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/elven_spear",
+        "-application": "creature",
+        "-properties": "attack=x3,iron,spear,ani_items=elven_spear,no_shop,dskin=weapon_elven_spear",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "zombie_spear",
+        "-title": "%ZombiespearT",
+        "-desc": "%ZombiespearD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/zombie_spear",
+        "-application": "creature",
+        "-properties": "attack=x3,iron,spear,ani_items=zombie_spear,no_shop,dskin=weapon_zombie_spear",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "15"
+      },
+      {
+        "-name": "zombie_spear_02",
+        "-title": "%ZombiespearT",
+        "-desc": "%ZombiespearD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/zombie_spear_02",
+        "-application": "creature",
+        "-properties": "attack=x3,iron,spear,ani_items=zombie_spear_02,no_shop,dskin=weapon_zombie_spear_02",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "15"
+      },
+      {
+        "-name": "knight_sword",
+        "-title": "%KnightSwordT",
+        "-desc": "%KnightSwordD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/knight_sword",
+        "-application": "creature",
+        "-properties": "attack=x3,iron,sword,ani_items=knight_sword,no_shop,get_healt=20%,dskin=weapon_knight_sword",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "sword_dao",
+        "-title": "%SwordDaoT",
+        "-desc": "%SwordDaoD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/sword_dao",
+        "-application": "creature",
+        "-properties": "speed=x2,attack=x4,iron,sword,metallic,dskin=weapon_dragon_sword,no_shop",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "pistol",
+        "-title": "%PistolT",
+        "-desc": "%PistolD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/guns/pistole",
+        "-application": "creature",
+        "-properties": "pistol,attack=x2,accuracy=0.85,distance=3,spine=pistol,missile,metallic,add_res=ammo",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "25",
+        "params": {
+          "param": [
+            {
+              "-name": "slot",
+              "-value": "gun_pistole"
+            },
+            {
+              "-name": "idle",
+              "-value": "main"
+            },
+            {
+              "-name": "action",
+              "-value": "shot"
+            }
+          ]
+        }
+      },
+      {
+        "-name": "rifle",
+        "-title": "%RifleT",
+        "-desc": "%RifleD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/guns/rifle",
+        "-application": "creature",
+        "-properties": "rifle,attack=x3,accuracy=0.7,distance=4,spine=rifle,missile,metallic,add_res=ammo",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "30",
+        "params": {
+          "param": [
+            {
+              "-name": "slot",
+              "-value": "gun_rifle"
+            },
+            {
+              "-name": "idle",
+              "-value": "main"
+            },
+            {
+              "-name": "action",
+              "-value": "shot"
+            }
+          ]
+        }
+      },
+      {
+        "-name": "heavy_rifle",
+        "-title": "%HeavyrifleT",
+        "-desc": "%HeavyrifleD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/guns/heavy_rifle",
+        "-application": "creature",
+        "-properties": "rifle,heavy=1,attack=x5,accuracy=0.6,spine=heavy_rifle,distance=5,missile,metallic,add_res=ammo",
+        "-class": "weapon",
+        "-shop_count": "1",
+        "-shop_cost": "35",
+        "params": {
+          "param": [
+            {
+              "-name": "slot",
+              "-value": "gun_rifle"
+            },
+            {
+              "-name": "idle",
+              "-value": "main"
+            },
+            {
+              "-name": "action",
+              "-value": "shot"
+            }
+          ]
+        }
+      },
+      {
+        "-name": "ammo",
+        "-title": "%AmmoT",
+        "-desc": "%AmmoD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/rusty_bullets",
+        "-application": "creature",
+        "-class": "weapon",
+        "-properties": "attack=0,infinity_count,bullet,no_as_bonus,disable_drag,no_shop,hit_sound=bullet_hit",
+        "file": {
+          "-path": "images/CraftTheWorld/gfx/level_tiles/craft_tools/bullet_rusty"
+        }
+      },
+      {
+        "-name": "ammo_steel",
+        "-title": "%AmmoSteelT",
+        "-desc": "%AmmoSteelD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/steel_bullets",
+        "-application": "creature",
+        "-class": "weapon",
+        "-properties": "attack=x3,bullet,no_as_bonus,disable_drag,hit_sound=bullet_hit",
+        "-shop_count": "20",
+        "-shop_cost": "1",
+        "file": {
+          "-path": "images/CraftTheWorld/gfx/level_tiles/craft_tools/bullet"
+        }
+      },
+      {
+        "-name": "ammo_fire",
+        "-title": "%AmmoFireT",
+        "-desc": "%AmmoFireD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/fire_bullets",
+        "-application": "creature",
+        "-class": "weapon",
+        "-properties": "attack=x5,bullet,no_as_bonus,disable_drag,hit_sound=bullet_hit",
+        "-shop_count": "10",
+        "-shop_cost": "1",
+        "file": {
+          "-path": "images/CraftTheWorld/gfx/level_tiles/craft_tools/bullet_fire"
+        }
+      },
+      {
+        "-name": "bow_arrow",
+        "-title": "%SimplearrowT",
+        "-desc": "%SimplearrowD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/arrow_quiver",
+        "-application": "creature",
+        "-class": "weapon",
+        "-properties": "attack=0,infinity_count,arrow,no_as_bonus,disable_drag,no_shop,hit_sound=arrow_hit,creative",
+        "file": {
+          "-path": "images/CraftTheWorld/gfx/level_tiles/craft_tools/arrow"
+        }
+      },
+      {
+        "-name": "bow_arrow_fire",
+        "-title": "%FirearrowT",
+        "-desc": "%FirearrowD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/arrow_quiver_fire",
+        "-application": "creature",
+        "-class": "weapon",
+        "-properties": "attack=x2,arrow,no_as_bonus,disable_drag,hit_sound=arrow_hit",
+        "-shop_count": "20",
+        "-shop_cost": "1",
+        "file": {
+          "-path": "images/CraftTheWorld/gfx/level_tiles/craft_tools/arrow_fire"
+        }
+      },
+      {
+        "-name": "bow_arrow_poison",
+        "-title": "%PoisonArrowT",
+        "-desc": "%PoisonArrowD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/beatle_poisonous_arrows",
+        "-application": "creature",
+        "-class": "weapon",
+        "-properties": "attack=x3,arrow,no_as_bonus,disable_drag,hit_sound=arrow_hit,no_shop,poison=2",
+        "file": {
+          "-path": "images/CraftTheWorld/gfx/level_tiles/craft_tools/beatle_poisonous_arrow"
+        }
+      },
+      {
+        "-name": "bow_arrow_silver",
+        "-title": "%SilverarrowT",
+        "-desc": "%SilverarrowD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/arrow_quiver_silver",
+        "-application": "creature",
+        "-class": "weapon",
+        "-properties": "attack=x4,arrow,no_as_bonus,disable_drag,hit_sound=arrow_hit",
+        "-shop_count": "10",
+        "-shop_cost": "1",
+        "file": {
+          "-path": "images/CraftTheWorld/gfx/level_tiles/craft_tools/arrow_silver"
+        }
+      },
+      {
+        "-name": "tower_arrow",
+        "-file": "images/CraftTheWorld/gfx/Spine/buildings/wooden_tower/arrow",
+        "-properties": "infinity_count,arrow,no_as_bonus,no_inv,no_shop,hit_sound=arrow_hit"
+      },
+      {
+        "-name": "bucket",
+        "-title": "%BucketT",
+        "-desc": "%BucketD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/woodbucket",
+        "-application": "creature",
+        "-properties": "dig=water,ani_items=bucket",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "fishing_tackle",
+        "-title": "%FishingrodT",
+        "-desc": "%FishingrodD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/rod1",
+        "-application": "creature",
+        "-properties": "fish_tackle,ani_items=fishing_pole",
+        "-shop_count": "1",
+        "-shop_cost": "5",
+        "file": {
+          "-path": "images/CraftTheWorld/gfx/level_tiles/craft_tools/rod2"
+        }
+      },
+      {
+        "-name": "scissors",
+        "-title": "%ScissorsT",
+        "-desc": "%ScissorsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/scissors",
+        "-application": "creature",
+        "-properties": "scissors,no_char_inv",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "warrior_training_simple",
+        "-title": "%WarriorTrainingSimpleT",
+        "-desc": "%WarriorTrainingSimpleD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/warrior_training",
+        "-application": "block",
+        "-build": "warrior_training_simple",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "warrior_training",
+        "-title": "%WarriorTrainingT",
+        "-desc": "%WarriorTrainingD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/warrior_training_2",
+        "-application": "block",
+        "-build": "warrior_training",
+        "-shop_count": "1",
+        "-shop_cost": "50"
+      },
+      {
+        "-name": "archer_training_simple",
+        "-title": "%ArcherTrainingSimpleT",
+        "-desc": "%ArcherTrainingSimpleD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/archer_training",
+        "-application": "block",
+        "-build": "archer_training_simple",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "archer_training",
+        "-title": "%ArcherTrainingT",
+        "-desc": "%ArcherTrainingD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/archer_training_2",
+        "-application": "block",
+        "-build": "archer_training",
+        "-shop_count": "1",
+        "-shop_cost": "50"
+      },
+      {
+        "-name": "magician_training_simple",
+        "-title": "%MagicanTrainingSimpleT",
+        "-desc": "%MagicanTrainingSimpleD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/magician_training",
+        "-application": "block",
+        "-build": "magician_training_simple",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "magician_training",
+        "-title": "%MagicanTrainingT",
+        "-desc": "%MagicanTrainingD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/magician_training_2",
+        "-application": "block",
+        "-build": "magician_training",
+        "-shop_count": "1",
+        "-shop_cost": "50"
+      },
+      {
+        "-name": "mana_pylon",
+        "-title": "%ManaPylonT",
+        "-desc": "%ManaPylonD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/pylon",
+        "-application": "block",
+        "-build": "mana_pylon",
+        "-properties": "exclusive",
+        "-shop_count": "1",
+        "-shop_cost": "30"
+      },
+      {
+        "-name": "mana_generator",
+        "-title": "%ManaGeneratorT",
+        "-desc": "%ManaGeneratorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/Mana_generator",
+        "-application": "block",
+        "-build": "mana_generator",
+        "-properties": "exclusive",
+        "-shop_count": "1",
+        "-shop_cost": "100"
+      },
+      {
+        "-name": "mana_expander",
+        "-title": "%ManaExpanderT",
+        "-desc": "%ManaExpanderD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/Mana_expander",
+        "-application": "block",
+        "-build": "mana_expander",
+        "-properties": "exclusive",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "static_portal",
+        "-title": "%StaticPortalT",
+        "-desc": "%StaticPortalD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/portal",
+        "-application": "block",
+        "-build": "static_portal",
+        "-properties": "exclusive",
+        "-shop_count": "1",
+        "-shop_cost": "100"
+      },
+      {
+        "-name": "truemp_warehouse",
+        "-title": "%WarehouseT",
+        "-desc": "%WarehouseD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/players_chest",
+        "-application": "block",
+        "-build": "truemp_warehouse",
+        "-properties": "no_shop,truemp_warehouse"
+      },
+      {
+        "-name": "wooden_block",
+        "-title": "%WoodenwallT",
+        "-desc": "%WoodenwallD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/block/wood_wall/wood_block",
+        "-build": "wooden",
+        "-application": "block",
+        "-properties": "wall,comfort=0.1",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "wall_stucco",
+        "-title": "%VenetianstuccoT",
+        "-desc": "%VenetianstuccoD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/block/wall_stucco",
+        "-build": "wall_stucco",
+        "-application": "block",
+        "-properties": "wall,comfort=0.15",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "wall_wood_set",
+        "-title": "%WoodWallSetT",
+        "-desc": "%EliteWallSetD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/tile_set/wood_set_5",
+        "-build": "wall_wood_set",
+        "-application": "block",
+        "-properties": "wall,comfort=0.2",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "wall_stone_set",
+        "-title": "%StoneWallSetT",
+        "-desc": "%EliteWallSetD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/tile_set/stone_set_3",
+        "-build": "wall_stone_set",
+        "-application": "block",
+        "-properties": "wall,comfort=0.15",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "wall_elite_set",
+        "-title": "%EliteWallSetT",
+        "-desc": "%EliteWallSetD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/tile_set/elite_set_4",
+        "-build": "wall_elite_set",
+        "-application": "block",
+        "-properties": "wall,comfort=0.3",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "ice_wall",
+        "-title": "%IcewallT",
+        "-desc": "%IcewallD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/tile/ice_ground/ice1",
+        "-build": "ice_wall",
+        "-application": "block",
+        "-properties": "wall",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "stone_wall",
+        "-title": "%StonewallT",
+        "-desc": "%StonewallD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/block/wall_stone",
+        "-build": "stone_wall",
+        "-application": "block",
+        "-properties": "wall,comfort=0.1",
+        "-shop_count": "3",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "brick_wall",
+        "-title": "%BrickwallT",
+        "-desc": "%BrickwallD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/block/brick_wall/brick1",
+        "-build": "brick_wall",
+        "-application": "block",
+        "-properties": "wall,comfort=0.2",
+        "-shop_count": "3",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "steel_wall",
+        "-title": "%SteelwallT",
+        "-desc": "%SteelwallD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/block/steel_wall/steel_block",
+        "-build": "steel_wall",
+        "-application": "block",
+        "-properties": "wall,comfort=0.1",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "ladder",
+        "-title": "%LadderT",
+        "-desc": "%LadderD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/ladder",
+        "-build": "ladder",
+        "-application": "block",
+        "-shop_count": "5",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "steel_ladder",
+        "-title": "%SteelLadderT",
+        "-desc": "%SteelLadderD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/steel_ladder",
+        "-build": "steel_ladder",
+        "-application": "block",
+        "-shop_count": "1",
+        "-shop_cost": "4",
+        "-properties": "comfort=0.5"
+      },
+      {
+        "-name": "fence_iron",
+        "-title": "%IronfenceT",
+        "-desc": "%IronfenceD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/iron_fence_prev",
+        "-build": "fence_iron",
+        "-application": "block",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "fence_wooden",
+        "-title": "%FenceT",
+        "-desc": "%FenceD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/fence_wooden_prev",
+        "-build": "fence_wooden",
+        "-application": "block",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "fence_brick",
+        "-title": "%BrickfenceT",
+        "-desc": "%BrickfenceD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/brick_fence_prev",
+        "-build": "fence_brick",
+        "-application": "block",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "door_wooden",
+        "-title": "%WoodendoorT",
+        "-desc": "%WoodendoorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/doors/door_wooden_opened",
+        "-build": "door_wooden",
+        "-application": "block",
+        "-property": "door,wall",
+        "-shop_count": "1",
+        "-shop_cost": "4"
+      },
+      {
+        "-name": "door_room",
+        "-title": "%RoomdoorT",
+        "-desc": "%RoomdoorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/doors/door_room_opened",
+        "-build": "door_room",
+        "-application": "block",
+        "-property": "door,wall,comfort=0.5",
+        "-shop_count": "1",
+        "-shop_cost": "4"
+      },
+      {
+        "-name": "door_iron",
+        "-title": "%IrondoorT",
+        "-desc": "%IrondoorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/doors/door_iron_opened",
+        "-build": "door_iron",
+        "-application": "block",
+        "-property": "door,wall",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "door_steel",
+        "-title": "%SteeldoorT",
+        "-desc": "%SteeldoorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/doors/door_steel_opened",
+        "-build": "door_steel",
+        "-application": "block",
+        "-property": "door,wall",
+        "-shop_count": "1",
+        "-shop_cost": "22"
+      },
+      {
+        "-name": "hatch_wooden",
+        "-title": "%WoodenhatchT",
+        "-desc": "%WoodenhatchD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/doors/trapdoor_wood_o",
+        "-build": "hatch_wooden",
+        "-application": "block",
+        "-property": "door,wall",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "hatch_iron",
+        "-title": "%IronhatchT",
+        "-desc": "%IronhatchD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/doors/trapdoor_steel_o",
+        "-build": "hatch_iron",
+        "-application": "block",
+        "-property": "door,wall",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "collumn",
+        "-title": "%StonecolumnT",
+        "-desc": "%StonecolumnD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/tile/collumn_top_01",
+        "-build": "collumn",
+        "-application": "block",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "collumn_gothic",
+        "-title": "%AntiquecolumnT",
+        "-desc": "%AntiquecolumnD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/tile/clmn_top",
+        "-build": "collumn_gothic",
+        "-application": "block",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "collumn_stone",
+        "-title": "%StonecollumnT",
+        "-desc": "%DecorativeShieldD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/tile/back_stone_column1",
+        "-build": "collumn_stone",
+        "-application": "block",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "tower_spike",
+        "-title": "%SpireT",
+        "-desc": "%SpireD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/wall_stone_tower",
+        "-build": "tower_spike",
+        "-application": "block",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "loophole_stone",
+        "-title": "%StoneloopholeT",
+        "-desc": "%StoneloopholeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/wall_stone_up",
+        "-build": "loophole_stone",
+        "-application": "block",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "bush_flower",
+        "-title": "%FlowerbedT",
+        "-desc": "%FlowerbedD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/bush_flower",
+        "-build": "bush_flower",
+        "-application": "block",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "fountain",
+        "-title": "%FountainT",
+        "-desc": "%FountainD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/fountain",
+        "-build": "fountain",
+        "-application": "block",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "trap_wood",
+        "-title": "%WoodentrapT",
+        "-desc": "%WoodentrapD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/trap_wood",
+        "-build": "trap_wood",
+        "-application": "block",
+        "-shop_count": "5",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "trap_iron",
+        "-title": "%SteeltrapT",
+        "-desc": "%SteeltrapD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/trap_iron",
+        "-build": "trap_iron",
+        "-application": "block",
+        "-shop_count": "2",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "cell_wood",
+        "-title": "%ZombiecagewoodenT",
+        "-desc": "%ZombiecagewoodenD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/cell_tree",
+        "-build": "cell_wood",
+        "-application": "block",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "cell_iron",
+        "-title": "%ZombiecageironT",
+        "-desc": "%ZombiecageironD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/cell_iron",
+        "-build": "cell_iron",
+        "-application": "block",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "wooden_spikes",
+        "-title": "%WoodenspikesT",
+        "-desc": "%WoodenspikesD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/hedgehog_wood",
+        "-build": "wooden_spikes",
+        "-application": "block",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "ice_spikes",
+        "-title": "%IcespikesT",
+        "-desc": "%IcespikesD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/hedgehog_ice",
+        "-build": "ice_spikes",
+        "-application": "block",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "timbered_bridge",
+        "-title": "%LogbridgeT",
+        "-desc": "%LogbridgeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/bridge_log",
+        "-build": "timbered_bridge",
+        "-application": "block",
+        "-shop_count": "4",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "wooden_bridge",
+        "-title": "%WoodenbridgeT",
+        "-desc": "%WoodenbridgeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/bridge_wood_big",
+        "-build": "wooden_bridge",
+        "-application": "block",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "stone_bridge",
+        "-title": "%StonebridgeT",
+        "-desc": "%StonebridgeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/bridge_stone",
+        "-application": "block",
+        "-build": "stone_bridge",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "flag",
+        "-title": "%FlagT",
+        "-desc": "%FlagD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/flag",
+        "-application": "block",
+        "-build": "flag",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "warehouse",
+        "-title": "%WarehouseT",
+        "-desc": "%WarehouseD",
+        "-file": "images/CraftTheWorld/gfx/extra/dwarf_base_02",
+        "-application": "block",
+        "-build": "warehouse",
+        "-shop_count": "1",
+        "-shop_cost": "50"
+      },
+      {
+        "-name": "totem",
+        "-title": "%TotemT",
+        "-desc": "%TotemD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/totem/totem",
+        "-build": "totem",
+        "-application": "block",
+        "-properties": "totem",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "soul_keep",
+        "-title": "%SoulKeepT",
+        "-desc": "%SoulKeepD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/soul_keep",
+        "-build": "soul_keep",
+        "-application": "block",
+        "-shop_count": "1",
+        "-shop_cost": "100"
+      },
+      {
+        "-name": "warehouse_biome_upgrade",
+        "-title": "%WarehouseUpgradeT",
+        "-desc": "%WarehouseUpgradeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/biom_portal",
+        "-application": "block",
+        "-properties": "no_shop",
+        "-shop_count": "1",
+        "-shop_cost": "100"
+      },
+      {
+        "-name": "bas_relief",
+        "-title": "%Relief1T",
+        "-desc": "%Relief1D",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/tile/brl1",
+        "-build": "bas_relief",
+        "-application": "block",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "bas_relief1",
+        "-title": "%Relief2T",
+        "-desc": "%Relief2D",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/tile/Level_Desert/brlf1",
+        "-build": "bas_relief1",
+        "-application": "block",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "roof_tile",
+        "-title": "%ShingledroofT",
+        "-desc": "%ShingledroofD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/tile_roof_center",
+        "-build": "roof_tile",
+        "-application": "block",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "roof_leaves",
+        "-title": "%RoofofleavesT",
+        "-desc": "%RoofofleavesD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/roof_of_leavs_center",
+        "-build": "roof_leaves",
+        "-application": "block",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "smithy",
+        "-title": "%AnvilwithahammerT",
+        "-desc": "%AnvilwithahammerD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/workshops/smithy_prev",
+        "-application": "block",
+        "-build": "smithy",
+        "-properties": "smithy",
+        "-shop_count": "1",
+        "-shop_cost": "15"
+      },
+      {
+        "-name": "workshop",
+        "-title": "%WorkshopT",
+        "-desc": "%WorkshopD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/workshops/workshop",
+        "-application": "block",
+        "-build": "workshop",
+        "-properties": "workshop",
+        "-shop_count": "1",
+        "-shop_cost": "25"
+      },
+      {
+        "-name": "workbench",
+        "-title": "%WorkbenchT",
+        "-desc": "%WorkbenchD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/workshops/joiner_workbench_prev",
+        "-application": "block",
+        "-build": "workbench",
+        "-properties": "workbench",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "magic_cauldron",
+        "-title": "%MagiccauldronT",
+        "-desc": "%MagiccauldronD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/workshops/boiler",
+        "-application": "block",
+        "-build": "magic_cauldron",
+        "-properties": "lab",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "millstone",
+        "-title": "%MillT",
+        "-desc": "%MillD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/workshops/mill_prev",
+        "-application": "block",
+        "-build": "millstone",
+        "-properties": "millstone",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "ftp_craft",
+        "-title": "%FTPCraftT",
+        "-desc": "%FTPCraftD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/workshops/craft_table",
+        "-application": "block",
+        "-build": "ftp_craft",
+        "-properties": "ftp_craft",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "ftp_craft2",
+        "-title": "%FTPCraft2T",
+        "-desc": "%FTPCraftD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/workshops/craft_table_big",
+        "-application": "block",
+        "-build": "ftp_craft2",
+        "-properties": "ftp_craft",
+        "-shop_count": "1",
+        "-shop_cost": "30"
+      },
+      {
+        "-name": "elevator",
+        "-title": "%ElevatorT",
+        "-desc": "%ElevatorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/elevator/elevator",
+        "-application": "block",
+        "-build": "elevator",
+        "-shop_count": "1",
+        "-shop_cost": "25"
+      },
+      {
+        "-name": "rail",
+        "-title": "%RailsT",
+        "-desc": "%RailsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/rails",
+        "-application": "block",
+        "-build": "rail",
+        "-shop_count": "3",
+        "-shop_cost": "1",
+        "file": {
+          "-path": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/trolley/deadlock"
+        }
+      },
+      {
+        "-name": "trolley",
+        "-title": "%WagonT",
+        "-desc": "%WagonD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/trolley/trolley",
+        "-application": "block",
+        "-build": "trolley",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "trolley_switch",
+        "-title": "%RailroadswitchT",
+        "-desc": "%RailroadswitchD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/trolley/switch_1",
+        "-application": "block",
+        "-build": "trolley_switch",
+        "-shop_count": "1",
+        "-shop_cost": "4"
+      },
+      {
+        "-name": "wood_tower",
+        "-title": "%WoodtowerT",
+        "-desc": "%WoodtowerD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/tower/wooden_tower",
+        "-application": "block",
+        "-build": "wood_tower",
+        "-shop_count": "1",
+        "-shop_cost": "15"
+      },
+      {
+        "-name": "wood_tower_2",
+        "-title": "%Woodtower2T",
+        "-desc": "%Woodtower2D",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/tower/wooden_tower_2",
+        "-application": "block",
+        "-build": "wood_tower_2",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "catapult_tower",
+        "-title": "%CatapultTowerT",
+        "-desc": "%CatapultTowerD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/tower/catapult_tower",
+        "-application": "block",
+        "-build": "catapult_tower",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "tesla_tower",
+        "-title": "%TeslatowerT",
+        "-desc": "%TeslatowerD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/tower/tower_lv1",
+        "-application": "block",
+        "-build": "tesla_tower",
+        "-shop_count": "1",
+        "-shop_cost": "25"
+      },
+      {
+        "-name": "chest_wooden",
+        "-title": "%WoodenchestT",
+        "-desc": "%WoodenchestD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/chest",
+        "-build": "chest_wooden",
+        "-application": "block",
+        "-shop_count": "1",
+        "-shop_cost": "3",
+        "-properties": "comfort=0.2"
+      },
+      {
+        "-name": "chest_metal",
+        "-title": "%MetalchestT",
+        "-desc": "%MetalchestD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/chest_metal",
+        "-build": "chest_metal",
+        "-application": "block",
+        "-properties": "comfort=0.4",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "gargoyle",
+        "-title": "%GargoylestatueT",
+        "-desc": "%GargoylestatueD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/imp1",
+        "-application": "block",
+        "-build": "gargoyle",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "gargoyle2",
+        "-title": "%GargoylestatueT",
+        "-desc": "%GargoylestatueD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/gargoyle3",
+        "-application": "block",
+        "-build": "gargoyle2",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "spawn_cube_zombie",
+        "-title": "%SpawnCubeZombieT",
+        "-desc": "%SpawnCubeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/spawn_cube_zombie",
+        "-build": "spawn_cube_zombie",
+        "-application": "block",
+        "-properties": "staging,no_shop,creative",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "spawn_cube_skeleton",
+        "-title": "%SpawnCubeSkeletonT",
+        "-desc": "%SpawnCubeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/spawn_cube_skeleton",
+        "-build": "spawn_cube_skeleton",
+        "-application": "block",
+        "-properties": "staging,no_shop,creative",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "spawn_cube_gargoyle",
+        "-title": "%SpawnCubeGargoylyT",
+        "-desc": "%SpawnCubeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/spawn_cube_gargoyle",
+        "-build": "spawn_cube_gargoyle",
+        "-application": "block",
+        "-properties": "staging,no_shop,creative",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "spawn_cube_zombie_armorbreaker",
+        "-title": "%SpawnCubeZombieArmorBreakerT",
+        "-desc": "%SpawnCubeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/spawn_cube_zombie_armor_breaker",
+        "-build": "spawn_cube_zombie_armorbreaker",
+        "-application": "block",
+        "-properties": "staging,no_shop,creative",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "spawn_cube_archer",
+        "-title": "%SpawnCubeArcherT",
+        "-desc": "%SpawnCubeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/spawn_cube_skeleton_archer",
+        "-build": "spawn_cube_archer",
+        "-application": "block",
+        "-properties": "staging,no_shop,creative",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "new_year_tree",
+        "-title": "%NewYearTreeT",
+        "-desc": "%NewYearTreeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/New_year_tree",
+        "-application": "furniture",
+        "-build": "new_year_tree",
+        "-properties": "no_shop,ne_event=0,comfort=0.9",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "rudolf",
+        "-title": "%RudolfT",
+        "-desc": "%RudolfD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/rudolf",
+        "-application": "furniture",
+        "-build": "rudolf",
+        "-properties": "no_shop,comfort=0.9,ne_event=1",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "garland",
+        "-title": "%GarlandT",
+        "-desc": "%GarlandD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/garland",
+        "-application": "furniture",
+        "-build": "garland",
+        "-properties": "no_shop,comfort=0.3,ne_event=2",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "christmas_wreath",
+        "-title": "%ChristmasWreathT",
+        "-desc": "%ChristmasWreathD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/christmas_wreath",
+        "-application": "furniture",
+        "-build": "christmas_wreath",
+        "-properties": "no_shop,comfort=0.3,ne_event=2",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "flashlight",
+        "-title": "%FlashlightT",
+        "-desc": "%FlashlightD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/flashlight_prev",
+        "-application": "furniture",
+        "-build": "flashlight",
+        "-properties": "comfort=1.5,no_shop,cne_event=1",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "fireworks",
+        "-title": "%FireworksT",
+        "-desc": "%FireworksD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/fireworks",
+        "-application": "furniture",
+        "-build": "fireworks",
+        "-properties": "no_shop,cne_event=4",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "window",
+        "-title": "%SquarewindowT",
+        "-desc": "%SquarewindowD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/windows/window5",
+        "-build": "window",
+        "-application": "furniture",
+        "-properties": "comfort=0.5",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "round_window",
+        "-title": "%RoundwindowT",
+        "-desc": "%RoundwindowD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/windows/window4",
+        "-build": "round_window",
+        "-application": "furniture",
+        "-properties": "comfort=0.2",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "stained_window_1",
+        "-title": "%Stained-glasswindowT",
+        "-desc": "%Stained-glasswindowD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/windows/stained_window_1",
+        "-build": "stained_window_1",
+        "-application": "furniture",
+        "-properties": "comfort=0.8",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "window_stained_7",
+        "-title": "%StainedglasswithsplashesT",
+        "-desc": "%StainedglasswithsplashesD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/windows/window_stained_7",
+        "-build": "window_stained_7",
+        "-application": "furniture",
+        "-properties": "comfort=0.7,no_shop"
+      },
+      {
+        "-name": "window3",
+        "-title": "%LancetwindowT",
+        "-desc": "%LancetwindowD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/windows/window3",
+        "-build": "window3",
+        "-application": "furniture",
+        "-properties": "comfort=0.3",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "chair_stone",
+        "-title": "%StonechairT",
+        "-desc": "%StonechairD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/chair_stone",
+        "-build": "chair_stone",
+        "-application": "furniture",
+        "-properties": "comfort=0.1",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "chair",
+        "-title": "%WoodenchairT",
+        "-desc": "%WoodenchairD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/chair01",
+        "-build": "chair",
+        "-application": "furniture",
+        "-properties": "comfort=0.2",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "big_chair",
+        "-title": "%WoodenbigchairT",
+        "-desc": "%WoodenbigchairD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/chair_l",
+        "-build": "big_chair",
+        "-application": "furniture",
+        "-properties": "comfort=0.3",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "chair_tissue",
+        "-title": "%TextilechairT",
+        "-desc": "%TextilechairD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/chair_tissue",
+        "-build": "chair_tissue",
+        "-application": "furniture",
+        "-properties": "comfort=0.4",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "chair_leather",
+        "-title": "%LeatherchairT",
+        "-desc": "%LeatherchairD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/chair_leather",
+        "-build": "chair_leather",
+        "-application": "furniture",
+        "-properties": "comfort=0.7",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "sofa",
+        "-title": "%SofaT",
+        "-desc": "%SofaD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/sofa",
+        "-build": "sofa",
+        "-application": "furniture",
+        "-properties": "comfort=0.7",
+        "-shop_count": "1",
+        "-shop_cost": "7"
+      },
+      {
+        "-name": "carpet",
+        "-title": "%WallcarpetT",
+        "-desc": "%WallcarpetD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/carpet",
+        "-build": "carpet",
+        "-application": "furniture",
+        "-properties": "comfort=0.5",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "locker3",
+        "-title": "%CasewithclothesT",
+        "-desc": "%CasewithclothesD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/locker3",
+        "-build": "locker3",
+        "-application": "furniture",
+        "-properties": "comfort=0.5",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "locker",
+        "-title": "%CabinetwithshelvesT",
+        "-desc": "%CabinetwithshelvesD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/locker",
+        "-build": "locker",
+        "-application": "furniture",
+        "-properties": "comfort=0.4",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "case_glass",
+        "-title": "%CabinetwithglassdoorsT",
+        "-desc": "%CabinetwithglassdoorsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/locker2",
+        "-build": "case_glass",
+        "-application": "furniture",
+        "-properties": "comfort=0.6",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "bookshelf",
+        "-title": "%BookshelfT",
+        "-desc": "%BookshelfD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/bookshelf1",
+        "-build": "bookshelf",
+        "-application": "furniture",
+        "-properties": "comfort=0.2",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "mirror_ring",
+        "-title": "%RoundmirrorT",
+        "-desc": "%RoundmirrorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/mirror_ring",
+        "-build": "mirror_ring",
+        "-application": "furniture",
+        "-properties": "comfort=0.1",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "mirror",
+        "-title": "%DecorativemirrorT",
+        "-desc": "%DecorativemirrorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/mirror",
+        "-build": "mirror",
+        "-application": "furniture",
+        "-properties": "comfort=0.5",
+        "-shop_count": "1",
+        "-shop_cost": "7"
+      },
+      {
+        "-name": "picture3",
+        "-title": "%PaintingwithsightsT",
+        "-desc": "%PaintingwithsightsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/picture_01",
+        "-build": "picture3",
+        "-application": "furniture",
+        "-properties": "comfort=0.3",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "picture_02",
+        "-title": "%AbstractpaintingT",
+        "-desc": "%AbstractpaintingD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/dwarf_pic1",
+        "-build": "picture_02",
+        "-application": "furniture",
+        "-properties": "comfort=0.3",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "halloween_picture",
+        "-title": "%HalloweenPictureT",
+        "-desc": "%HalloweenPictureD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/halloween_pic1",
+        "-build": "halloween_picture",
+        "-application": "furniture",
+        "-properties": "comfort=0.8,no_shop,halloween",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "flag1",
+        "-title": "%RedpennantT",
+        "-desc": "%RedpennantD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/flag_2",
+        "-build": "flag1",
+        "-application": "furniture",
+        "-properties": "comfort=1.2",
+        "-shop_count": "1",
+        "-shop_cost": "7"
+      },
+      {
+        "-name": "elven_flag",
+        "-title": "%ElvenFlagT",
+        "-desc": "%ElvenFlagD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/elven_flag",
+        "-build": "elven_flag",
+        "-application": "furniture",
+        "-properties": "comfort=1.9,no_shop"
+      },
+      {
+        "-name": "elven_shield",
+        "-title": "%ElvenShieldT",
+        "-desc": "%ElvenShieldD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/elven_shield",
+        "-build": "elven_shield",
+        "-application": "furniture",
+        "-properties": "comfort=1.0,no_shop"
+      },
+      {
+        "-name": "bed_leaves",
+        "-title": "%BedofleavesT",
+        "-desc": "%BedofleavesD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/beds/bed_leaves",
+        "-build": "bed_leaves",
+        "-application": "furniture",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "bed",
+        "-title": "%BedT",
+        "-desc": "%BedD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/beds/bed_01",
+        "-build": "bed",
+        "-application": "furniture",
+        "-properties": "comfort=0.2",
+        "-shop_count": "1",
+        "-shop_cost": "4"
+      },
+      {
+        "-name": "bed_02",
+        "-title": "%Bed2T",
+        "-desc": "%Bed2D",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/beds/bed_02",
+        "-build": "bed_02",
+        "-application": "furniture",
+        "-properties": "comfort=0.5",
+        "-shop_count": "1",
+        "-shop_cost": "6"
+      },
+      {
+        "-name": "bed_chic",
+        "-title": "%LuxurybedT",
+        "-desc": "%LuxurybedD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/beds/bed_chic",
+        "-build": "bed_chic",
+        "-application": "furniture",
+        "-properties": "comfort=1.2",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "bed_multistorey",
+        "-title": "%BedMultistoreyT",
+        "-desc": "%BedMultistoreyD",
+        "-file": "images/CraftTheWorld/gfx/Spine/buildings/beds/bed_multistorey",
+        "-build": "bed_multistorey",
+        "-application": "furniture",
+        "-properties": "comfort=0.4",
+        "-shop_count": "1",
+        "-shop_cost": "6"
+      },
+      {
+        "-name": "table_wooden",
+        "-title": "%WoodentableT",
+        "-desc": "%WoodentableD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/table_simple_01",
+        "-build": "table_wooden",
+        "-application": "furniture",
+        "-properties": "comfort=0.1,table=2",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "table_ice",
+        "-title": "%IcetableT",
+        "-desc": "%IcetableD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/table_ice",
+        "-build": "table_ice",
+        "-application": "furniture",
+        "-properties": "comfort=0.2,table=2",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "table_expensive",
+        "-title": "%LargetableT",
+        "-desc": "%LargetableD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/table_expensive_02",
+        "-build": "table_expensive",
+        "-application": "furniture",
+        "-properties": "comfort=0.4,table=3",
+        "-shop_count": "1",
+        "-shop_cost": "4"
+      },
+      {
+        "-name": "table_normal_01",
+        "-title": "%TablewithatableclothT",
+        "-desc": "%TablewithatableclothD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/table_normal_01",
+        "-build": "table_normal_01",
+        "-application": "furniture",
+        "-properties": "comfort=0.5,table=3",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "clay_vase",
+        "-title": "%CrockT",
+        "-desc": "%CrockD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/vase0",
+        "-build": "clay_vase",
+        "-application": "furniture",
+        "-properties": "comfort=0.1",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "glass_vase",
+        "-title": "%GlassvaseT",
+        "-desc": "%GlassvaseD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/glass_vase1",
+        "-build": "glass_vase",
+        "-application": "furniture",
+        "-properties": "comfort=0.2",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "decorative_skin",
+        "-title": "%WallskinrugT",
+        "-desc": "%WallskinrugD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/partofbear",
+        "-build": "decorative_skin",
+        "-application": "furniture",
+        "-properties": "comfort=0.5",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "decorative_shield",
+        "-title": "%DecorativeShieldT",
+        "-desc": "%DecorativeShieldD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/shield2",
+        "-build": "decorative_shield",
+        "-application": "furniture",
+        "-properties": "comfort=0.3",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "bones_shield",
+        "-title": "%ShieldwithskullT",
+        "-desc": "%Plantinapot2D",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/bones_shield",
+        "-build": "bones_shield",
+        "-application": "furniture",
+        "-properties": "comfort=0.2",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "barrel",
+        "-title": "%BarrelT",
+        "-desc": "%BarrelD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/butt",
+        "-build": "barrel",
+        "-application": "furniture",
+        "-properties": "comfort=0.5",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "wine_barrel_dlc",
+        "-title": "%WinebarrelT",
+        "-desc": "%WinebarrelD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/wine_barrel_stage1",
+        "-build": "wine_barrel_dlc",
+        "-application": "furniture",
+        "-properties": "comfort=0.6",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "plant_pot",
+        "-title": "%Plantinapot2T",
+        "-desc": "%Plantinapot2D",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/plant_palm",
+        "-application": "furniture",
+        "-build": "plant_pot",
+        "-properties": "comfort=0.5",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "plant",
+        "-title": "%PlantinapotT",
+        "-desc": "%Plantinapot2D",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/plant",
+        "-application": "furniture",
+        "-build": "plant",
+        "-properties": "comfort=0.2",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "aquarium",
+        "-title": "%AquariumT",
+        "-desc": "%AquariumD",
+        "-file": "images/CraftTheWorld/gfx/Spine/buildings/aqua/red_fish/aqua",
+        "-application": "furniture",
+        "-build": "aquarium",
+        "-properties": "comfort=0.7",
+        "-shop_count": "1",
+        "-shop_cost": "7"
+      },
+      {
+        "-name": "clock1",
+        "-title": "%Cuckoo-clockT",
+        "-desc": "%Cuckoo-clockD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/clock1",
+        "-application": "furniture",
+        "-build": "clock1",
+        "-properties": "comfort=1",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "clock2",
+        "-title": "%PendulumclockT",
+        "-desc": "%PendulumclockD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/clock2",
+        "-application": "furniture",
+        "-build": "clock2",
+        "-properties": "comfort=1",
+        "-shop_count": "1",
+        "-shop_cost": "7"
+      },
+      {
+        "-name": "bird",
+        "-title": "%BirdcageT",
+        "-desc": "%BirdcageD",
+        "-file": "images/CraftTheWorld/gfx/Spine/characters/bird/bird_cage_prev",
+        "-application": "furniture",
+        "-build": "bird",
+        "-properties": "comfort=0.7",
+        "-shop_count": "1",
+        "-shop_cost": "8"
+      },
+      {
+        "-name": "statue3",
+        "-title": "%StatueT",
+        "-desc": "%StatueD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/rory_stoneskin",
+        "-application": "furniture",
+        "-build": "statue3",
+        "-properties": "comfort=0.7",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "gunnar_ironfist",
+        "-title": "%GunnarT",
+        "-desc": "%GunnarD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/Gunnar_Ironfist",
+        "-application": "furniture",
+        "-build": "gunnar_ironfist",
+        "-properties": "comfort=0.7",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "tricky_toki",
+        "-title": "%TrickyTokiT",
+        "-desc": "%TrickyTokiD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/Tricky_Toki",
+        "-application": "furniture",
+        "-build": "tricky_toki",
+        "-properties": "comfort=0.7,no_shop"
+      },
+      {
+        "-name": "ice_statue",
+        "-title": "%IcestatueT",
+        "-desc": "%IcestatueD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/ice_sculp",
+        "-application": "furniture",
+        "-build": "ice_statue",
+        "-properties": "comfort=0.6",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "beetle_biome_worker_in_stone",
+        "-title": "%WorkerInStoneT",
+        "-desc": "%WorkerInStoneD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/worker_in_stone",
+        "-application": "furniture",
+        "-build": "beetle_biome_worker_in_stone",
+        "-properties": "comfort=1,no_shop",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "basilisk_pet_house",
+        "-title": "%BasiliskHouseT",
+        "-desc": "%BasiliskHouseD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/raptor_house",
+        "-application": "furniture",
+        "-build": "basilisk_pet_house",
+        "-properties": "comfort=1.5",
+        "-shop_count": "1",
+        "-shop_cost": "15"
+      },
+      {
+        "-name": "cat_pet_house",
+        "-title": "%CatHouseT",
+        "-desc": "%BasiliskHouseD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/cat_house",
+        "-application": "furniture",
+        "-build": "cat_pet_house",
+        "-properties": "comfort=1.5",
+        "-shop_count": "1",
+        "-shop_cost": "15"
+      },
+      {
+        "-name": "crip_cat_pet_house",
+        "-title": "%CripCatHouseT",
+        "-desc": "%CripCatHouseD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/catowl_skeleton_house",
+        "-application": "furniture",
+        "-build": "crip_cat_pet_house",
+        "-properties": "comfort=1.5,no_shop,halloween",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "ACH_GIFTED_RESEARCHER",
+        "-title": "%ACH_GIFTED_RESEARCHER",
+        "-desc": "%AchivPennantD",
+        "-file": "images/CraftTheWorld/gfx/Spine/buildings/achievement_pennants/ACH_GIFTED_RESEARCHER",
+        "-build": "ACH_GIFTED_RESEARCHER",
+        "-application": "furniture",
+        "-properties": "achievement=ACH_GIFTED_RESEARCHER,comfort=0.4,no_shop"
+      },
+      {
+        "-name": "ACH_FORTRESS_KEEPER",
+        "-title": "%ACH_FORTRESS_KEEPER",
+        "-desc": "%AchivPennantD",
+        "-file": "images/CraftTheWorld/gfx/Spine/buildings/achievement_pennants/ACH_FORTRESS_KEEPER",
+        "-build": "ACH_FORTRESS_KEEPER",
+        "-application": "furniture",
+        "-properties": "achievement=ACH_FORTRESS_KEEPER,comfort=0.4,no_shop"
+      },
+      {
+        "-name": "ACH_GREAT_DONATOR",
+        "-title": "%ACH_GREAT_DONATOR",
+        "-desc": "%AchivPennantD",
+        "-file": "images/CraftTheWorld/gfx/Spine/buildings/achievement_pennants/ACH_GREAT_DONATOR",
+        "-build": "ACH_GREAT_DONATOR",
+        "-application": "furniture",
+        "-properties": "achievement=ACH_GREAT_DONATOR,comfort=0.4,no_shop"
+      },
+      {
+        "-name": "ACH_FINISH_FIRST_LEVEL",
+        "-title": "%ACH_FINISH_FIRST_LEVEL",
+        "-desc": "%AchivPennantD",
+        "-file": "images/CraftTheWorld/gfx/Spine/buildings/achievement_pennants/ACH_FINISH_FIRST_LEVEL",
+        "-build": "ACH_FINISH_FIRST_LEVEL",
+        "-application": "furniture",
+        "-properties": "achievement=ACH_FINISH_FIRST_LEVEL,comfort=0.4,no_shop"
+      },
+      {
+        "-name": "ACH_HARDCORE_GAME",
+        "-title": "%ACH_HARDCORE_GAME",
+        "-desc": "%AchivPennantD",
+        "-file": "images/CraftTheWorld/gfx/Spine/buildings/achievement_pennants/ACH_HARDCORE_GAME",
+        "-build": "ACH_HARDCORE_GAME",
+        "-application": "furniture",
+        "-properties": "achievement=ACH_HARDCORE_GAME,comfort=0.4,no_shop"
+      },
+      {
+        "-name": "ACH_IMMORTAL",
+        "-title": "%ACH_IMMORTAL",
+        "-desc": "%AchivPennantD",
+        "-file": "images/CraftTheWorld/gfx/Spine/buildings/achievement_pennants/ACH_IMMORTAL",
+        "-build": "ACH_IMMORTAL",
+        "-application": "furniture",
+        "-properties": "achievement=ACH_IMMORTAL,comfort=0.4,no_shop"
+      },
+      {
+        "-name": "ACH_GIANT_WORM_KILER",
+        "-title": "%ACH_GIANT_WORM_KILER",
+        "-desc": "%AchivPennantD",
+        "-file": "images/CraftTheWorld/gfx/Spine/buildings/achievement_pennants/ACH_GIANT_WORM_KILER",
+        "-build": "ACH_GIANT_WORM_KILER",
+        "-application": "furniture",
+        "-properties": "achievement=ACH_GIANT_WORM_KILER,comfort=0.4,no_shop"
+      },
+      {
+        "-name": "ACH_GREAT_EXPLORER",
+        "-title": "%ACH_GREAT_EXPLORER",
+        "-desc": "%AchivPennantD",
+        "-file": "images/CraftTheWorld/gfx/Spine/buildings/achievement_pennants/ACH_GREAT_EXPLORER",
+        "-build": "ACH_GREAT_EXPLORER",
+        "-application": "furniture",
+        "-properties": "achievement=ACH_GREAT_EXPLORER,comfort=0.4,no_shop"
+      },
+      {
+        "-name": "gingerbread_cookies",
+        "-title": "%GingerbreadCookiesT",
+        "-desc": "%GingerbreadCookiesD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/gingerbread_cookies",
+        "-application": "food",
+        "-properties": "healt=0.5,time=2,satiety=1,no_shop,ne_event=10",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "apple",
+        "-title": "%AppleT",
+        "-desc": "%AppleD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/craft_fruit",
+        "-application": "food",
+        "-properties": "healt=0.2,time=2,satiety=1",
+        "-shop_count": "8",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "cone",
+        "-title": "%ConeT",
+        "-desc": "%ConeD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/cone",
+        "-application": "food",
+        "-properties": "satiety=1",
+        "-shop_count": "8",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "meat",
+        "-title": "%HamT",
+        "-desc": "%HamD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/craft_meat",
+        "-application": "food",
+        "-shop_count": "5",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "meat_cooked",
+        "-title": "%GrilledmeatT",
+        "-desc": "%GrilledmeatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/craft_meat_cooked",
+        "-application": "food",
+        "-properties": "satiety=3",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "scrambled_eggs",
+        "-title": "%ScrambledeggsT",
+        "-desc": "%ScrambledeggsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/scrambled_eggs",
+        "-application": "food",
+        "-properties": "satiety=2",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "berries",
+        "-title": "%BerriesT",
+        "-desc": "%BerriesD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/berries",
+        "-application": "food",
+        "-properties": "satiety=1",
+        "-shop_count": "7",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "cocos",
+        "-title": "%CoconutT",
+        "-desc": "%CoconutD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/cocos",
+        "-application": "food",
+        "-properties": "satiety=1"
+      },
+      {
+        "-name": "egg",
+        "-title": "%EggT",
+        "-desc": "%EggD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/egg",
+        "-application": "food",
+        "-properties": "spawn=chicken|octopus,spawn_hide=60",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "soup",
+        "-title": "%StewT",
+        "-desc": "%StewD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/soup",
+        "-application": "food",
+        "-properties": "satiety=3",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "bun",
+        "-title": "%BunT",
+        "-desc": "%BunD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/bun",
+        "-application": "food",
+        "-properties": "satiety=2",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "apple_pie",
+        "-title": "%ApplepieT",
+        "-desc": "%ApplepieD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/apple_pie",
+        "-application": "food",
+        "-properties": "healt=0.2,satiety=2",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "bread",
+        "-title": "%BreadT",
+        "-desc": "%BreadD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/bread",
+        "-application": "food",
+        "-properties": "satiety=3",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "greed_salad",
+        "-title": "%MixedgreenssaladT",
+        "-desc": "%MixedgreenssaladD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/salat_green",
+        "-application": "food",
+        "-properties": "healt=0.2,satiety=2",
+        "-shop_count": "5",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "fried_fish",
+        "-title": "%GrilledfishT",
+        "-desc": "%GrilledfishD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/fish_cooked",
+        "-application": "food",
+        "-properties": "satiety=3",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "fish_soup",
+        "-title": "%FishstewT",
+        "-desc": "%FishstewD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/soup_fish",
+        "-application": "food",
+        "-properties": "satiety=2",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "fish",
+        "-title": "%FishT",
+        "-desc": "%FishD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/fish1",
+        "-application": "food",
+        "-shop_count": "5",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "fat",
+        "-title": "%FatT",
+        "-desc": "%FatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/fat",
+        "-application": "food",
+        "-properties": "satiety=1",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "mushroom",
+        "-title": "%MushroomT",
+        "-desc": "%MushroomD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/mushroom",
+        "-application": "food",
+        "-shop_count": "6",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "mushroom_dry",
+        "-title": "%MushDryT",
+        "-desc": "%MushDryD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/mushroom_dry",
+        "-application": "food",
+        "-properties": "satiety=1",
+        "-shop_count": "4",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "mushroom_salat",
+        "-title": "%MushSalatT",
+        "-desc": "%MushSalatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/mushroom_salat",
+        "-application": "food",
+        "-properties": "satiety=2",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "mushroom_soup",
+        "-title": "%MushSoupT",
+        "-desc": "%MushSoupD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/mushroom_soup",
+        "-application": "food",
+        "-properties": "satiety=3",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "mushroom-pies",
+        "-title": "%MushPiesT",
+        "-desc": "%MushPiesD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/mushroom-pies",
+        "-application": "food",
+        "-properties": "satiety=3",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "enchanted_berries",
+        "-title": "%EnchantedBerriesT",
+        "-desc": "%EnchantedBerriesD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/enchanted_berries",
+        "-application": "food",
+        "-properties": "healt=5,time=2,satiety=3,no_shop,aura=spell_HP1",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "skull_cookies",
+        "-title": "%SkullCookiesT",
+        "-desc": "%SkullCookiesD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/skull_cookies",
+        "-application": "food",
+        "-properties": "satiety=4,no_shop,halloween",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "punch",
+        "-title": "%PunchT",
+        "-desc": "%PunchD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/punch",
+        "-application": "food",
+        "-properties": "satiety=3,healt=3,time=2,no_shop,halloween,aura=spell_HP1",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "spider_pie",
+        "-title": "%SpiderPieT",
+        "-desc": "%SpiderPieD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/spider_pie",
+        "-application": "food",
+        "-properties": "satiety=3,no_shop,halloween",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "witch_fingers",
+        "-title": "%WitchFingersT",
+        "-desc": "%WitchFingersD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/food/witch_fingers",
+        "-application": "food",
+        "-properties": "satiety=3,no_shop,halloween",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "torch",
+        "-title": "%TorchT",
+        "-desc": "%TorchD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/light/torch",
+        "-build": "torch",
+        "-application": "block",
+        "-properties": "light",
+        "-shop_count": "5",
+        "-shop_cost": "1",
+        "file": {
+          "-path": "images/CraftTheWorld/gfx/particles/torch"
+        }
+      },
+      {
+        "-name": "torch_mucus",
+        "-title": "%SlimetorchT",
+        "-desc": "%SlimetorchD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/light/torch_green",
+        "-build": "torch_mucus",
+        "-application": "block",
+        "-properties": "light",
+        "-shop_count": "4",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "miner_lamp",
+        "-title": "%MinerslampT",
+        "-desc": "%MinerslampD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/light/lamponthefloor",
+        "-build": "miner_lamp",
+        "-application": "block",
+        "-properties": "light",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "lamponthefloor3",
+        "-title": "%LightingstandT",
+        "-desc": "%LightingstandD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/light/lamponthefloor3",
+        "-build": "lamponthefloor3",
+        "-application": "block",
+        "-properties": "light",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "outdoor_lamp",
+        "-title": "%LanternT",
+        "-desc": "%LanternD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/light/outdoor_lamp",
+        "-build": "outdoor_lamp",
+        "-application": "block",
+        "-properties": "light",
+        "-shop_count": "1",
+        "-shop_cost": "4"
+      },
+      {
+        "-name": "lamp",
+        "-title": "%WalllampT",
+        "-desc": "%WalllampD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/light/lamp",
+        "-build": "lamp",
+        "-application": "furniture",
+        "-shop_count": "1",
+        "-shop_cost": "2",
+        "-properties": "light,comfort=0.2"
+      },
+      {
+        "-name": "chandelier_small",
+        "-title": "%ChandelierSmallT",
+        "-desc": "%ChandelierSmallD",
+        "-file": "images/CraftTheWorld/gfx/particles/lamp",
+        "-build": "chandelier_small",
+        "-application": "furniture",
+        "-properties": "light,comfort=0.4",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "winter_hat1",
+        "-title": "%WinterhatT",
+        "-desc": "%TinkersHatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/beret_hat",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "base_helmet,ani_items=beret_hat,dskin_gender_depend,dskin=hat_beret_hat"
+      },
+      {
+        "-name": "winter_hat2",
+        "-title": "%WinterhatT",
+        "-desc": "%TinkersHatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/winter_hat",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "base_helmet,ani_items=winter_hat,dskin_gender_depend,dskin=hat_northman_hat"
+      },
+      {
+        "-name": "winter_hat3",
+        "-title": "%WinterhatT",
+        "-desc": "%TinkersHatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/winter_cloak_hat",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "base_helmet,ani_items=winter_cloak_hat,dskin_gender_depend,dskin=hat_wint_cloak_hat"
+      },
+      {
+        "-name": "desert_hat_01",
+        "-title": "%DeserthatT",
+        "-desc": "%DeserthatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/desert_hat_01",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "base_helmet,ani_items=desert_hat_02,dskin_gender_depend,dskin=hat_desert_hat_02"
+      },
+      {
+        "-name": "desert_hat_02",
+        "-title": "%DeserthatT",
+        "-desc": "%DeserthatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/desert_hat_02",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "base_helmet,ani_items=desert_hat_01,dskin_gender_depend,dskin=hat_desert_hat_01"
+      },
+      {
+        "-name": "base_hat",
+        "-title": "%SimplehatT",
+        "-desc": "%SimplehatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/base_hat",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "base_helmet,ani_items=base_hat,dskin_gender_depend,dskin=hat_basick_hat"
+      },
+      {
+        "-name": "cloak_hat",
+        "-title": "%HoodedhatT",
+        "-desc": "%HoodedhatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/cloak_hat",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "base_helmet,ani_items=cloak_hat,dskin_gender_depend,dskin=hat_cloak_hat"
+      },
+      {
+        "-name": "tinker_hat",
+        "-title": "%TinkersHatT",
+        "-desc": "%TinkersHatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/tinkers_hat",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "base_helmet,ani_items=tinker_hat,dskin_gender_depend,dskin=hat_tinker_hat"
+      },
+      {
+        "-name": "woodman_hat",
+        "-title": "%WoodmansHatT",
+        "-desc": "%TinkersHatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/woodmans_hat",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "base_helmet,ani_items=woodman_hat,dskin_gender_depend,dskin=hat_woodman_hat"
+      },
+      {
+        "-name": "helm_diver",
+        "-title": "%DivinghelmetT",
+        "-desc": "%DivinghelmetD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/diver_helm",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "diver_helm,equip_scale=0.6,no_as_bonus,ani_items=diver_helmet,metallic,no_char_inv,dskin_gender_depend,dskin=hat_diver_helm",
+        "-shop_count": "1",
+        "-shop_cost": "15"
+      },
+      {
+        "-name": "helm_wood",
+        "-title": "%WoodHelmetT",
+        "-desc": "%WoodHelmetD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/wood_helmet",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=1%,armor=10%,ani_items=wood_helmet,woden,dskin_gender_depend,dskin=hat_wood_helmet",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "helm_leather",
+        "-title": "%LeatherhelmetT",
+        "-desc": "%LeatherhelmetD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/leather-helmet",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=1.5%,armor=25%,ani_items=leather_helmet,dskin_gender_depend,dskin=hat_leather_helmet",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "helm_hitin",
+        "-title": "%HitinHelmetT",
+        "-desc": "%HitinHelmetD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/hitin-helmet",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=2%,armor=35%,ani_items=helm_hitin,dskin_gender_depend,dskin=hat_hitin_helmet",
+        "-shop_count": "1",
+        "-shop_cost": "7"
+      },
+      {
+        "-name": "helm_steel",
+        "-title": "%IronhelmetT",
+        "-desc": "%IronhelmetD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/steel-helmet",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=2.5%,armor=40%,ani_items=steel_helmet,metallic,dskin_gender_depend,dskin=hat_steel_helmet",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "helm_silver",
+        "-title": "%SilverHelmetT",
+        "-desc": "%MithrilArmorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/silver-helmet",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=3%,armor=60%,ani_items=silver_helmet,metallic,dskin_gender_depend,dskin=hat_silver_helmet",
+        "-shop_count": "1",
+        "-shop_cost": "17"
+      },
+      {
+        "-name": "helm_elven",
+        "-title": "%ElvenHelmetT",
+        "-desc": "%ElvenHelmetD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/elven-helmet",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=3%,armor=80%,ani_items=elven_helmet,metallic,no_shop,dskin_gender_depend,dskin=hat_elven_helmet",
+        "-shop_count": "1",
+        "-shop_cost": "19"
+      },
+      {
+        "-name": "helm_gold",
+        "-title": "%GoldenhelmetT",
+        "-desc": "%GoldenhelmetD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/gold-helmet",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=4%,armor=80%,ani_items=gold_helmet,metallic,dskin_gender_depend,dskin=hat_gold_helmet",
+        "-shop_count": "1",
+        "-shop_cost": "25"
+      },
+      {
+        "-name": "helm_mithril",
+        "-title": "%MithrilHelmetT",
+        "-desc": "%MithrilArmorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/mithril-helmet",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=5%,armor=100%,ani_items=mithril_helmet,metallic,dskin_gender_depend,dskin=hat_mithril_helmet",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "santa_hat",
+        "-title": "%SantaHatT",
+        "-desc": "%SantaHatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/santa_hat",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "armor=100%,ani_items=santa_hat,no_shop,dskin_gender_depend,dskin=hat_santa_hat"
+      },
+      {
+        "-name": "rusty_sceleton_helmet",
+        "-title": "%RustyskeletonhelmetT",
+        "-desc": "%RustyskeletonhelmetD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/rusty_sceleton_helmet",
+        "-application": "creature",
+        "-properties": "slowdown=1%,armor=15%,ani_items=rusty_sceleton_helmet,no_shop,dskin_gender_depend,dskin=hat_rusty_sceleton_helmet",
+        "-class": "helmet"
+      },
+      {
+        "-name": "jason_mask",
+        "-title": "%JasonMaskT",
+        "-desc": "%JasonMaskD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/jason_mask",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=5%,armor=120%,ani_items=jason_mask,no_shop,dskin_gender_depend,dskin=hat_jason_mask"
+      },
+      {
+        "-name": "jason_mask_adv",
+        "-title": "%JasonMaskT",
+        "-desc": "%JasonMaskD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/jason_mask",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=5%,armor=150%,ani_items=jason_mask,no_shop,dskin_gender_depend,dskin=hat_jason_mask"
+      },
+      {
+        "-name": "shaman_cloak",
+        "-title": "%ShamanCloakT",
+        "-desc": "%ShamanCloakD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/shaman_cloak",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=1%,armor=30%,ani_items=shaman_cloak,no_shop,dskin_gender_depend,dskin=hat_shaman_cloak,skill=mage,value=20%"
+      },
+      {
+        "-name": "knight_helmet",
+        "-title": "%KnightHelmetT",
+        "-desc": "%KnightHelmetD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/knight-helmet",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=4%,armor=90%,ani_items=knight_helmet,no_shop,dskin_gender_depend,dskin=hat_knight_helmet"
+      },
+      {
+        "-name": "demon_hunter",
+        "-title": "%DemonHunterT",
+        "-desc": "%DemonHunterD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/demon_hunter",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=1%,armor=100%,no_shop,dskin_gender_depend,dskin=hat_demon_hunter,skill=archer,value=30%,constant_hat,halloween",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "witch_hat",
+        "-title": "%WitchHatT",
+        "-desc": "%WitchHatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/witch",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=1%,armor=100%,no_shop,dskin_gender_depend,dskin=hat_witch,skill=mage,value=30%,constant_hat,halloween",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "witch2_hat",
+        "-title": "%WitchHatT",
+        "-desc": "%WitchHatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/witch_2",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=1%,armor=100%,no_shop,dskin_gender_depend,dskin=hat_witch2,skill=mage,value=30%,constant_hat,halloween",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "funny_sceleton_helmet",
+        "-title": "%FunnySceletonHelmetT",
+        "-desc": "%FunnySceletonCuirassD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/funny_sceleton_helmet",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=1%,armor=100%,no_shop,dskin_gender_depend,dskin=hat_funny_sceleton,constant_hat,halloween",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "angel_nimbus",
+        "-title": "%AngelNimbusT",
+        "-desc": "%AngelNimbusD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/Angel_nimbus",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=1%,armor=120%,no_shop,dskin_gender_depend,dskin=hat_angel_costume,constant_hat,hair_enable,halloween",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "bat_hat",
+        "-title": "%BatHatT",
+        "-desc": "%BatHatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/Bat_hat",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=1%,armor=80%,no_shop,dskin_gender_depend,dskin=hat_bat,constant_hat,hair_enable,halloween",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "demon_horns",
+        "-title": "%DemonHornsT",
+        "-desc": "%DemonHornsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/Demon_horns",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=1%,armor=110%,no_shop,dskin_gender_depend,dskin=hat_demon_costume,hair_enable,constant_hat,halloween",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "pirat_hat",
+        "-title": "%PiratHatT",
+        "-desc": "%BatHatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/Pirat_hat",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=1%,armor=80%,no_shop,dskin_gender_depend,dskin=hat_pirate,hair_enable,constant_hat,halloween",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "pumpkin_hat",
+        "-title": "%PumpkinHatT",
+        "-desc": "%PumpkinHatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/Pumpkin",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=1%,armor=80%,no_shop,dskin_gender_depend,dskin=hat_pumpkin,constant_hat,halloween",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "scream_mask",
+        "-title": "%ScreamMaskT",
+        "-desc": "%BatHatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/scream_mask",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=1%,armor=80%,no_shop,dskin_gender_depend,dskin=hat_mask,constant_hat,halloween",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "dragon_warrior_helmet",
+        "-title": "%DragonWarriorHelmetT",
+        "-desc": "%DragonWarriorHelmetD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/dragon_warrior_helmet",
+        "-application": "creature",
+        "-class": "helmet",
+        "-properties": "slowdown=4%,armor=80%,dskin_gender_depend,dskin=hat_dragon,no_shop"
+      },
+      {
+        "-name": "winter_boots",
+        "-title": "%WinterbootsT",
+        "-desc": "%WinterbootsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/winter_boots",
+        "-application": "creature",
+        "-class": "boots",
+        "-properties": "base_cloth,ani_items=winter_boots1,dskin_gender_depend,dskin=boots_winter_boots",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "winter_shoes",
+        "-title": "%WinterbootsT",
+        "-desc": "%WinterbootsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/winter_shoes",
+        "-application": "creature",
+        "-class": "boots",
+        "-properties": "base_cloth,ani_items=winter_shoes1,dskin_gender_depend,dskin=boots_winter_shoes",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "desert_shoes",
+        "-title": "%DesertbootsT",
+        "-desc": "%DesertbootsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/desert_shoes",
+        "-application": "creature",
+        "-class": "boots",
+        "-properties": "base_cloth,ani_items=desert_shoes,dskin_gender_depend,dskin=boots_desert_shoes",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "desert_sneakers",
+        "-title": "%DesertbootsT",
+        "-desc": "%DesertbootsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/desert_sneakers",
+        "-application": "creature",
+        "-class": "boots",
+        "-properties": "base_cloth,ani_items=desert_sneakers,dskin_gender_depend,dskin=boots_desert_sandals",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "leather_boots",
+        "-title": "%LeatherbootsT",
+        "-desc": "%LeatherbootsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/boots_leather",
+        "-application": "creature",
+        "-class": "boots",
+        "-properties": "slowdown=1%,armor=25%,ani_items=leather_boots,dskin_gender_depend,dskin=boots_leather",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "boots_hitin",
+        "-title": "%HitinBootsT",
+        "-desc": "%HitinBootsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/boots_hitin",
+        "-application": "creature",
+        "-class": "boots",
+        "-properties": "slowdown=1.5%,armor=35%,ani_items=boots_hitin,dskin_gender_depend,dskin=boots_hitin",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "iron_boots",
+        "-title": "%IronbootsT",
+        "-desc": "%IronbootsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/boots_iron",
+        "-application": "creature",
+        "-class": "boots",
+        "-properties": "slowdown=2%,armor=50%,ani_items=steel_boots,metallic,dskin_gender_depend,dskin=boots_steel",
+        "-shop_count": "1",
+        "-shop_cost": "6"
+      },
+      {
+        "-name": "silver_boots",
+        "-title": "%SilverbootsT",
+        "-desc": "%SilverbootsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/boots_silver",
+        "-application": "creature",
+        "-class": "boots",
+        "-properties": "slowdown=3%,armor=60%,ani_items=boots_silver,metallic,dskin_gender_depend,dskin=boots_silver",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "gold_boots",
+        "-title": "%GoldbootsT",
+        "-desc": "%GoldbootsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/gold_boots",
+        "-application": "creature",
+        "-class": "boots",
+        "-properties": "slowdown=4%,armor=70%,ani_items=gold_boots,metallic,dskin_gender_depend,dskin=boots_gold",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "elven_boots",
+        "-title": "%ElvenbootsT",
+        "-desc": "%SilverbootsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/elven_boots",
+        "-application": "creature",
+        "-class": "boots",
+        "-properties": "slowdown=3%,armor=75%,ani_items=elven_boots,metallic,no_shop,dskin_gender_depend,dskin=boots_elven",
+        "-shop_count": "1",
+        "-shop_cost": "25"
+      },
+      {
+        "-name": "mithril_boots",
+        "-title": "%MithrilbootsT",
+        "-desc": "%MithrilbootsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/mithril_boots",
+        "-application": "creature",
+        "-class": "boots",
+        "-properties": "slowdown=5%,armor=90%,ani_items=mithril_boots,metallic,dskin_gender_depend,dskin=boots_mithril",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "knight_boots",
+        "-title": "%KnightBootsT",
+        "-desc": "%KnightBootsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/knight_boots",
+        "-application": "creature",
+        "-class": "boots",
+        "-properties": "slowdown=3.5%,armor=70%,ani_items=knight_boots,metallic,no_shop,dskin_gender_depend,dskin=boots_knight",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "funny_sceleton_shoes",
+        "-title": "%FunnySceletonShoesT",
+        "-desc": "%FunnySceletonCuirassD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/funny_sceleton_shoes",
+        "-application": "creature",
+        "-class": "boots",
+        "-properties": "slowdown=1%,armor=70%,no_shop,dskin_gender_depend,dskin=boots_funny_sceleton,halloween",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "dragon_warrior_boots",
+        "-title": "%DragonWarriorBootsT",
+        "-desc": "%DragonWarriorBootsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/dragon_warrior_boots",
+        "-application": "creature",
+        "-class": "boots",
+        "-properties": "slowdown=4%,armor=70%,dskin_gender_depend,dskin=boots_dragon,no_shop",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "ordinary_shirt",
+        "-title": "%OrdinaryshirtT",
+        "-desc": "%OrdinaryshirtD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/shirt_usual",
+        "-application": "creature",
+        "-class": "cloth",
+        "-properties": "base_cloth,ani_items=base_cuirass,dskin_gender_depend,dskin=cloth_01"
+      },
+      {
+        "-name": "ordinary_shirt1",
+        "-title": "%OrdinaryshirtT",
+        "-desc": "%OrdinaryshirtD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/shirt_usual",
+        "-application": "creature",
+        "-class": "cloth",
+        "-properties": "base_cloth,ani_items=base_cuirass1,dskin_gender_depend,dskin=cloth_02"
+      },
+      {
+        "-name": "ordinary_shirt2",
+        "-title": "%OrdinaryshirtT",
+        "-desc": "%OrdinaryshirtD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/shirt_usual",
+        "-application": "creature",
+        "-class": "cloth",
+        "-properties": "base_cloth,ani_items=base_cuirass2,dskin_gender_depend,dskin=cloth_03"
+      },
+      {
+        "-name": "ordinary_shirt_fem1",
+        "-title": "%OrdinaryshirtT",
+        "-desc": "%OrdinaryshirtD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/shirt_usual",
+        "-application": "creature",
+        "-class": "cloth",
+        "-properties": "base_cloth,ani_items=base_cuirass2,dskin=cloth_04_female"
+      },
+      {
+        "-name": "wood_armor",
+        "-title": "%WoodArmorT",
+        "-desc": "%WoodArmorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/wood-cuirass",
+        "-application": "creature",
+        "-class": "cloth",
+        "-properties": "slowdown=5%,armor=20%,vip,ani_items=wood_cuirass,wooden,dskin_gender_depend,dskin=armor_wood",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "shirt_skin",
+        "-title": "%LeathershirtT",
+        "-desc": "%LeathershirtD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/leather-cuirass",
+        "-application": "creature",
+        "-class": "cloth",
+        "-properties": "slowdown=5%,armor=45%,ani_items=leather_cuirass,dskin_gender_depend,dskin=armor_leather",
+        "-shop_count": "1",
+        "-shop_cost": "7"
+      },
+      {
+        "-name": "hitin_armor",
+        "-title": "%HitinArmorT",
+        "-desc": "%HitinArmorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/hitin-cuirass",
+        "-application": "creature",
+        "-class": "cloth",
+        "-properties": "slowdown=8%,armor=55%,ani_items=hitin_cuirass,dskin_gender_depend,dskin=armor_hitin",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "steel_chain_armor",
+        "-title": "%SteelChainArmorT",
+        "-desc": "%SteelChainArmorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/steel-cuirass",
+        "-application": "creature",
+        "-class": "cloth",
+        "-properties": "slowdown=12%,armor=70%,ani_items=steel_cuirass,metallic,dskin_gender_depend,dskin=armor_steel",
+        "-shop_count": "1",
+        "-shop_cost": "15"
+      },
+      {
+        "-name": "silver_armor",
+        "-title": "%SilverArmorT",
+        "-desc": "%MithrilArmorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/silver-cuirass",
+        "-application": "creature",
+        "-class": "cloth",
+        "-properties": "slowdown=15%,armor=100%,vip,ani_items=silver_cuirass,metallic,dskin_gender_depend,dskin=armor_silver",
+        "-shop_count": "1",
+        "-shop_cost": "25"
+      },
+      {
+        "-name": "gold_armor",
+        "-title": "%GoldarmorT",
+        "-desc": "%GoldarmorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/gold-cuirass",
+        "-application": "creature",
+        "-class": "cloth",
+        "-properties": "slowdown=15%,armor=150%,save_profile,vip,ani_items=gold_cuirass,metallic,dskin_gender_depend,dskin=armor_gold",
+        "-shop_count": "1",
+        "-shop_cost": "40"
+      },
+      {
+        "-name": "elven_armor",
+        "-title": "%ElvenArmorT",
+        "-desc": "%ElvenArmorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/elven-cuirass",
+        "-application": "creature",
+        "-class": "cloth",
+        "-properties": "slowdown=10%,armor=160%,vip,ani_items=elven_armor,metallic,no_shop,dskin_gender_depend,dskin=armor_elven",
+        "-shop_count": "1",
+        "-shop_cost": "50"
+      },
+      {
+        "-name": "mithril_armor",
+        "-title": "%MithrilArmorT",
+        "-desc": "%MithrilArmorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/mithril-cuirass",
+        "-application": "creature",
+        "-class": "cloth",
+        "-properties": "slowdown=20%,armor=200%,vip,ani_items=mithril_cuirass,metallic,dskin_gender_depend,dskin=armor_mithril",
+        "-shop_count": "1",
+        "-shop_cost": "65"
+      },
+      {
+        "-name": "santa_armor",
+        "-title": "%SantaArmorT",
+        "-desc": "%SantaArmorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/santa_armor",
+        "-application": "creature",
+        "-class": "cloth",
+        "-properties": "slowdown=18%,armor=200%,vip,ani_items=santa_cuirass,no_shop,dskin_gender_depend,dskin=armor_santa"
+      },
+      {
+        "-name": "knight_armor",
+        "-title": "%KnightArmorT",
+        "-desc": "%KnightArmorD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/knight-cuirass",
+        "-application": "creature",
+        "-class": "cloth",
+        "-properties": "slowdown=18%,armor=190%,vip,ani_items=knight_armor,no_shop,dskin_gender_depend,dskin=armor_knight"
+      },
+      {
+        "-name": "funny_sceleton_cuirass",
+        "-title": "%FunnySceletonCuirassT",
+        "-desc": "%FunnySceletonCuirassD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/funny_sceleton_cuirass",
+        "-application": "creature",
+        "-class": "cloth",
+        "-properties": "slowdown=15%,armor=200%,no_shop,dskin_gender_depend,dskin=armor_funny_sceleton,halloween"
+      },
+      {
+        "-name": "dragon_warrior_cuirass",
+        "-title": "%DragonWarriorCuirassT",
+        "-desc": "%DragonWarriorCuirassD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/clothes/dragon_warrior_cuirass",
+        "-application": "creature",
+        "-class": "cloth",
+        "-properties": "slowdown=15%,armor=150%,dskin_gender_depend,dskin=armor_dragon,no_shop"
+      },
+      {
+        "-name": "kitchen_wood",
+        "-title": "%CampfirewithpotT",
+        "-desc": "%CampfirewithpotD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/workshops/kitchen_wood",
+        "-build": "kitchen_wood",
+        "-application": "furniture",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "stone_furnace",
+        "-title": "%StonestoveT",
+        "-desc": "%StonestoveD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/workshops/kitchen_stone",
+        "-build": "stone_furnace",
+        "-application": "furniture",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "big_furnace",
+        "-title": "%LargestoveT",
+        "-desc": "%LargestoveD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_obj/workshops/kitchen_stone_big",
+        "-application": "furniture",
+        "-build": "big_furnace",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "staging",
+        "-title": "%ScaffoldingT",
+        "-desc": "%ScaffoldingD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/building",
+        "-build": "staging",
+        "-application": "block",
+        "-properties": "staging,ladder",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "beware",
+        "-title": "%BewareT",
+        "-desc": "%BewareD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/sign1",
+        "-build": "beware",
+        "-application": "block",
+        "-properties": "staging,beware",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "portal_biome",
+        "-title": "%BiomePortalPvpT",
+        "-desc": "%BiomePortalPvpD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/magic/portal_pvp",
+        "-application": "creature",
+        "-properties": "magic,magic_item=magic_portal_biome,infinity_count,vip,no_shop,no_unlim"
+      },
+      {
+        "-name": "portal_biome_single",
+        "-title": "%BiomePortalSingleT",
+        "-desc": "%BiomePortalSingleD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/magic/portal_pvp",
+        "-application": "creature",
+        "-properties": "magic,magic_item=magic_portal_biome,infinity_count,vip,no_shop,no_unlim"
+      },
+      {
+        "-name": "mportal",
+        "-title": "%CasttheportalT",
+        "-desc": "%CasttheportalD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/magic/portal",
+        "-application": "creature",
+        "-properties": "magic,magic_item=magic_portal,infinity_count,vip,no_shop"
+      },
+      {
+        "-name": "mlight",
+        "-title": "%CastthelightT",
+        "-desc": "%CastthelightD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/magic/light",
+        "-application": "creature",
+        "-properties": "magic,magic_item=magic_light,infinity_count,vip,no_shop"
+      },
+      {
+        "-name": "mfireball",
+        "-title": "%CastthefireballT",
+        "-desc": "%CastthefireballD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/magic/fireball",
+        "-application": "creature",
+        "-properties": "magic,magic_item=magic_fireball,infinity_count,vip,no_shop"
+      },
+      {
+        "-name": "mforest",
+        "-title": "%CasttheforestT",
+        "-desc": "%CasttheforestD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/magic/forest",
+        "-application": "creature",
+        "-properties": "magic,magic_item=magic_forest,infinity_count,vip,no_shop"
+      },
+      {
+        "-name": "mcompas",
+        "-title": "%CastthecompasT",
+        "-desc": "%CastthecompasD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/magic/compas",
+        "-application": "creature",
+        "-properties": "magic,magic_item=magic_compas,infinity_count,vip,no_shop"
+      },
+      {
+        "-name": "mhorn",
+        "-title": "%CastthehornT",
+        "-desc": "%CastthehornD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/magic/dwarf",
+        "-application": "creature",
+        "-properties": "magic,magic_item=magic_horn,infinity_count,vip,no_shop"
+      },
+      {
+        "-name": "mrain",
+        "-title": "%CasttherainT",
+        "-desc": "%CasttherainD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/magic/rain",
+        "-application": "creature",
+        "-properties": "magic,magic_item=magic_rain,infinity_count,vip,no_shop"
+      },
+      {
+        "-name": "mcollect",
+        "-title": "%MigiccollectresourcesT",
+        "-desc": "%MigiccollectresourcesD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/magic/res",
+        "-application": "creature",
+        "-properties": "magic,magic_item=magic_collect,infinity_count,vip,no_shop"
+      },
+      {
+        "-name": "mexplosion",
+        "-title": "%MigicexplosionT",
+        "-desc": "%MigicexplosionD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/magic/dynamite",
+        "-application": "creature",
+        "-properties": "magic,magic_item=magic_explosion,infinity_count,vip,no_shop"
+      },
+      {
+        "-name": "mimp",
+        "-title": "%CasttheimpsT",
+        "-desc": "%CasttheimpsD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/magic/imp",
+        "-application": "creature",
+        "-properties": "magic,magic_item=magic_imp,infinity_count,vip,no_shop"
+      },
+      {
+        "-name": "backpack_01",
+        "-title": "%Backpack1T",
+        "-desc": "%Backpack1D",
+        "-desc_param1": "1",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/Backpack/backpack_01",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "capacity=1,ani_items=backpack_01,dskin=backpack_01",
+        "-shop_count": "1",
+        "-shop_cost": "4"
+      },
+      {
+        "-name": "backpack_02",
+        "-title": "%Backpack2T",
+        "-desc": "%Backpack1D",
+        "-desc_param1": "2",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/Backpack/backpack_02",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "capacity=2,ani_items=backpack_02,dskin=backpack_02",
+        "-shop_count": "1",
+        "-shop_cost": "7"
+      },
+      {
+        "-name": "saw",
+        "-title": "%SawT",
+        "-desc": "%SawD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/skill_tools/saw",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "skill=logger|carpenter,value=30%",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "miners_lamp",
+        "-title": "%MinerLampT",
+        "-desc": "%MinerLampD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/skill_tools/miner_lamp",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "skill=miner,value=30%",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "bucket_of_worms",
+        "-title": "%BucketOfWormsT",
+        "-desc": "%BucketOfWormsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/skill_tools/bucket_of_worms",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "skill=fisher,value=30%",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "grinding_stone",
+        "-title": "%GrindingStoneT",
+        "-desc": "%GrindingStoneD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/skill_tools/grinding_stone",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "skill=swordsman,value=30%",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "archer_glove",
+        "-title": "%ArcherGloveT",
+        "-desc": "%ArcherGloveD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/skill_tools/archer_glove",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "skill=archer,value=30%",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "serving_spoon",
+        "-title": "%ServingSpoonT",
+        "-desc": "%ServingSpoonD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/skill_tools/serving_spoon",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "skill=cook,value=30%",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "smith_apron",
+        "-title": "%SmithApronT",
+        "-desc": "%SmithApronD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/skill_tools/smith_apron",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "skill=smith,value=30%",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "alchemist_bag",
+        "-title": "%AlchemistBagT",
+        "-desc": "%AlchemistBagD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/skill_tools/alchemist_bag",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "skill=mage,value=30%",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "sieve",
+        "-title": "%SieveT",
+        "-desc": "%SieveD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/skill_tools/sieve",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "skill=miller,value=30%",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "climbing_cats",
+        "-title": "%ClimbingCatsT",
+        "-desc": "%ClimbingCatsD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/skill_tools/climbing_cats",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "skill=climber,value=30%",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "float",
+        "-title": "%FloatT",
+        "-desc": "%FloatD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/skill_tools/float",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "skill=swimmer,value=30%",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "necklace",
+        "-title": "%NecklaceT",
+        "-desc": "%NecklaceD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/necklace",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "skill=swordsman,value=100%,no_shop",
+        "-shop_count": "1",
+        "-shop_cost": "50"
+      },
+      {
+        "-name": "chitin_ring",
+        "-title": "%ChitinRingT",
+        "-desc": "%ChitinRingD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/chitin_ring",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "speed=30%,no_shop",
+        "-shop_count": "1",
+        "-shop_cost": "50"
+      },
+      {
+        "-name": "parachute",
+        "-title": "%ParachuteT",
+        "-desc": "%ParachuteD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/parachute",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "parachute",
+        "-shop_count": "1",
+        "-shop_cost": "15"
+      },
+      {
+        "-name": "ladders_kit",
+        "-title": "%LaddersKitT",
+        "-desc": "%LaddersKitD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/ladders_kit",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "autoladders",
+        "-shop_count": "1",
+        "-shop_cost": "25"
+      },
+      {
+        "-name": "wood_shield",
+        "-title": "%WoodShieldItemT",
+        "-desc": "%WoodShieldItemD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/shields/wood_shield",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "slowdown=10%,armor=40%,dskin=shield_01",
+        "-shop_count": "1",
+        "-shop_cost": "15"
+      },
+      {
+        "-name": "iron_shield",
+        "-title": "%IronShieldItemT",
+        "-desc": "%WoodShieldItemD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/shields/iron_shield",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "slowdown=15%,armor=55%,dskin=shield_02",
+        "-shop_count": "1",
+        "-shop_cost": "25"
+      },
+      {
+        "-name": "gold_shield",
+        "-title": "%GoldShieldItemT",
+        "-desc": "%WoodShieldItemD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/shields/gold_shield",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "slowdown=20%,armor=70%,dskin=shield_03",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "funny_sceleton_shield",
+        "-title": "%FunnySceletonShieldT",
+        "-desc": "%FunnySceletonShieldD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_tools/shields/funny_sceleton_shield",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "slowdown=10%,armor=80%,dskin=shield_funny_sceleton,no_shop,halloween",
+        "-shop_count": "1",
+        "-shop_cost": "40"
+      },
+      {
+        "-name": "regen_ring1",
+        "-title": "%RegenRindT",
+        "-desc": "%RegenRindD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/Ring_white",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "regen_healt=10%,no_shop",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "regen_ring2",
+        "-title": "%RegenRindT",
+        "-desc": "%RegenRindD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/Ring_green",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "regen_healt=15%,no_shop,level=1",
+        "-shop_count": "1",
+        "-shop_cost": "30"
+      },
+      {
+        "-name": "regen_ring3",
+        "-title": "%RegenRindT",
+        "-desc": "%RegenRindD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/Ring_red",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "regen_healt=20%,no_shop,level=2",
+        "-shop_count": "1",
+        "-shop_cost": "40"
+      },
+      {
+        "-name": "skills_ring1",
+        "-title": "%SkillsRindT",
+        "-desc": "%SkillsRindD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/Ring_stone_white",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "skill=logger|miner|fisher|swordsman|archer|cook|smith|carpenter|mage|miller|hunter|climber|swimmer,value=10,no_shop",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "skills_ring2",
+        "-title": "%SkillsRindT",
+        "-desc": "%SkillsRindD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/Ring_stone_green",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "skill=logger|miner|fisher|swordsman|archer|cook|smith|carpenter|mage|miller|hunter|climber|swimmer,value=20,no_shop,level=1",
+        "-shop_count": "1",
+        "-shop_cost": "30"
+      },
+      {
+        "-name": "skills_ring3",
+        "-title": "%SkillsRindT",
+        "-desc": "%SkillsRindD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/Ring_stone_red",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "skill=logger|miner|fisher|swordsman|archer|cook|smith|carpenter|mage|miller|hunter|climber|swimmer,value=30,no_shop,level=2",
+        "-shop_count": "1",
+        "-shop_cost": "50"
+      },
+      {
+        "-name": "undead_amulet1",
+        "-title": "%UndeadAmuletT",
+        "-desc": "%UndeadAmuletD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/Amulet_undead_white",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "undead_armor=10%,no_shop",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "undead_amulet2",
+        "-title": "%UndeadAmuletT",
+        "-desc": "%UndeadAmuletD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/Amulet_undead_green",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "undead_armor=20%,no_shop,level=1",
+        "-shop_count": "1",
+        "-shop_cost": "30"
+      },
+      {
+        "-name": "undead_amulet3",
+        "-title": "%UndeadAmuletT",
+        "-desc": "%UndeadAmuletD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/Amulet_undead_red",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "undead_armor=30%,no_shop,level=2",
+        "-shop_count": "1",
+        "-shop_cost": "40"
+      },
+      {
+        "-name": "miner_amulet1",
+        "-title": "%MinerAmuletT",
+        "-desc": "%MinerAmuletD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/Amulet_pick_white",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "miner_drop=10%,no_shop",
+        "-shop_count": "1",
+        "-shop_cost": "20"
+      },
+      {
+        "-name": "miner_amulet2",
+        "-title": "%MinerAmuletT",
+        "-desc": "%MinerAmuletD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/Amulet_pick_green",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "miner_drop=25%,no_shop,level=1",
+        "-shop_count": "1",
+        "-shop_cost": "35"
+      },
+      {
+        "-name": "miner_amulet3",
+        "-title": "%MinerAmuletT",
+        "-desc": "%MinerAmuletD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/Amulet_pick_red",
+        "-application": "creature",
+        "-class": "item",
+        "-properties": "miner_drop=40%,no_shop,level=2",
+        "-shop_count": "1",
+        "-shop_cost": "50"
+      },
+      {
+        "-name": "healt_elexir",
+        "-title": "%HealthElixirT",
+        "-desc": "%HealthElixirD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/el_health",
+        "-application": "creature",
+        "-properties": "healt=3.33,time=2,elixir,vip,save_profile",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "Broth_of_combat_madness",
+        "-title": "%Broth_of_combat_madnessT",
+        "-desc": "%Broth_of_combat_madnessD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/Broth_of_combat_madness",
+        "-application": "creature",
+        "-properties": "speed=x1.5,damage=x1.5,time=120,satiety=1,elixir,no_shop,aura=spell_rage,bone=effect",
+        "-shop_count": "1",
+        "-shop_cost": "10"
+      },
+      {
+        "-name": "mana_elexir",
+        "-title": "%ManaElixirT",
+        "-desc": "%ManaElixirD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/elixir_mana",
+        "-application": "creature",
+        "-properties": "mana=5,elixir,vip,save_profile",
+        "-shop_count": "3",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "tea",
+        "-title": "%TeaT",
+        "-desc": "%TeaD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/tea",
+        "-application": "food",
+        "-properties": "speed=x1.5,time=300,elixir,no_char_inv,aura=spell_speed,bone=effect,energy=5",
+        "-shop_count": "3",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "beer",
+        "-title": "%BeerT",
+        "-desc": "%BeerD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/beer_mug_2",
+        "-application": "food",
+        "-properties": "speed=x1.5,time=600,elixir,no_char_inv,satiety=1,aura=spell_speed,bone=effect",
+        "-shop_count": "2",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "wine",
+        "-title": "%WineT",
+        "-desc": "%WineD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/vine_bottle",
+        "-application": "food",
+        "-properties": "speed=x1.5,time=700,elixir,healt=3.33,no_char_inv,satiety=1,aura=spell_speed,bone=effect,energy=5",
+        "-shop_count": "1",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "fireball_elexir",
+        "-title": "%ElixiroffireballT",
+        "-desc": "%ElixiroffireballD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/e_speed",
+        "-application": "creature",
+        "-properties": "magic_elexir,magic_item=magic_fireball,attack,time=15,vip,distance=12",
+        "-shop_count": "4",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "spark_elexir",
+        "-title": "%ElixirofsparkT",
+        "-desc": "%ElixirofsparkD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/e_speed",
+        "-application": "creature",
+        "-properties": "magic_elexir,magic_item=magic_spark,attack,time=0,no_shop,distance=12,infinity_count,no_inv,no_char_inv,creative"
+      },
+      {
+        "-name": "icearrow_elexir",
+        "-title": "%IcearrowelexirT",
+        "-desc": "%IcearrowelexirD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/freeze_potion",
+        "-application": "creature",
+        "-properties": "magic_elexir,magic_item=magic_icearrow,attack,vip,time=15",
+        "-shop_count": "4",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "transform_elexir",
+        "-title": "%TransformelexirT",
+        "-desc": "%TransformelexirD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/slow_potion",
+        "-application": "creature",
+        "-properties": "magic_elexir,magic_item=magic_transform,attack,vip,distance=12,time=15",
+        "-shop_count": "4",
+        "-shop_cost": "1"
+      },
+      {
+        "-name": "forget_elexir",
+        "-title": "%ForgetElixirT",
+        "-desc": "%ForgetElixirD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/forget_potion",
+        "-application": "creature",
+        "-properties": "forget,elixir,vip",
+        "-shop_count": "1",
+        "-shop_cost": "3"
+      },
+      {
+        "-name": "revival_elexir",
+        "-title": "%RevivalElixirT",
+        "-desc": "%RevivalElixirD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/shop_obj/revival_potion",
+        "-application": "creature",
+        "-properties": "revival,elixir,vip",
+        "-shop_count": "1",
+        "-shop_cost": "5"
+      },
+      {
+        "-name": "banshee_slowdown",
+        "-application": "food",
+        "-properties": "speed=x0.5,time=20,elixir,no_char_inv,aura=spell_slowdown,bone=effect,no_shop,no_inv"
+      },
+      {
+        "-name": "stonecutter_skill",
+        "-title": "%StonecutterSkillT",
+        "-desc": "%StonecutterSkillD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/skill_book/stone",
+        "-application": "creature",
+        "-properties": "skill_scroll,prop=stonecutter,no_inv",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "logger_skill",
+        "-title": "%LoggerSkillT",
+        "-desc": "%LoggerSkillD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/skill_book/logging",
+        "-application": "creature",
+        "-properties": "skill_scroll,prop=logger,no_inv",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "minner_skill",
+        "-title": "%MinnerSkillT",
+        "-desc": "%MinnerSkillD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/skill_book/collier",
+        "-application": "creature",
+        "-properties": "skill_scroll,prop=miner,no_inv",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "fisher_skill",
+        "-title": "%FisherSkillT",
+        "-desc": "%FisherSkillD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/skill_book/fishing",
+        "-application": "creature",
+        "-properties": "skill_scroll,prop=fisher,no_inv",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "swordsman_skill",
+        "-title": "%MeleeSkillT",
+        "-desc": "%MeleeSkillD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/skill_book/swordsman",
+        "-application": "creature",
+        "-properties": "skill_scroll,prop=swordsman,no_inv",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "archer_skill",
+        "-title": "%ArcherSkillT",
+        "-desc": "%ArcherSkillD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/skill_book/archer",
+        "-application": "creature",
+        "-properties": "skill_scroll,prop=archer,no_inv",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "cook_skill",
+        "-title": "%CookSkillT",
+        "-desc": "%CookSkillD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/skill_book/cooking",
+        "-application": "creature",
+        "-properties": "skill_scroll,prop=cook,no_inv",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "smith_skill",
+        "-title": "%SmithSkillT",
+        "-desc": "%SmithSkillD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/skill_book/smith",
+        "-application": "creature",
+        "-properties": "skill_scroll,prop=smith,no_inv",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "carpenter_skill",
+        "-title": "%CarpenterSkillT",
+        "-desc": "%CarpenterSkillD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/skill_book/jointer",
+        "-application": "creature",
+        "-properties": "skill_scroll,prop=carpenter,no_inv",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "mage_skill",
+        "-title": "%MageSkillT",
+        "-desc": "%MageSkillD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/skill_book/magic",
+        "-application": "creature",
+        "-properties": "skill_scroll,prop=mage,no_inv",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "miller_skill",
+        "-title": "%MillerSkillT",
+        "-desc": "%MillerSkillD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/skill_book/boomillk",
+        "-application": "creature",
+        "-properties": "skill_scroll,prop=miller,no_inv",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "hunter_skill",
+        "-title": "%HunterSkillT",
+        "-desc": "%HunterSkillD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/skill_book/bookhunter",
+        "-application": "creature",
+        "-properties": "skill_scroll,prop=hunter,no_inv",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "climber_skill",
+        "-title": "%ClimberSkillT",
+        "-desc": "%ClimberSkillD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/skill_book/bookrock",
+        "-application": "creature",
+        "-properties": "skill_scroll,prop=climber,no_inv",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "swimmer_skill",
+        "-title": "%SwimmerSkillT",
+        "-desc": "%SwimmerSkillD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/skill_book/bookwave",
+        "-application": "creature",
+        "-properties": "skill_scroll,prop=swimmer,no_inv",
+        "-shop_count": "1",
+        "-shop_cost": "2"
+      },
+      {
+        "-name": "recipe",
+        "-title": "%RecipeT",
+        "-desc": "%RecipeD",
+        "-file": "images/CraftTheWorld/gfx/ui/icons/recipes",
+        "-properties": "tail=tail"
+      },
+      {
+        "-name": "pumpkin_pot",
+        "-title": "%PumpkinT",
+        "-desc": "%PumpkinD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_res/pumpkin",
+        "-build": "pumpkin_pot",
+        "-application": "block",
+        "-properties": "no_shop"
+      },
+      {
+        "-name": "gargoyley_spawner",
+        "-title": "%GargoyleySpawnerT",
+        "-desc": "%GargoyleySpawnerD",
+        "-file": "images/CraftTheWorld/gfx/Spine/characters/Gorgoyle/stone_form",
+        "-resource": "stone-3",
+        "-application": "minning",
+        "-properties": "no_shop,spawn=gargoyley,spawn_night,spawn_underground,break_after_fall=6"
+      },
+      {
+        "-name": "farm_fence",
+        "-title": "%FarmFenceT",
+        "-desc": "%FarmFenceD",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/craft_constructions/farm/farm_icon",
+        "-build": "farm_fence",
+        "-application": "block",
+        "-shop_count": "1",
+        "-shop_cost": "4"
+      },
+      {
+        "-name": "animal_trap",
+        "-title": "%AnimalTrapT",
+        "-desc": "%AnimalTrapD",
+        "-file": "images/CraftTheWorld/gfx/Spine/buildings/animal_trap/animal_trap_prev",
+        "-build": "animal_trap",
+        "-application": "block",
+        "-shop_count": "1",
+        "-shop_cost": "7"
+      },
+      {
+        "-name": "release_process",
+        "-file": "images/CraftTheWorld/gfx/extra/release_process",
+        "-application": "block",
+        "-properties": "no_shop,no_inv,no_char_inv"
+      },
+      {
+        "-name": "resource_pack",
+        "-file": "images/CraftTheWorld/gfx/Spine/characters/dwarf_new/backpack/res_boxes",
+        "-properties": "no_shop,resource_pack,dskin=backpack_res_box,spine_image=res_box"
+      },
+      {
+        "-name": "brain_in_jar",
+        "-title": "%BrainInJarT",
+        "-desc": "%BrainInJarD",
+        "-file": "images/CraftTheWorld/gfx/Spine/buildings/brain_in_jar/jar_1",
+        "-build": "brain_in_jar",
+        "-application": "block",
+        "-properties": "no_shop,halloween"
+      },
+      {
+        "-name": "diamond",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/crystal_ore",
+        "-application": "money",
+        "-properties": "diamond,shine,no_shop,no_inv,no_char_inv"
+      },
+      {
+        "-name": "diamonds_pack1",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/crystal_ore",
+        "-application": "money",
+        "-properties": "diamonds_pack,shine,no_shop,no_inv,no_char_inv,scale=1.3"
+      },
+      {
+        "-name": "diamonds_pack2",
+        "-file": "images/CraftTheWorld/gfx/level_tiles/map_obj/crystal_ore",
+        "-application": "money",
+        "-properties": "diamonds_pack,shine,no_shop,no_inv,no_char_inv,scale=1"
+      }
+    ]
+  }
+}

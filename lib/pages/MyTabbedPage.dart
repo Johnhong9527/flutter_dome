@@ -22,9 +22,18 @@ print(_loadJson());*/
   debugger(when: offset > 30.0);
   // ...
 }*/
-Future<http.Response> fetchPost() {
-  return http.get('config/recipes.json');
+
+Future<String> loadAssetResources() async {
+  return await rootBundle.loadString('config/craft_resources.json');
 }
+
+Future<String> loadAssetResourcesText() async {
+  return await rootBundle.loadString('config/craft_resources_text.json');
+}
+_get_craft_resources(){
+  JsonDecoder decoder = new JsonDecoder();
+}
+_get_craft_resources_text(){}
 
 class MyTabbedPage extends StatefulWidget {
   const MyTabbedPage({Key key}) : super(key: key);
@@ -76,9 +85,21 @@ class _MyTabbedPageState extends State<MyTabbedPage>
   Widget image_on_tap(image_path) {
     return GestureDetector(
       onTap: () {
-        print({
-          'image_path': image_path,
-          'image_path2': image_path,
+        JsonDecoder decoder = new JsonDecoder();
+        loadAssetResourcesText().then((value) {
+          var json = decoder.convert(value);
+          String dart = '%EarthT';
+          dart = dart.replaceAll(new RegExp(r'%'), '');
+          // 单个元素的名字
+          print(json['locals'][dart]);
+          print({
+            'image_path': image_path,
+            'image_path2': image_path,
+          });
+          print({
+            'image_path': image_path,
+            'image_path2': image_path,
+          });
         });
       },
       child: Image.asset(
