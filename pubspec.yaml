@@ -300,10 +300,10 @@ flutter:
    - images/CraftTheWorld/gfx/level_tiles/craft_obj/flag_2.png
    - images/CraftTheWorld/gfx/level_tiles/craft_obj/elven_flag.png
    - images/CraftTheWorld/gfx/level_tiles/shop_obj/elven_shield.png
-   - images/CraftTheWorld/gfx/level_tiles/craft_obj/beds/bed_leaves.png
-   - images/CraftTheWorld/gfx/level_tiles/craft_obj/beds/bed_01.png
-   - images/CraftTheWorld/gfx/level_tiles/craft_obj/beds/bed_02.png
-   - images/CraftTheWorld/gfx/level_tiles/craft_obj/beds/bed_chic.png
+   - images/CraftTheWorld/gfx/level_tiles/craft_obj/Beds/bed_leaves.png
+   - images/CraftTheWorld/gfx/level_tiles/craft_obj/Beds/bed_01.png
+   - images/CraftTheWorld/gfx/level_tiles/craft_obj/Beds/bed_02.png
+   - images/CraftTheWorld/gfx/level_tiles/craft_obj/Beds/bed_chic.png
    - images/CraftTheWorld/gfx/Spine/buildings/beds/bed_multistorey.png
    - images/CraftTheWorld/gfx/level_tiles/craft_obj/table_simple_01.png
    - images/CraftTheWorld/gfx/level_tiles/craft_obj/table_ice.png
@@ -446,9 +446,9 @@ flutter:
    - images/CraftTheWorld/gfx/ui/icons/magic/portal_pvp.png
    - images/CraftTheWorld/gfx/ui/icons/magic/portal_pvp.png
    - images/CraftTheWorld/gfx/ui/icons/magic/portal.png
-   - images/CraftTheWorld/gfx/ui/icons/magic/light.png
-   - images/CraftTheWorld/gfx/ui/icons/magic/fireball.png
-   - images/CraftTheWorld/gfx/ui/icons/magic/forest.png
+   - images/CraftTheWorld/gfx/ui/icons/magic/Light.png
+   - images/CraftTheWorld/gfx/ui/icons/magic/Fireball.png
+   - images/CraftTheWorld/gfx/ui/icons/magic/Forest.png
    - images/CraftTheWorld/gfx/ui/icons/magic/compas.png
    - images/CraftTheWorld/gfx/ui/icons/magic/dwarf.png
    - images/CraftTheWorld/gfx/ui/icons/magic/rain.png
@@ -517,7 +517,7 @@ flutter:
    - images/CraftTheWorld/gfx/ui/icons/recipes.png
    - images/CraftTheWorld/gfx/level_tiles/craft_res/pumpkin.png
    - images/CraftTheWorld/gfx/Spine/characters/Gorgoyle/stone_form.png
-   - images/CraftTheWorld/gfx/level_tiles/craft_constructions/farm/farm_icon.png
+   - images/CraftTheWorld/gfx/level_tiles/craft_constructions/Farm/farm_icon.png
    - images/CraftTheWorld/gfx/Spine/buildings/animal_trap/animal_trap_prev.png
    - images/CraftTheWorld/gfx/extra/release_process.png
    - images/CraftTheWorld/gfx/Spine/characters/dwarf_new/backpack/res_boxes.png
